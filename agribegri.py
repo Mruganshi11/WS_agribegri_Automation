@@ -8,7 +8,7 @@ from selenium.webdriver.support.ui import Select
 import os
 from selenium.webdriver.chrome.service import Service
 
-download_dir = "Downloads"
+download_dir = r"C:\Websmith\Agribegri\Downloads"
 
 SELLER_PICKUP_MAP = {
     "rk chemicals gujarat": "dobariya sunil Of RK chemicals",
@@ -29,6 +29,8 @@ prefs = {
     "download.default_directory": download_dir,
     "download.prompt_for_download": False,
     "download.directory_upgrade": True,
+    "plugins.always_open_pdf_externally": True,
+
     "safebrowsing.enabled": True
 }
 chrome_options.add_experimental_option("prefs", prefs)
@@ -356,37 +358,205 @@ def click_truck_icons_one_by_one():
 
     print("✅ Login button clicked")
 
-        # ================== SELECT ORDER ID IN SEARCH DROPDOWN ==================
 
-    # 1️ Click AWB dropdown
-    awb_dropdown = WebDriverWait(driver, 20).until(
-        EC.element_to_be_clickable(
-            (By.XPATH, "//button[.//span[text()='AWB']]")
-        )
-    )
-    driver.execute_script("arguments[0].click();", awb_dropdown)
-    print(" AWB dropdown opened")
+    # ================== SELECT AGRIBEGRI SURFACE (TOP-RIGHT DROPDOWN) ==================
 
-    # 2️ Select ORDER ID option
-    order_id_option = WebDriverWait(driver, 20).until(
-        EC.element_to_be_clickable(
-            (By.XPATH, "//span[text()='Order ID']")
-        )
-    )
-    driver.execute_script("arguments[0].click();", order_id_option)
-    print("✅ ORDER ID selected in dropdown")
-    # ================== PASTE ORDER ID IN SEARCH BOX ==================
-
-    order_search_input = wait.until(
+    # wait for Delhivery dashboard to load
+    WebDriverWait(driver, 30).until(
         EC.presence_of_element_located(
-            (By.XPATH, "//input[@placeholder='Search multiple ORDER IDs']")
+            (By.XPATH, "//div[contains(text(),'Domestic')]")
         )
     )
+
+    # ================== CLICK DOMESTIC DROPDOWN (CORRECT ELEMENT) ==================
+# ================== CLICK DOMESTIC / AGRIBEGRI SURFACE DROPDOWN ==================
+
+    domestic_dropdown = WebDriverWait(driver, 30).until(
+        EC.element_to_be_clickable((
+            By.XPATH,
+            "//button[contains(@class,'ap-menu-trigger-root')]"
+            "[.//i[contains(@class,'fa-truck')]]"
+        ))
+    )
+
+    driver.execute_script("arguments[0].scrollIntoView({block:'center'});", domestic_dropdown)
+    time.sleep(0.5)
+
+    driver.execute_script("arguments[0].click();", domestic_dropdown)
+    print("✅ Domestic dropdown clicked")
+
+
+
+        # ================== SELECT AGRIBEGRI SURFACE ==================
+
+    agribegri_surface = WebDriverWait(driver, 30).until(
+        EC.element_to_be_clickable((
+            By.XPATH,
+            "//button[contains(@class,'ap-menu-item')]"
+            "[.//div[text()='AGRIBEGRI SURFACE']]"
+        ))
+    )
+
+    driver.execute_script("arguments[0].click();", agribegri_surface)
+    print("✅ AGRIBEGRI SURFACE selected")
+
+    time.sleep(1.5)
+
+    # ================== CLICK AWB DROPDOWN ==================
+
+    awb_dropdown = WebDriverWait(driver, 20).until(
+        EC.element_to_be_clickable((
+            By.XPATH,
+            "//button[.//span[text()='AWB']]"
+        ))
+    )
+
+    driver.execute_script("arguments[0].click();", awb_dropdown)
+    print("✅ AWB dropdown opened")
+
+    order_id_option = WebDriverWait(driver, 20).until(
+    EC.element_to_be_clickable((
+        By.XPATH,
+        "//button[.//span[text()='Order ID']]"
+    ))
+    )
+
+    driver.execute_script("arguments[0].click();", order_id_option)
+    print("✅ Order ID selected")
+
+    order_search_input = WebDriverWait(driver, 20).until(
+    EC.presence_of_element_located((
+        By.XPATH,
+        "//input[contains(@placeholder,'ORDER ID')]"
+    ))
+)
 
     order_search_input.clear()
     order_search_input.send_keys(order_number)
 
-    print(f" Order ID pasted in Delhivery search box: {order_number}")
+    print(f"✅ Order ID pasted: {order_number}")
+
+    # ================== CLICK ORDER SEARCH RESULT ==================
+
+    search_result = WebDriverWait(driver, 20).until(
+        EC.element_to_be_clickable((
+            By.XPATH,
+            "//div[contains(@class,'ucp__global-search__results')]"
+            "//div[contains(@class,'cursor-pointer')]"
+            "[.//span[text()='" + order_number + "']]"
+        ))
+    )
+
+    driver.execute_script("arguments[0].click();", search_result)
+    print("✅ Order search result clicked")
+
+    time.sleep(2)
+
+    # ================== CLICK PRINT SHIPPING LABEL ==================
+
+    print_label_btn = WebDriverWait(driver, 30).until(
+        EC.element_to_be_clickable((
+            By.XPATH,
+            "//button[normalize-space()='Print Shipping Label']"
+        ))
+    )
+
+    driver.execute_script("arguments[0].scrollIntoView({block:'center'});", print_label_btn)
+    time.sleep(0.5)
+
+    driver.execute_script("arguments[0].click();", print_label_btn)
+    print("✅ Print Shipping Label button clicked")
+
+    time.sleep(2)
+
+    # ================== WAIT FOR PDF DOWNLOAD & RENAME ==================
+
+    # def wait_and_rename_pdf(download_dir, order_id, timeout=30):
+    #     start_time = time.time()
+    #     downloaded_file = None
+
+    #     while time.time() - start_time < timeout:
+    #         files = os.listdir(download_dir)
+
+    #         # find completed PDF (ignore .crdownload)
+    #         pdfs = [
+    #             f for f in files
+    #             if f.lower().endswith(".pdf") and not f.lower().endswith(".crdownload")
+    #         ]
+
+    #         if pdfs:
+    #             # assume latest downloaded file
+    #             pdfs.sort(
+    #                 key=lambda x: os.path.getmtime(os.path.join(download_dir, x)),
+    #                 reverse=True
+    #             )
+    #             downloaded_file = pdfs[0]
+    #             break
+
+    #         time.sleep(1)
+
+    #     if not downloaded_file:
+    #         raise Exception("❌ PDF download timed out")
+
+    #     old_path = os.path.join(download_dir, downloaded_file)
+    #     new_filename = f"{order_id}.pdf"
+    #     new_path = os.path.join(download_dir, new_filename)
+
+    #     # if file with same name exists, remove it
+    #     if os.path.exists(new_path):
+    #         os.remove(new_path)
+
+    #     os.rename(old_path, new_path)
+    #     print(f"✅ PDF renamed to: {new_filename}")
+
+    def wait_and_rename_pdf(download_dir, order_id, timeout=30):
+        start_time = time.time()
+        downloaded_file = None
+
+        while time.time() - start_time < timeout:
+            files = os.listdir(download_dir)
+
+            pdfs = [
+                f for f in files
+                if f.lower().endswith(".pdf") and not f.lower().endswith(".crdownload")
+            ]
+
+            if pdfs:
+                pdfs.sort(
+                    key=lambda x: os.path.getmtime(os.path.join(download_dir, x)),
+                    reverse=True
+                )
+                downloaded_file = pdfs[0]
+                break
+
+            time.sleep(1)
+
+        if not downloaded_file:
+            raise Exception("❌ PDF download timed out")
+
+        old_path = os.path.join(download_dir, downloaded_file)
+        new_path = os.path.join(download_dir, f"{order_id}.pdf")
+
+        if os.path.exists(new_path):
+            os.remove(new_path)
+
+        os.rename(old_path, new_path)
+        print(f"✅ PDF renamed to: {order_id}.pdf")
+
+
+        return new_path
+
+
+    # call the function
+    wait_and_rename_pdf(download_dir, order_number)
+
+    # ================== SWITCH BACK TO AGRIBEGRI ADMIN TAB ==================
+
+    for handle in driver.window_handles:
+        driver.switch_to.window(handle)
+        if "agribegri.com/admin/edit_order.php" in driver.current_url:
+            print("✅ Switched back to Agribegri edit order page")
+            break
 
 
 def main_workflow():
