@@ -557,7 +557,52 @@ def click_truck_icons_one_by_one():
         if "agribegri.com/admin/edit_order.php" in driver.current_url:
             print("✅ Switched back to Agribegri edit order page")
             break
+    # ================== SET ORDER STATUS TO PACKED ==================
 
+    # wait for Order Status dropdown
+    order_status_select = WebDriverWait(driver, 20).until(
+        EC.presence_of_element_located((By.ID, "abo_status"))
+    )
+
+    # use Select for <select> tag
+    select = Select(order_status_select)
+
+    # select "Packed"
+    select.select_by_visible_text("Packed")
+
+    print("✅ Order status set to Packed")
+
+    time.sleep(1)
+
+    # ================== SET PACKED REASON TO CL SURFACE ==================
+
+    packed_reason_select = WebDriverWait(driver, 20).until(
+        EC.presence_of_element_located((By.ID, "abo_packed_reason"))
+    )
+
+    packed_reason = Select(packed_reason_select)
+
+    packed_reason.select_by_visible_text("CL Surface")
+
+    print("✅ Packed reason set to CL Surface")
+
+    time.sleep(1)
+
+    # ================== CLICK SUBMIT BUTTON ==================
+
+    submit_btn = WebDriverWait(driver, 20).until(
+        EC.element_to_be_clickable((
+            By.NAME, "update_order_status"
+        ))
+    )
+
+    driver.execute_script("arguments[0].scrollIntoView({block:'center'});", submit_btn)
+    time.sleep(0.5)
+
+    driver.execute_script("arguments[0].click();", submit_btn)
+    print("✅ Submit button clicked successfully")
+
+    time.sleep(2)
 
 def main_workflow():
     login_to_agribegri()
