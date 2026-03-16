@@ -1,0 +1,975 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agribegri Automation Dashboard</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary: #10b981;
+            --primary-dark: #059669;
+            --danger: #ef4444;
+            --warning: #f59e0b;
+            --info: #3b82f6;
+            --bg-dark: #0f172a;
+            --bg-darker: #020617;
+            --card-bg: rgba(30, 41, 59, 0.5);
+            --border: rgba(148, 163, 184, 0.1);
+            --text-primary: #f1f5f9;
+            --text-secondary: #94a3b8;
+            --success: #22c55e;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+            color: var(--text-primary);
+            min-height: 100vh;
+            padding: 20px;
+            position: relative;
+            overflow-x: hidden;
+        }
+
+        body::before {
+            content: '';
+            position: fixed;
+            top: -50%;
+            right: -50%;
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(circle, rgba(16, 185, 129, 0.1) 0%, transparent 70%);
+            pointer-events: none;
+            animation: pulse 8s ease-in-out infinite;
+        }
+
+        @keyframes pulse {
+
+            0%,
+            100% {
+                opacity: 0.3;
+                transform: scale(1);
+            }
+
+            50% {
+                opacity: 0.6;
+                transform: scale(1.1);
+            }
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            position: relative;
+            z-index: 1;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            animation: fadeInDown 0.6s ease-out;
+        }
+
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .status-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 8px 20px;
+            border-radius: 50px;
+            font-size: 0.875rem;
+            font-weight: 600;
+            margin-bottom: 15px;
+            backdrop-filter: blur(10px);
+            border: 1px solid var(--border);
+            transition: all 0.3s ease;
+        }
+
+        .status-badge.online {
+            background: linear-gradient(135deg, rgba(16, 185, 129, 0.2), rgba(5, 150, 105, 0.1));
+            color: var(--success);
+            box-shadow: 0 0 20px rgba(16, 185, 129, 0.3);
+        }
+
+        .status-badge.offline {
+            background: linear-gradient(135deg, rgba(239, 68, 68, 0.2), rgba(220, 38, 38, 0.1));
+            color: var(--danger);
+        }
+
+        .pulse-dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: currentColor;
+            animation: pulse-dot 2s ease-in-out infinite;
+        }
+
+        @keyframes pulse-dot {
+
+            0%,
+            100% {
+                opacity: 1;
+                transform: scale(1);
+            }
+
+            50% {
+                opacity: 0.5;
+                transform: scale(1.2);
+            }
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 800;
+            background: linear-gradient(135deg, #10b981, #3b82f6);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 8px;
+        }
+
+        .subtitle {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+        }
+
+        .user-actions {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            z-index: 10;
+        }
+
+        .btn-logout {
+            background: rgba(239, 68, 68, 0.1);
+            color: var(--danger);
+            border: 1px solid rgba(239, 68, 68, 0.2);
+            padding: 8px 16px;
+            border-radius: 8px;
+            font-size: 0.875rem;
+            font-weight: 500;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            backdrop-filter: blur(4px);
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .btn-logout:hover {
+            background: rgba(239, 68, 68, 0.2);
+            border-color: rgba(239, 68, 68, 0.4);
+            transform: translateY(-1px);
+        }
+
+        .controls {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 30px;
+            animation: fadeIn 0.8s ease-out 0.2s both;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+
+        .btn {
+            flex: 1;
+            padding: 16px 24px;
+            border: none;
+            border-radius: 12px;
+            font-weight: 600;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .btn::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 0;
+            height: 0;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.1);
+            transform: translate(-50%, -50%);
+            transition: width 0.6s, height 0.6s;
+        }
+
+        .btn:hover::before {
+            width: 300px;
+            height: 300px;
+        }
+
+        .btn-launch {
+            background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+            color: white;
+            box-shadow: 0 10px 30px rgba(16, 185, 129, 0.3);
+        }
+
+        .btn-launch:hover:not(:disabled) {
+            transform: translateY(-2px);
+            box-shadow: 0 15px 40px rgba(16, 185, 129, 0.4);
+        }
+
+        .btn-stop {
+            background: linear-gradient(135deg, var(--danger), #dc2626);
+            color: white;
+            display: none;
+            box-shadow: 0 10px 30px rgba(239, 68, 68, 0.3);
+        }
+
+        .btn-history {
+            background: rgba(30, 41, 59, 0.8);
+            border: 1px solid var(--border);
+            color: var(--text-primary);
+            text-decoration: none;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        }
+
+        .btn-history:hover {
+            border-color: var(--info);
+            background: rgba(148, 163, 184, 0.1);
+            transform: translateY(-2px);
+        }
+
+        .btn:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+            transform: none !important;
+        }
+
+        .spinner {
+            width: 18px;
+            height: 18px;
+            border: 2px solid rgba(255, 255, 255, 0.3);
+            border-top-color: white;
+            border-radius: 50%;
+            animation: spin 0.8s linear infinite;
+            display: none;
+        }
+
+        @keyframes spin {
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        .dashboard-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin-bottom: 20px;
+            animation: fadeIn 1s ease-out 0.4s both;
+        }
+
+        .card {
+            background: var(--card-bg);
+            backdrop-filter: blur(20px);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 24px;
+            transition: all 0.3s ease;
+        }
+
+        .card:hover {
+            border-color: rgba(16, 185, 129, 0.3);
+            transform: translateY(-2px);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+        }
+
+        .card-title {
+            font-size: 0.875rem;
+            font-weight: 600;
+            color: var(--text-secondary);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-bottom: 12px;
+        }
+
+        .card-value {
+            font-size: 2rem;
+            font-weight: 700;
+            color: var(--text-primary);
+            margin-bottom: 8px;
+        }
+
+        .card-label {
+            font-size: 0.875rem;
+            color: var(--text-secondary);
+        }
+
+        .info-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+
+        .info-card {
+            background: linear-gradient(135deg, rgba(59, 130, 246, 0.1), rgba(37, 99, 235, 0.05));
+            border: 1px solid rgba(59, 130, 246, 0.2);
+            border-radius: 12px;
+            padding: 16px;
+            animation: slideIn 0.6s ease-out;
+        }
+
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateX(-20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        .info-label {
+            font-size: 0.75rem;
+            color: var(--text-secondary);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-bottom: 6px;
+        }
+
+        .info-value {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: var(--info);
+        }
+
+        .terminal-container {
+            background: #000;
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            overflow: hidden;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+            animation: fadeIn 1.2s ease-out 0.6s both;
+        }
+
+        .terminal-header {
+            background: linear-gradient(135deg, #1e293b, #0f172a);
+            padding: 12px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .terminal-title {
+            font-size: 0.875rem;
+            color: var(--text-secondary);
+            font-family: 'JetBrains Mono', monospace;
+        }
+
+        .terminal-time {
+            font-size: 0.75rem;
+            color: var(--text-secondary);
+            font-family: 'JetBrains Mono', monospace;
+        }
+
+        .terminal-body {
+            height: 400px;
+            overflow-y: auto;
+            padding: 20px;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 13px;
+            line-height: 1.6;
+            color: #a0aec0;
+            background: #000;
+        }
+
+        .terminal-body::-webkit-scrollbar {
+            width: 10px;
+        }
+
+        .terminal-body::-webkit-scrollbar-track {
+            background: #0a0a0a;
+        }
+
+        .terminal-body::-webkit-scrollbar-thumb {
+            background: #334155;
+            border-radius: 5px;
+        }
+
+        .terminal-body::-webkit-scrollbar-thumb:hover {
+            background: #475569;
+        }
+
+        .log-line {
+            margin-bottom: 4px;
+            transition: background 0.2s ease;
+        }
+
+        .log-line:hover {
+            background: rgba(16, 185, 129, 0.05);
+        }
+
+        .highlight-success {
+            color: var(--success);
+            font-weight: 500;
+        }
+
+        .highlight-error {
+            color: var(--danger);
+            font-weight: 500;
+        }
+
+        .highlight-warning {
+            color: var(--warning);
+            font-weight: 500;
+        }
+
+        .highlight-info {
+            color: var(--info);
+            font-weight: 500;
+        }
+
+        .password-container {
+            position: relative;
+            display: flex;
+            align-items: center;
+        }
+
+        .toggle-password {
+            position: absolute;
+            right: 15px;
+            cursor: pointer;
+            color: var(--text-secondary);
+            background: none;
+            border: none;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: color 0.3s ease;
+        }
+
+        .toggle-password:hover {
+            color: var(--info);
+        }
+
+        .toggle-password svg {
+            width: 20px;
+            height: 20px;
+            fill: currentColor;
+        }
+
+        @media (max-width: 768px) {
+            .dashboard-grid {
+                grid-template-columns: 1fr;
+            }
+
+            h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="user-actions">
+            <a href="{% url 'logout' %}" class="btn-logout">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"></path>
+                    <polyline points="16 17 21 12 16 7"></polyline>
+                    <line x1="21" y1="12" x2="9" y2="12"></line>
+                </svg>
+                Logout
+            </a>
+        </div>
+        <div class="header">
+            <div id="statusBadge" class="status-badge offline">
+                <span class="pulse-dot"></span>
+                System Offline
+            </div>
+            <h1>Agribegri Automation</h1>
+            <p class="subtitle">Real-time Order Processing Dashboard</p>
+        </div>
+
+        <div class="card" style="margin-bottom: 20px;">
+            <div class="card-title">Credentials</div>
+            <div style="display: flex; gap: 15px; flex-wrap: wrap;">
+                <div style="flex: 1; min-width: 200px;">
+                    <label
+                        style="display: block; font-size: 0.75rem; color: var(--text-secondary); margin-bottom: 5px;">Username</label>
+                    <input type="text" id="usernameInput" value="Namrata"
+                        style="width: 100%; padding: 12px; border-radius: 8px; border: 1px solid var(--border); background: rgba(0,0,0,0.2); color: white;">
+                </div>
+                <div style="flex: 1; min-width: 200px;">
+                    <label
+                        style="display: block; font-size: 0.75rem; color: var(--text-secondary); margin-bottom: 5px;">Password</label>
+                    <div class="password-container">
+                        <input type="password" id="passwordInput" value="Namrata$123456"
+                            style="width: 100%; padding: 12px; border-radius: 8px; border: 1px solid var(--border); background: rgba(0,0,0,0.2); color: white; padding-right: 40px;">
+                        <button type="button" class="toggle-password" onclick="togglePassword('passwordInput', this)">
+                            <svg viewBox="0 0 24 24">
+                                <path
+                                    d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+                <div style="flex: 1; min-width: 100px;">
+                    <label
+                        style="display: block; font-size: 0.75rem; color: var(--text-secondary); margin-bottom: 5px;">OTP</label>
+                    <input type="text" id="otpInput" value="123456"
+                        style="width: 100%; padding: 12px; border-radius: 8px; border: 1px solid var(--border); background: rgba(0,0,0,0.2); color: white;">
+                </div>
+            </div>
+        </div>
+
+        <div class="card" style="margin-bottom: 20px; border-color: var(--info);">
+            <div class="card-title">Process Single Order (Optional)</div>
+            <div style="display: flex; gap: 10px; align-items: flex-end;">
+                <div style="flex: 1;">
+                    <input type="text" id="targetOrderId" placeholder="Enter Order ID (e.g. 845123DZ)"
+                        style="width: 100%; padding: 12px; border-radius: 8px; border: 1px solid var(--border); background: rgba(0,0,0,0.2); color: white;">
+                </div>
+                <div style="color: var(--text-secondary); font-size: 0.8rem; margin-bottom: 5px;">Leave empty for bulk
+                    process</div>
+            </div>
+        </div>
+
+        <div class="controls" style="display: flex; gap: 15px;">
+            <button id="launchBtn" class="btn btn-launch" onclick="launchAutomation()" style="flex: 1;">
+                <div id="spinner" class="spinner"></div>
+                <span id="btnText">Launch Automation</span>
+            </button>
+            <button id="stopBtn" class="btn btn-stop" onclick="stopAutomation()" style="flex: 1; display: none;">
+                <i class="fas fa-stop-circle" style="margin-right: 8px;"></i> Stop Automation
+            </button>
+            <a href="/history/" class="btn btn-history"
+                style="flex: 1; text-decoration: none; display: flex; align-items: center; justify-content: center;">
+                View History
+            </a>
+        </div>
+
+        <div class="dashboard-grid">
+            <div class="card">
+                <div class="card-title">Balance (INR)</div>
+                <div class="card-value" id="balanceValue">₹0.00</div>
+                <div class="card-label">Cost: ₹0.75 / order</div>
+                <div style="margin-top: 15px;">
+                    <input type="number" id="rechargeInput" placeholder="Enter Amount"
+                        style="padding: 8px; border-radius: 6px; border: 1px solid var(--border); background: rgba(0,0,0,0.2); color: white; width: 100px;">
+                    <button onclick="rechargeBalance()" class="btn-launch"
+                        style="padding: 8px 15px; border-radius: 6px; font-size: 0.8rem; display: inline-flex; width: auto;">Set
+                        Balance</button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-title" id="ordersProcessedTitle">Session Stats</div>
+                <div class="card-value" style="font-size: 1.5rem;">
+                    <span id="ordersProcessedCount" class="highlight-success">0</span> / <span id="ordersExecutedCount"
+                        class="highlight-info">0</span>
+                </div>
+                <div class="card-label">Processed / Executed this session</div>
+            </div>
+            <div class="card">
+                <div class="card-title">Splits & Costs</div>
+                <div class="card-value" id="totalCost" style="font-size: 1.5rem;">₹0.00</div>
+                <div class="card-label">Split Orders Found: <span id="splitOrdersCount"
+                        class="highlight-warning">0</span></div>
+            </div>
+            <div class="card">
+                <div class="card-title">Current Status</div>
+                <div class="card-value" id="currentStatus">Idle</div>
+                <div class="card-label">Automation state</div>
+            </div>
+        </div>
+
+        <div id="orderInfo" class="info-grid" style="display: none;">
+            <div class="info-card">
+                <div class="info-label">Order Number</div>
+                <div class="info-value" id="orderNumber">-</div>
+            </div>
+            <div class="info-card">
+                <div class="info-label">Seller Name</div>
+                <div class="info-value" id="sellerName">-</div>
+            </div>
+            <div class="info-card">
+                <div class="info-label">Customer Name</div>
+                <div class="info-value" id="customerName">-</div>
+            </div>
+            <div class="info-card">
+                <div class="info-label">Product Amount</div>
+                <div class="info-value" id="netAmount">-</div>
+            </div>
+        </div>
+
+        <div class="terminal-container">
+            <div class="terminal-header">
+                <span class="terminal-title">LIVE_LOGS: final_automation_refactored.py</span>
+                <span class="terminal-time" id="timestamp">--:--:--</span>
+            </div>
+            <div id="terminal" class="terminal-body">Waiting for automation to start...</div>
+        </div>
+    </div>
+
+    <script>
+        let isRunning = false;
+
+        async function launchAutomation() {
+            const btn = document.getElementById('launchBtn');
+            const spinner = document.getElementById('spinner');
+            const btnText = document.getElementById('btnText');
+
+            const username = document.getElementById('usernameInput').value;
+            const password = document.getElementById('passwordInput').value;
+            const otp = document.getElementById('otpInput').value;
+
+            const targetOrderId = document.getElementById('targetOrderId').value.trim();
+
+            if (!username || !password || !otp) {
+                alert('Please fill all credential fields.');
+                return;
+            }
+
+            btn.disabled = true;
+            spinner.style.display = 'block';
+            btnText.innerText = 'Launching...';
+
+            try {
+                const r = await fetch('/run-script/', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ username, password, otp, targetOrderId })
+                });
+                const data = await r.json();
+
+                if (data.status === 'success') {
+                    // Safe reset session UI values
+                    const opc = document.getElementById('ordersProcessedCount');
+                    if (opc) opc.innerText = '0';
+                    const tc = document.getElementById('totalCost');
+                    if (tc) tc.innerText = '₹0.00';
+                    const on = document.getElementById('orderNumber');
+                    if (on) on.innerText = '-';
+                    const sn = document.getElementById('sellerName');
+                    if (sn) sn.innerText = '-';
+                    const cn = document.getElementById('customerName');
+                    if (cn) cn.innerText = '-';
+                    const na = document.getElementById('netAmount');
+                    if (na) na.innerText = '-';
+                    const oec = document.getElementById('ordersExecutedCount');
+                    if (oec) oec.innerText = '0';
+                    const soc = document.getElementById('splitOrdersCount');
+                    if (soc) soc.innerText = '0';
+
+                    updateStatus();
+                } else {
+                    alert('Failed to start: ' + data.message);
+                    btn.disabled = false;
+                    spinner.style.display = 'none';
+                    btnText.innerText = 'Launch Automation';
+                }
+            } catch (e) {
+                alert('Error: ' + e.message);
+                btn.disabled = false;
+                spinner.style.display = 'none';
+                btnText.innerText = 'Launch Automation';
+            }
+        }
+
+        async function stopAutomation() {
+            if (!confirm('Stop the automation process?')) return;
+
+            try {
+                const r = await fetch('/stop-script/', { method: 'POST' });
+                const data = await r.json();
+                alert(data.message);
+                updateStatus();
+            } catch (e) {
+                alert('Error: ' + e.message);
+            }
+        }
+
+        async function rechargeBalance() {
+            const amount = document.getElementById('rechargeInput').value;
+            if (!amount || amount <= 0) {
+                alert('Please enter a valid amount.');
+                return;
+            }
+            try {
+                const r = await fetch('/set-balance/', {
+                    method: 'POST',
+                    body: JSON.stringify({ amount: parseFloat(amount) }),
+                    headers: { 'Content-Type': 'application/json' }
+                });
+                const data = await r.json();
+                if (data.status === 'success') {
+                    const bv = document.getElementById('balanceValue');
+                    if (bv) bv.innerText = '₹' + data.balance.toFixed(2);
+                    alert('Balance updated successfully!');
+                }
+            } catch (e) {
+                alert('Recharge failed: ' + e.message);
+            }
+        }
+
+        async function updateStatus() {
+            try {
+                const r = await fetch('/check-status/');
+                const data = await r.json();
+
+                const badge = document.getElementById('statusBadge');
+                const launchBtn = document.getElementById('launchBtn');
+                const stopBtn = document.getElementById('stopBtn');
+                const spinner = document.getElementById('spinner');
+                const btnText = document.getElementById('btnText');
+                const statusText = document.getElementById('currentStatus');
+                const balanceDisplay = document.getElementById('balanceValue');
+
+                if (data.balance !== undefined) {
+                    if (balanceDisplay) {
+                        balanceDisplay.innerText = '₹' + data.balance.toFixed(2);
+                        if (data.balance < 0.75) {
+                            balanceDisplay.style.color = 'var(--danger)';
+                        } else {
+                            balanceDisplay.style.color = 'var(--success)';
+                        }
+                    }
+                }
+
+                if (data.orders_count !== undefined) {
+                    // document.getElementById('ordersCount').innerText = data.orders_count; // REMOVED: Element doesn't exist
+                }
+
+                if (data.running) {
+                    badge.className = 'status-badge online';
+                    badge.innerHTML = '<span class="pulse-dot"></span> ' + data.message;
+                    launchBtn.disabled = true;
+                    stopBtn.style.display = 'flex';
+                    btnText.innerText = 'Running...';
+                    statusText.innerText = 'Active';
+                    statusText.style.color = 'var(--success)';
+
+                    if (data.orders_count !== undefined) {
+                        const opc = document.getElementById('ordersProcessedCount');
+                        const tc = document.getElementById('totalCost');
+                        if (opc) opc.innerText = data.orders_count;
+                        if (tc) tc.innerText = '₹' + (data.orders_count * 0.75).toFixed(2);
+                    }
+
+                    fetchLogs();
+                } else {
+                    if (badge) {
+                        badge.className = 'status-badge offline';
+                        badge.innerHTML = '<span class="pulse-dot"></span> System Offline';
+                    }
+                    if (launchBtn) launchBtn.disabled = false;
+                    if (stopBtn) stopBtn.style.display = 'none';
+                    if (spinner) spinner.style.display = 'none';
+                    if (btnText) btnText.innerText = 'Launch Automation';
+                    if (statusText) {
+                        statusText.innerText = 'Idle';
+                        statusText.style.color = 'var(--text-secondary)';
+                    }
+
+                    if (data.orders_count !== undefined) {
+                        const opc = document.getElementById('ordersProcessedCount');
+                        const tc = document.getElementById('totalCost');
+                        if (opc) opc.innerText = data.orders_count;
+                        if (tc) tc.innerText = '₹' + (data.orders_count * 0.75).toFixed(2);
+                    }
+                }
+            } catch (e) {
+                console.error('Status check failed:', e);
+            }
+        }
+
+        async function fetchLogs() {
+            try {
+                const r = await fetch('/get-logs/');
+                const data = await r.json();
+
+                if (data.balance !== undefined) {
+                    const bv = document.getElementById('balanceValue');
+                    if (bv) bv.innerText = '₹' + data.balance.toFixed(2);
+                }
+
+                if (data.orders_count !== undefined) {
+                    // Update total cost even while fetching logs
+                    const tc = document.getElementById('totalCost');
+                    if (tc) tc.innerText = '₹' + (data.orders_count * 0.75).toFixed(2);
+                }
+
+                if (data.logs) {
+                    const terminal = document.getElementById('terminal');
+                    const wasAtBottom = terminal.scrollHeight - terminal.clientHeight <= terminal.scrollTop + 20;
+
+                    // Parse and highlight logs
+                    const highlighted = highlightLogs(data.logs);
+                    terminal.innerHTML = highlighted;
+
+                    // Extract data from logs
+                    extractDataFromLogs(data.logs);
+
+                    // Update executed count from logs
+                    const executedMatch = data.logs.match(/🚀 Processing Row (\d+)/g);
+                    if (executedMatch) {
+                        const ecount = document.getElementById('ordersExecutedCount');
+                        if (ecount) ecount.innerText = executedMatch.length;
+                    }
+
+                    // Update split count from logs
+                    const splitMatch = data.logs.match(/Splits: ([2-9]|\d{2,})/g);
+                    if (splitMatch) {
+                        const scount = document.getElementById('splitOrdersCount');
+                        if (scount) scount.innerText = splitMatch.length;
+                    }
+
+                    if (wasAtBottom) {
+                        terminal.scrollTop = terminal.scrollHeight;
+                    }
+                }
+
+                const ts = document.getElementById('timestamp');
+                if (ts) ts.innerText = new Date().toLocaleTimeString();
+            } catch (e) {
+                console.error('Log fetch failed:', e);
+            }
+        }
+
+        function highlightLogs(logs) {
+            return logs
+                .split('\n')
+                .map(line => {
+                    let className = '';
+                    if (line.includes('') || line.includes('success') || line.includes('completed')) {
+                        className = 'highlight-success';
+                    } else if (line.includes('ERROR') || line.includes('Failed') || line.includes('failed')) {
+                        className = 'highlight-error';
+                    } else if (line.includes('warning') || line.includes('skipped')) {
+                        className = 'highlight-warning';
+                    } else if (line.includes('Order Number') || line.includes('Seller') || line.includes('Customer')) {
+                        className = 'highlight-info';
+                    }
+
+                    const escaped = line
+                        .replace(/&/g, '&amp;')
+                        .replace(/</g, '&lt;')
+                        .replace(/>/g, '&gt;');
+
+                    return `<div class="log-line ${className}">${escaped}</div>`;
+                })
+                .join('');
+        }
+
+        function extractDataFromLogs(logs) {
+            const orderInfo = document.getElementById('orderInfo');
+
+            // Do NOT overwrite ordersCount from logs here, 
+            // the backend value from updateStatus is the source of truth.
+
+            // Extract Current Order Info (Last occurrence)
+            orderInfo.style.display = 'grid'; // Ensure always visible
+            const orderMatch = logs.match(/Order Number copied:\s*(\S+)/g);
+            if (orderMatch) {
+                const lastOrderLine = orderMatch[orderMatch.length - 1];
+                const orderIdLine = lastOrderLine.match(/Order Number copied:\s*(\S+)/);
+                if (orderIdLine) {
+                    const el = document.getElementById('orderNumber');
+                    if (el) el.innerText = orderIdLine[1];
+                    if (orderInfo) orderInfo.style.display = 'grid';
+                }
+            }
+
+            const sellerMatch = logs.match(/Normalized seller name:\s*(.+)/g);
+            if (sellerMatch) {
+                const lastSellerLine = sellerMatch[sellerMatch.length - 1];
+                const sLine = lastSellerLine.match(/Normalized seller name:\s*(.+)/);
+                if (sLine) {
+                    const el = document.getElementById('sellerName');
+                    if (el) el.innerText = sLine[1].trim();
+                }
+            }
+
+            const customerMatch = logs.match(/Customer Name:\s*(.+)/g);
+            if (customerMatch) {
+                const lastCustomerLine = customerMatch[customerMatch.length - 1];
+                const cLine = lastCustomerLine.match(/Customer Name:\s*(.+)/);
+                if (cLine) {
+                    const el = document.getElementById('customerName');
+                    if (el) el.innerText = cLine[1].trim();
+                }
+            }
+
+            const netAmountMatch = logs.match(/Net Amount from Agribegri:\s*([\d.]+)/g);
+            if (netAmountMatch) {
+                const lastAmountLine = netAmountMatch[netAmountMatch.length - 1];
+                const aLine = lastAmountLine.match(/Net Amount from Agribegri:\s*([\d.]+)/);
+                if (aLine) {
+                    const el = document.getElementById('netAmount');
+                    if (el) el.innerText = '₹' + aLine[1];
+                }
+            }
+        }
+
+        // Poll every 3 seconds for status
+        setInterval(updateStatus, 3000);
+
+        // Poll every 1.5 seconds for logs when running
+        setInterval(() => {
+            const badge = document.getElementById('statusBadge');
+            if (badge && badge.classList.contains('online')) {
+                fetchLogs();
+            }
+        }, 1500);
+
+        // Initial load
+        updateStatus();
+        fetchLogs();
+
+        function togglePassword(inputId, btn) {
+            const input = document.getElementById(inputId);
+            const svg = btn.querySelector('svg');
+            if (input.type === 'password') {
+                input.type = 'text';
+                svg.innerHTML = '<path d="M12 7c2.76 0 5 2.24 5 5 0 .65-.13 1.26-.36 1.83l2.92 2.92c1.51-1.26 2.7-2.89 3.43-4.75-1.73-4.39-6-7.5-11-7.5-1.4 0-2.74.25-3.98.7l2.16 2.16C10.74 7.13 11.35 7 12 7zM2 4.27l2.28 2.28.46.46C3.08 8.3 1.78 10.02 1 12c1.73 4.39 6 7.5 11 7.5 1.55 0 3.03-.3 4.38-.84l.42.42L19.73 22 21 20.73 3.27 3 2 4.27zM7.53 9.8l1.55 1.55c-.05.21-.08.43-.08.65 0 1.66 1.34 3 3 3 .22 0 .44-.03.65-.08l1.55 1.55c-.67.33-1.41.53-2.2.53-2.76 0-5-2.24-5-5 0-.79.2-1.53.53-2.2zm4.31-.78l3.15 3.15.02-.16c0-1.66-1.34-3-3-3l-.17.01z"/>';
+            } else {
+                input.type = 'password';
+                svg.innerHTML = '<path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/>';
+            }
+        }
+    </script>
+</body>
+
+</html>
