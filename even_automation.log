@@ -1,0 +1,366 @@
+--- Last to First Flow Started via Dashboard ---
+2026-04-07 15:29:44,988 | INFO | last_to_first_happplyflow.py:164 | Excel report file already exists
+2026-04-07 15:29:45,034 | INFO | last_to_first_happplyflow.py:264 | Chrome browser starting...
+2026-04-07 15:29:45,038 | INFO | logger.py:11 | ====== WebDriver manager ======
+2026-04-07 15:29:48,888 | INFO | logger.py:11 | Get LATEST chromedriver version for google-chrome
+2026-04-07 15:29:50,081 | INFO | logger.py:11 | Get LATEST chromedriver version for google-chrome
+2026-04-07 15:29:51,105 | INFO | logger.py:11 | Driver [C:\Users\ghara\.wdm\drivers\chromedriver\win64\146.0.7680.165\chromedriver-win32/chromedriver.exe] found in cache
+2026-04-07 15:29:52,853 | INFO | last_to_first_happplyflow.py:301 | Chrome browser started successfully
+2026-04-07 15:29:52,853 | INFO | last_to_first_happplyflow.py:308 | Opening Agribegri admin login page
+2026-04-07 15:29:56,917 | INFO | last_to_first_happplyflow.py:311 | Entering username
+2026-04-07 15:30:00,220 | INFO | last_to_first_happplyflow.py:317 | Entering password
+2026-04-07 15:30:03,419 | INFO | last_to_first_happplyflow.py:322 | Entering OTP
+2026-04-07 15:30:03,666 | INFO | last_to_first_happplyflow.py:326 | Login completed successfully
+2026-04-07 15:30:05,666 | INFO | last_to_first_happplyflow.py:367 | Opening Manage Orders page
+2026-04-07 15:30:28,568 | INFO | last_to_first_happplyflow.py:375 | Manage Orders page loaded
+2026-04-07 15:30:28,569 | INFO | last_to_first_happplyflow.py:384 | Applying Date Filter | From: 2026-03-08 | To: 2026-04-07
+ Setting From Date: 2026-03-08
+ Setting To Date: 2026-04-07
+2026-04-07 15:30:30,184 | INFO | last_to_first_happplyflow.py:408 | Date filter applied successfully
+2026-04-07 15:30:30,185 | INFO | last_to_first_happplyflow.py:412 | Selecting Order Status: Confirm
+ 'Confirm' status selected
+2026-04-07 15:30:32,247 | INFO | last_to_first_happplyflow.py:428 | Order Status 'Confirm' selected
+2026-04-07 15:30:32,523 | INFO | last_to_first_happplyflow.py:352 | Shipping Through dropdown opened
+2026-04-07 15:30:32,643 | INFO | last_to_first_happplyflow.py:364 | Shipping Through Courier selected
+2026-04-07 15:30:38,712 | INFO | last_to_first_happplyflow.py:460 | Search completed. Orders table loaded successfully
+2026-04-07 15:30:39,714 | INFO | last_to_first_happplyflow.py:1987 | Filtering done. Checking total orders...
+2026-04-07 15:30:39,792 | INFO | last_to_first_happplyflow.py:2004 |  Total Orders Found: 49
+2026-04-07 15:30:39,793 | INFO | last_to_first_happplyflow.py:2014 |  Total Pages to process: 1
+2026-04-07 15:30:39,793 | INFO | last_to_first_happplyflow.py:2040 | \n --- STARTING PAGE 1 / 1 (Reverse Order) ---
+2026-04-07 15:30:39,794 | INFO | last_to_first_happplyflow.py:2054 | \n --- Processing Row Index: 0 (Page 1) ---
+2026-04-07 15:30:39,794 | INFO | last_to_first_happplyflow.py:514 | Processing row index: 0
+2026-04-07 15:30:39,825 | INFO | last_to_first_happplyflow.py:523 | Total filtered rows in table: 49
+2026-04-07 15:30:39,870 | INFO | last_to_first_happplyflow.py:469 | Extracting data for Row Index: 0
+2026-04-07 15:30:40,052 | INFO | last_to_first_happplyflow.py:499 | Row 0 extraction successful
+row_index: 0
+order_no: Confirm
+remark_id: 881384
+remark_href: https://abadmin.agribegri.com/admin/manage_orders.php#modal
+view_link: https://abadmin.agribegri.com/admin/edit_order.php?abo_id=915004
+truck_id: 915004
+truck_href: https://abadmin.agribegri.com/admin/manage_orders.php#surface_modal
+ --------------------------
+
+2026-04-07 15:30:40,052 | INFO | last_to_first_happplyflow.py:548 | Order detected: Confirm
+2026-04-07 15:30:40,052 | INFO | last_to_first_happplyflow.py:559 | Order Confirm valid for processing
+2026-04-07 15:30:40,053 | INFO | last_to_first_happplyflow.py:569 | Order Confirm → Full payment detected
+2026-04-07 15:30:41,252 | INFO | last_to_first_happplyflow.py:658 | Order Confirm → Pre-check Weight: 300.0
+2026-04-07 15:30:41,253 | INFO | last_to_first_happplyflow.py:659 | Order Confirm → Pre-check Amount: 1688.0
+2026-04-07 15:30:42,038 | INFO | last_to_first_happplyflow.py:691 | Order Confirm → Truck icon clicked
+2026-04-07 15:30:42,097 | INFO | last_to_first_happplyflow.py:701 | Order Confirm → Surface modal opened
+2026-04-07 15:30:42,151 | INFO | last_to_first_happplyflow.py:710 | Order Confirm → Selecting 'Agribegri Surface'
+2026-04-07 15:30:42,610 | WARNING | last_to_first_happplyflow.py:714 | Order Confirm → Surface selection failed, retrying fallback
+ Current Selection: 'Agribegri Surface'
+ Agribegri Surface selected
+2026-04-07 15:30:44,079 | INFO | last_to_first_happplyflow.py:772 | Order Confirm → Seller detected: anand agro care maharashtra
+2026-04-07 15:30:44,128 | INFO | last_to_first_happplyflow.py:798 | Order Confirm → Pickup mapping matched: anand agro care
+ Target Pickup Name: Anand Agro1
+2026-04-07 15:30:44,954 | INFO | last_to_first_happplyflow.py:832 | Order Confirm → Pickup selected (Exact Match): Anand Agro1
+2026-04-07 15:30:44,955 | INFO | last_to_first_happplyflow.py:860 | Order Confirm → Final Pickup Selected: Anand Agro1
+2026-04-07 15:30:45,659 | INFO | last_to_first_happplyflow.py:874 | Order Confirm → Pickup value set successfully: Anand Agro1
+2026-04-07 15:30:45,674 | INFO | last_to_first_happplyflow.py:898 | Order Confirm  Pickup address selected successfully
+2026-04-07 15:30:46,852 | INFO | last_to_first_happplyflow.py:912 | Order Confirm  Submit button clicked successfully
+2026-04-07 15:30:47,520 | INFO | last_to_first_happplyflow.py:923 | Order Confirm → Surface shipment created successfully
+2026-04-07 15:30:49,771 | INFO | last_to_first_happplyflow.py:933 | Order Confirm → Order detail page opened
+2026-04-07 15:30:51,102 | INFO | last_to_first_happplyflow.py:954 | Order Confirm → Seller: Anand Agro Care | Company: Anand Agro Care Nashik
+2026-04-07 15:30:51,145 | INFO | last_to_first_happplyflow.py:965 | Order Confirm → Seller Email found: info@anandagrocare.com
+
+ -------- SELLER INFO --------
+Company (Table): Anand Agro Care Nashik
+Seller (Table): Anand Agro Care
+Seller Name: Anand Agro Care
+Company Name: Anand Agro Care Nashik
+2026-04-07 15:30:51,146 | INFO | last_to_first_happplyflow.py:1047 | Order Confirm → Seller: Anand Agro Care | Company: Anand Agro Care Nashik
+ -----------------------------
+
+2026-04-07 15:30:51,146 | INFO | last_to_first_happplyflow.py:1066 | Order Confirm → Normal seller
+ Order detail tab opened & stored
+2026-04-07 15:30:51,231 | INFO | last_to_first_happplyflow.py:1088 | Order Confirm → Dimensions parsed: L=15.00, B=11.00, H=8.00
+2026-04-07 15:30:51,239 | INFO | last_to_first_happplyflow.py:1151 | Switched to order detail tab
+2026-04-07 15:30:51,241 | INFO | last_to_first_happplyflow.py:1154 | Agribegri order tab stored
+2026-04-07 15:30:51,281 | INFO | last_to_first_happplyflow.py:1167 | Order Number copied: 883538TQ
+2026-04-07 15:30:51,323 | INFO | last_to_first_happplyflow.py:1179 | Net Amount from Agribegri: 1688.0
+2026-04-07 15:30:51,323 | INFO | last_to_first_happplyflow.py:1184 | Order 883538TQ → Shipment amount: 1688.0
+2026-04-07 15:30:51,342 | INFO | last_to_first_happplyflow.py:1191 | Stored Agribegri edit URL: https://abadmin.agribegri.com/admin/edit_order.php?abo_id=915004
+2026-04-07 15:30:51,342 | INFO | last_to_first_happplyflow.py:1196 | Order 883538TQ → Extracting shipping address details...
+ Customer Name: Champa Talwar
+ Customer Email: 
+ Customer Address: House No 19 Naveen Nagar Saharanpur, Behind Central Bank
+ Customer Pincode: 247001
+ Customer Phone: 8755791007
+ Customer City: Saharanpur
+ Customer Taluka: Saharanpur
+ Customer District: Saharanpur
+ Customer State: UTTAR PRADESH
+2026-04-07 15:30:51,826 | INFO | last_to_first_happplyflow.py:1256 | Order 883538TQ → Customer Details: Name=Champa Talwar, Email=, Address=House No 19 Naveen Nagar Saharanpur, Behind Central Bank, Pincode=247001, Phone=8755791007, City=Saharanpur, Taluka=Saharanpur, District=Saharanpur, State=UTTAR PRADESH
+2026-04-07 15:30:51,827 | INFO | last_to_first_happplyflow.py:1260 | Order 883538TQ → Extracting product description...
+2026-04-07 15:30:51,913 | INFO | last_to_first_happplyflow.py:1273 | Order 883538TQ → Product Description: Dr. Anand Neem - 50000 PPM Neem Oil - 100 Ml (100 ML x 1 Qty)
+2026-04-07 15:31:07,101 | INFO | last_to_first_happplyflow.py:1314 | Delhivery tab opened
+2026-04-07 15:31:07,102 | INFO | last_to_first_happplyflow.py:1318 | Checking Delhivery login status...
+2026-04-07 15:31:10,298 | INFO | last_to_first_happplyflow.py:1325 |  Login page detected — proceeding with login
+2026-04-07 15:31:10,657 | INFO | last_to_first_happplyflow.py:1335 |  Email entered
+2026-04-07 15:31:12,355 | INFO | last_to_first_happplyflow.py:1348 |  Password entered
+2026-04-07 15:31:12,628 | INFO | last_to_first_happplyflow.py:1357 |  Login completed
+2026-04-07 15:31:20,702 | INFO | last_to_first_happplyflow.py:1380 | Delhivery dashboard fully loaded
+2026-04-07 15:31:21,422 | INFO | last_to_first_happplyflow.py:1397 |  Domestic dropdown clicked
+2026-04-07 15:31:38,750 | INFO | last_to_first_happplyflow.py:1412 | AGRIBEGRI SURFACE selected
+2026-04-07 15:31:42,631 | INFO | last_to_first_happplyflow.py:1428 |  AWB dropdown opened
+2026-04-07 15:31:43,000 | INFO | last_to_first_happplyflow.py:1438 |  Order ID selected
+2026-04-07 15:31:43,252 | INFO | last_to_first_happplyflow.py:1450 |  Order ID pasted: 883538TQ
+2026-04-07 15:31:46,253 | INFO | last_to_first_happplyflow.py:1459 |  Waiting for search result (Attempt 1)...
+2026-04-07 15:31:46,339 | INFO | last_to_first_happplyflow.py:1469 |  Order search result clicked
+2026-04-07 15:31:49,947 | INFO | last_to_first_happplyflow.py:1594 | Files before label download: 107
+2026-04-07 15:31:52,000 | INFO | last_to_first_happplyflow.py:1598 |  Print Shipping Label button clicked
+2026-04-07 15:31:52,001 | INFO | last_to_first_happplyflow.py:201 | Waiting for PDF download (Target: 883538TQ)
+2026-04-07 15:31:52,001 | INFO | last_to_first_happplyflow.py:220 | Detected downloaded file: Shipping_Label.pdf
+2026-04-07 15:31:52,004 | INFO | last_to_first_happplyflow.py:234 | PDF renamed to: 883538TQ.pdf
+2026-04-07 15:31:55,007 | INFO | last_to_first_happplyflow.py:1712 |  Switched back to Agribegri edit order page (final)
+2026-04-07 15:31:55,150 | INFO | last_to_first_happplyflow.py:1727 |  Order status set to Packed
+2026-04-07 15:31:56,278 | INFO | last_to_first_happplyflow.py:1741 |  Packed reason set to CL Surface
+2026-04-07 15:31:57,279 | INFO | last_to_first_happplyflow.py:1763 |  Skipping payment status change (not partial payment)
+2026-04-07 15:32:04,193 | INFO | last_to_first_happplyflow.py:1778 |  Submit button clicked successfully
+2026-04-07 15:32:06,294 | INFO | last_to_first_happplyflow.py:1788 |  Success popup OK clicked
+2026-04-07 15:32:07,795 | INFO | last_to_first_happplyflow.py:1802 |  Normal seller detected → Proceeding with label upload.
+2026-04-07 15:32:07,909 | INFO | last_to_first_happplyflow.py:1812 |  Label PDF uploaded: C:\Users\ghara\Documents\agribegri_UI\Downloads\883538TQ.pdf
+2026-04-07 15:32:10,930 | INFO | last_to_first_happplyflow.py:1820 |  Manifest upload submit clicked
+2026-04-07 15:32:11,031 | INFO | last_to_first_happplyflow.py:1826 |  OK button clicked on upload popup
+2026-04-07 15:32:12,032 | INFO | last_to_first_happplyflow.py:1830 | Generating Invoice and sending combined email...
+2026-04-07 15:32:12,032 | INFO | last_to_first_happplyflow.py:121 | Email routing started | Seller: 'Anand Agro Care' | Company: 'Anand Agro Care Nashik'
+2026-04-07 15:32:12,032 | INFO | last_to_first_happplyflow.py:150 | Normal seller → No email will be sent
+2026-04-07 15:32:12,033 | INFO | last_to_first_happplyflow.py:1905 | No email rule → Skipping invoice download
+2026-04-07 15:32:12,033 | INFO | last_to_first_happplyflow.py:2070 |  Row 0 processed successfully.
+2026-04-07 15:32:12,214 | INFO | last_to_first_happplyflow.py:196 | Excel Log Written → Row: 0 | Order: 883538TQ | Status: SUCCESS
+2026-04-07 15:32:12,320 | INFO | last_to_first_happplyflow.py:2123 |  Closing extra tab...
+2026-04-07 15:32:12,500 | INFO | last_to_first_happplyflow.py:2123 |  Closing extra tab...
+2026-04-07 15:32:12,596 | INFO | last_to_first_happplyflow.py:2054 | \n --- Processing Row Index: 1 (Page 1) ---
+2026-04-07 15:32:12,596 | INFO | last_to_first_happplyflow.py:514 | Processing row index: 1
+2026-04-07 15:32:12,630 | INFO | last_to_first_happplyflow.py:523 | Total filtered rows in table: 49
+2026-04-07 15:32:12,670 | INFO | last_to_first_happplyflow.py:469 | Extracting data for Row Index: 1
+2026-04-07 15:32:12,828 | INFO | last_to_first_happplyflow.py:499 | Row 1 extraction successful
+row_index: 1
+order_no: Confirm
+remark_id: 881377
+remark_href: https://abadmin.agribegri.com/admin/manage_orders.php#modal
+view_link: https://abadmin.agribegri.com/admin/edit_order.php?abo_id=914997
+truck_id: 914997
+truck_href: https://abadmin.agribegri.com/admin/manage_orders.php#surface_modal
+ --------------------------
+
+2026-04-07 15:32:12,828 | INFO | last_to_first_happplyflow.py:548 | Order detected: Confirm
+2026-04-07 15:32:12,828 | INFO | last_to_first_happplyflow.py:559 | Order Confirm valid for processing
+2026-04-07 15:32:12,829 | INFO | last_to_first_happplyflow.py:569 | Order Confirm → Full payment detected
+2026-04-07 15:32:14,415 | INFO | last_to_first_happplyflow.py:658 | Order Confirm → Pre-check Weight: 1200.0
+2026-04-07 15:32:14,415 | INFO | last_to_first_happplyflow.py:659 | Order Confirm → Pre-check Amount: 986.0
+2026-04-07 15:32:15,160 | INFO | last_to_first_happplyflow.py:691 | Order Confirm → Truck icon clicked
+2026-04-07 15:32:15,209 | INFO | last_to_first_happplyflow.py:701 | Order Confirm → Surface modal opened
+2026-04-07 15:32:15,255 | INFO | last_to_first_happplyflow.py:710 | Order Confirm → Selecting 'Agribegri Surface'
+2026-04-07 15:32:15,910 | WARNING | last_to_first_happplyflow.py:714 | Order Confirm → Surface selection failed, retrying fallback
+ Current Selection: 'Agribegri Surface'
+ Agribegri Surface selected
+2026-04-07 15:32:17,516 | INFO | last_to_first_happplyflow.py:772 | Order Confirm → Seller detected: hifield-ag chem india pvt ltd. maharashtra
+2026-04-07 15:32:17,546 | INFO | last_to_first_happplyflow.py:798 | Order Confirm → Pickup mapping matched: hifield-ag chem india pvt ltd.
+ Target Pickup Name: Hifield-AG
+2026-04-07 15:32:19,577 | INFO | last_to_first_happplyflow.py:832 | Order Confirm → Pickup selected (Exact Match): Hifield-AG
+2026-04-07 15:32:19,578 | INFO | last_to_first_happplyflow.py:860 | Order Confirm → Final Pickup Selected: Hifield-AG
+2026-04-07 15:32:20,254 | INFO | last_to_first_happplyflow.py:874 | Order Confirm → Pickup value set successfully: Hifield-AG
+2026-04-07 15:32:20,267 | INFO | last_to_first_happplyflow.py:898 | Order Confirm  Pickup address selected successfully
+2026-04-07 15:32:21,469 | INFO | last_to_first_happplyflow.py:912 | Order Confirm  Submit button clicked successfully
+2026-04-07 15:32:23,163 | INFO | last_to_first_happplyflow.py:923 | Order Confirm → Surface shipment created successfully
+2026-04-07 15:32:25,395 | INFO | last_to_first_happplyflow.py:933 | Order Confirm → Order detail page opened
+2026-04-07 15:32:26,302 | INFO | last_to_first_happplyflow.py:954 | Order Confirm → Seller: Hifield-ag Chem India Pvt Ltd. | Company: Hifield-AG Chem India Pvt Ltd.
+2026-04-07 15:32:26,341 | INFO | last_to_first_happplyflow.py:965 | Order Confirm → Seller Email found: sales@hifield-ag.com
+
+ -------- SELLER INFO --------
+Company (Table): Hifield-AG Chem India Pvt Ltd.
+Seller (Table): Hifield-ag Chem India Pvt Ltd.
+Seller Name: Hifield-ag Chem India Pvt Ltd.
+Company Name: Hifield-AG Chem India Pvt Ltd.
+2026-04-07 15:32:26,342 | INFO | last_to_first_happplyflow.py:1047 | Order Confirm → Seller: Hifield-ag Chem India Pvt Ltd. | Company: Hifield-AG Chem India Pvt Ltd.
+ -----------------------------
+
+2026-04-07 15:32:26,342 | INFO | last_to_first_happplyflow.py:1066 | Order Confirm → Normal seller
+ Order detail tab opened & stored
+2026-04-07 15:32:26,408 | INFO | last_to_first_happplyflow.py:1088 | Order Confirm → Dimensions parsed: L=26.00, B=12.00, H=12.00
+2026-04-07 15:32:26,416 | INFO | last_to_first_happplyflow.py:1151 | Switched to order detail tab
+2026-04-07 15:32:26,419 | INFO | last_to_first_happplyflow.py:1154 | Agribegri order tab stored
+2026-04-07 15:32:26,458 | INFO | last_to_first_happplyflow.py:1167 | Order Number copied: 883531KN
+2026-04-07 15:32:26,502 | INFO | last_to_first_happplyflow.py:1179 | Net Amount from Agribegri: 986.0
+2026-04-07 15:32:26,502 | INFO | last_to_first_happplyflow.py:1184 | Order 883531KN → Shipment amount: 986.0
+2026-04-07 15:32:26,521 | INFO | last_to_first_happplyflow.py:1191 | Stored Agribegri edit URL: https://abadmin.agribegri.com/admin/edit_order.php?abo_id=914997
+2026-04-07 15:32:26,521 | INFO | last_to_first_happplyflow.py:1196 | Order 883531KN → Extracting shipping address details...
+ Customer Name: MAHESH
+ Customer Email: maheshdhurwey325@gmail.com
+ Customer Address: VILL- BAHERAKHAR, PO- NIKKUM,, TEH- BIRSA
+ Customer Pincode: 481116
+ Customer Phone: 7610232326
+ Customer City: Balaghat
+ Customer Taluka: Balaghat
+ Customer District: Balaghat
+ Customer State: MADHYA PRADESH
+2026-04-07 15:32:26,888 | INFO | last_to_first_happplyflow.py:1256 | Order 883531KN → Customer Details: Name=MAHESH, Email=maheshdhurwey325@gmail.com, Address=VILL- BAHERAKHAR, PO- NIKKUM,, TEH- BIRSA, Pincode=481116, Phone=7610232326, City=Balaghat, Taluka=Balaghat, District=Balaghat, State=MADHYA PRADESH
+2026-04-07 15:32:26,889 | INFO | last_to_first_happplyflow.py:1260 | Order 883531KN → Extracting product description...
+2026-04-07 15:32:26,939 | INFO | last_to_first_happplyflow.py:1273 | Order 883531KN → Product Description: Hifield Blossom Nitrobenzene 20% EW Plant Growth Promoter, Effective Flowering & Fruit Setting Booster - 1 Liter (1 Ltr x 1 Qty)
+2026-04-07 15:32:42,176 | INFO | last_to_first_happplyflow.py:1314 | Delhivery tab opened
+2026-04-07 15:32:42,177 | INFO | last_to_first_happplyflow.py:1318 | Checking Delhivery login status...
+2026-04-07 15:32:45,206 | INFO | last_to_first_happplyflow.py:1368 |  Already logged in — skipping login
+2026-04-07 15:32:48,400 | INFO | last_to_first_happplyflow.py:1380 | Delhivery dashboard fully loaded
+2026-04-07 15:32:49,126 | INFO | last_to_first_happplyflow.py:1397 |  Domestic dropdown clicked
+2026-04-07 15:32:49,837 | INFO | last_to_first_happplyflow.py:1412 | AGRIBEGRI SURFACE selected
+2026-04-07 15:32:51,572 | INFO | last_to_first_happplyflow.py:1428 |  AWB dropdown opened
+2026-04-07 15:32:51,677 | INFO | last_to_first_happplyflow.py:1438 |  Order ID selected
+2026-04-07 15:32:51,936 | INFO | last_to_first_happplyflow.py:1450 |  Order ID pasted: 883531KN
+2026-04-07 15:32:54,937 | INFO | last_to_first_happplyflow.py:1459 |  Waiting for search result (Attempt 1)...
+2026-04-07 15:32:55,028 | INFO | last_to_first_happplyflow.py:1469 |  Order search result clicked
+2026-04-07 15:32:57,853 | INFO | last_to_first_happplyflow.py:1594 | Files before label download: 108
+2026-04-07 15:32:59,905 | INFO | last_to_first_happplyflow.py:1598 |  Print Shipping Label button clicked
+2026-04-07 15:32:59,906 | INFO | last_to_first_happplyflow.py:201 | Waiting for PDF download (Target: 883531KN)
+2026-04-07 15:32:59,906 | INFO | last_to_first_happplyflow.py:220 | Detected downloaded file: Shipping_Label.pdf
+2026-04-07 15:32:59,908 | INFO | last_to_first_happplyflow.py:234 | PDF renamed to: 883531KN.pdf
+2026-04-07 15:33:02,930 | INFO | last_to_first_happplyflow.py:1712 |  Switched back to Agribegri edit order page (final)
+2026-04-07 15:33:03,188 | INFO | last_to_first_happplyflow.py:1727 |  Order status set to Packed
+2026-04-07 15:33:04,363 | INFO | last_to_first_happplyflow.py:1741 |  Packed reason set to CL Surface
+2026-04-07 15:33:05,364 | INFO | last_to_first_happplyflow.py:1763 |  Skipping payment status change (not partial payment)
+2026-04-07 15:33:10,864 | INFO | last_to_first_happplyflow.py:1778 |  Submit button clicked successfully
+2026-04-07 15:33:12,964 | INFO | last_to_first_happplyflow.py:1788 |  Success popup OK clicked
+2026-04-07 15:33:14,465 | INFO | last_to_first_happplyflow.py:1802 |  Normal seller detected → Proceeding with label upload.
+2026-04-07 15:33:14,548 | INFO | last_to_first_happplyflow.py:1812 |  Label PDF uploaded: C:\Users\ghara\Documents\agribegri_UI\Downloads\883531KN.pdf
+2026-04-07 15:33:17,153 | INFO | last_to_first_happplyflow.py:1820 |  Manifest upload submit clicked
+2026-04-07 15:33:17,244 | INFO | last_to_first_happplyflow.py:1826 |  OK button clicked on upload popup
+2026-04-07 15:33:18,245 | INFO | last_to_first_happplyflow.py:1830 | Generating Invoice and sending combined email...
+2026-04-07 15:33:18,245 | INFO | last_to_first_happplyflow.py:121 | Email routing started | Seller: 'Hifield-ag Chem India Pvt Ltd.' | Company: 'Hifield-AG Chem India Pvt Ltd.'
+2026-04-07 15:33:18,245 | INFO | last_to_first_happplyflow.py:150 | Normal seller → No email will be sent
+2026-04-07 15:33:18,245 | INFO | last_to_first_happplyflow.py:1905 | No email rule → Skipping invoice download
+2026-04-07 15:33:18,246 | INFO | last_to_first_happplyflow.py:2070 |  Row 1 processed successfully.
+2026-04-07 15:33:18,394 | INFO | last_to_first_happplyflow.py:196 | Excel Log Written → Row: 1 | Order: 883531KN | Status: SUCCESS
+2026-04-07 15:33:18,446 | INFO | last_to_first_happplyflow.py:2123 |  Closing extra tab...
+2026-04-07 15:33:18,557 | INFO | last_to_first_happplyflow.py:2123 |  Closing extra tab...
+2026-04-07 15:33:18,642 | INFO | last_to_first_happplyflow.py:2054 | \n --- Processing Row Index: 2 (Page 1) ---
+2026-04-07 15:33:18,642 | INFO | last_to_first_happplyflow.py:514 | Processing row index: 2
+2026-04-07 15:33:18,673 | INFO | last_to_first_happplyflow.py:523 | Total filtered rows in table: 49
+2026-04-07 15:33:18,718 | INFO | last_to_first_happplyflow.py:469 | Extracting data for Row Index: 2
+2026-04-07 15:33:18,876 | INFO | last_to_first_happplyflow.py:499 | Row 2 extraction successful
+row_index: 2
+order_no: Confirm
+remark_id: 881374
+remark_href: https://abadmin.agribegri.com/admin/manage_orders.php#modal
+view_link: https://abadmin.agribegri.com/admin/edit_order.php?abo_id=914994
+truck_id: 914994
+truck_href: https://abadmin.agribegri.com/admin/manage_orders.php#surface_modal
+ --------------------------
+
+2026-04-07 15:33:18,877 | INFO | last_to_first_happplyflow.py:548 | Order detected: Confirm
+2026-04-07 15:33:18,877 | INFO | last_to_first_happplyflow.py:559 | Order Confirm valid for processing
+2026-04-07 15:33:18,877 | INFO | last_to_first_happplyflow.py:569 | Order Confirm → Full payment detected
+2026-04-07 15:33:20,471 | INFO | last_to_first_happplyflow.py:658 | Order Confirm → Pre-check Weight: 700.0
+2026-04-07 15:33:20,471 | INFO | last_to_first_happplyflow.py:659 | Order Confirm → Pre-check Amount: 503.0
+2026-04-07 15:33:21,219 | INFO | last_to_first_happplyflow.py:691 | Order Confirm → Truck icon clicked
+2026-04-07 15:33:21,260 | INFO | last_to_first_happplyflow.py:701 | Order Confirm → Surface modal opened
+2026-04-07 15:33:21,306 | INFO | last_to_first_happplyflow.py:710 | Order Confirm → Selecting 'Agribegri Surface'
+2026-04-07 15:33:21,874 | WARNING | last_to_first_happplyflow.py:714 | Order Confirm → Surface selection failed, retrying fallback
+ Current Selection: 'Agribegri Surface'
+ Agribegri Surface selected
+2026-04-07 15:33:23,420 | INFO | last_to_first_happplyflow.py:772 | Order Confirm → Seller detected: sri sai forestry karnataka
+2026-04-07 15:33:23,465 | INFO | last_to_first_happplyflow.py:798 | Order Confirm → Pickup mapping matched: sri sai forestry
+ Target Pickup Name: New SRI SAI FORESTRY
+2026-04-07 15:33:26,250 | INFO | last_to_first_happplyflow.py:832 | Order Confirm → Pickup selected (Exact Match): New SRI SAI FORESTRY
+2026-04-07 15:33:26,250 | INFO | last_to_first_happplyflow.py:860 | Order Confirm → Final Pickup Selected: New SRI SAI FORESTRY
+2026-04-07 15:33:26,924 | INFO | last_to_first_happplyflow.py:874 | Order Confirm → Pickup value set successfully: New SRI SAI FORESTRY
+2026-04-07 15:33:26,937 | INFO | last_to_first_happplyflow.py:898 | Order Confirm  Pickup address selected successfully
+2026-04-07 15:33:28,111 | INFO | last_to_first_happplyflow.py:912 | Order Confirm  Submit button clicked successfully
+2026-04-07 15:33:29,279 | INFO | last_to_first_happplyflow.py:923 | Order Confirm → Surface shipment created successfully
+2026-04-07 15:33:31,526 | INFO | last_to_first_happplyflow.py:933 | Order Confirm → Order detail page opened
+2026-04-07 15:33:32,386 | INFO | last_to_first_happplyflow.py:954 | Order Confirm → Seller: SRI SAI FORESTRY | Company: Sri Sai Forestry
+2026-04-07 15:33:32,422 | INFO | last_to_first_happplyflow.py:965 | Order Confirm → Seller Email found: onlinesrisaiforestery@gmail.com
+
+ -------- SELLER INFO --------
+Company (Table): Sri Sai Forestry
+Seller (Table): SRI SAI FORESTRY
+Seller Name: SRI SAI FORESTRY
+Company Name: Sri Sai Forestry
+2026-04-07 15:33:32,423 | INFO | last_to_first_happplyflow.py:1047 | Order Confirm → Seller: SRI SAI FORESTRY | Company: Sri Sai Forestry
+ -----------------------------
+
+2026-04-07 15:33:32,423 | INFO | last_to_first_happplyflow.py:1066 | Order Confirm → Normal seller
+ Order detail tab opened & stored
+2026-04-07 15:33:32,485 | INFO | last_to_first_happplyflow.py:1088 | Order Confirm → Dimensions parsed: L=16.00, B=12.00, H=14.00
+2026-04-07 15:33:32,493 | INFO | last_to_first_happplyflow.py:1151 | Switched to order detail tab
+2026-04-07 15:33:32,495 | INFO | last_to_first_happplyflow.py:1154 | Agribegri order tab stored
+2026-04-07 15:33:32,533 | INFO | last_to_first_happplyflow.py:1167 | Order Number copied: 883528MY
+2026-04-07 15:33:32,573 | INFO | last_to_first_happplyflow.py:1179 | Net Amount from Agribegri: 503.0
+2026-04-07 15:33:32,573 | INFO | last_to_first_happplyflow.py:1184 | Order 883528MY → Shipment amount: 503.0
+2026-04-07 15:33:32,592 | INFO | last_to_first_happplyflow.py:1191 | Stored Agribegri edit URL: https://abadmin.agribegri.com/admin/edit_order.php?abo_id=914994
+2026-04-07 15:33:32,592 | INFO | last_to_first_happplyflow.py:1196 | Order 883528MY → Extracting shipping address details...
+ Customer Name: Gowtham Viswanath
+ Customer Email: v.gowtham93@gmail.com
+ Customer Address: 216 ABC Gandhiroad Opp To Threadi Dhinakaran, Silk House
+ Customer Pincode: 631501
+ Customer Phone: 9655325164
+ Customer City: Kanchipuram
+ Customer Taluka: Kanchipuram
+ Customer District: Kanchipuram
+ Customer State: TAMIL NADU
+2026-04-07 15:33:32,938 | INFO | last_to_first_happplyflow.py:1256 | Order 883528MY → Customer Details: Name=Gowtham Viswanath, Email=v.gowtham93@gmail.com, Address=216 ABC Gandhiroad Opp To Threadi Dhinakaran, Silk House, Pincode=631501, Phone=9655325164, City=Kanchipuram, Taluka=Kanchipuram, District=Kanchipuram, State=TAMIL NADU
+2026-04-07 15:33:32,938 | INFO | last_to_first_happplyflow.py:1260 | Order 883528MY → Extracting product description...
+2026-04-07 15:33:32,987 | INFO | last_to_first_happplyflow.py:1273 | Order 883528MY → Product Description: Sri Sai Forestry COFS 31 Grass Seeds For Goat And Cow, Multi Cut Fodder Seed - 450 Gm (450 Gm x 1 Qty)
+2026-04-07 15:33:48,205 | INFO | last_to_first_happplyflow.py:1314 | Delhivery tab opened
+2026-04-07 15:33:48,205 | INFO | last_to_first_happplyflow.py:1318 | Checking Delhivery login status...
+2026-04-07 15:33:51,236 | INFO | last_to_first_happplyflow.py:1368 |  Already logged in — skipping login
+2026-04-07 15:33:54,308 | INFO | last_to_first_happplyflow.py:1380 | Delhivery dashboard fully loaded
+2026-04-07 15:33:55,090 | INFO | last_to_first_happplyflow.py:1397 |  Domestic dropdown clicked
+2026-04-07 15:33:55,751 | INFO | last_to_first_happplyflow.py:1412 | AGRIBEGRI SURFACE selected
+2026-04-07 15:33:57,406 | INFO | last_to_first_happplyflow.py:1428 |  AWB dropdown opened
+2026-04-07 15:33:57,509 | INFO | last_to_first_happplyflow.py:1438 |  Order ID selected
+2026-04-07 15:33:57,738 | INFO | last_to_first_happplyflow.py:1450 |  Order ID pasted: 883528MY
+2026-04-07 15:34:00,739 | INFO | last_to_first_happplyflow.py:1459 |  Waiting for search result (Attempt 1)...
+2026-04-07 15:34:00,841 | INFO | last_to_first_happplyflow.py:1469 |  Order search result clicked
+2026-04-07 15:34:04,130 | INFO | last_to_first_happplyflow.py:1594 | Files before label download: 109
+2026-04-07 15:34:06,178 | INFO | last_to_first_happplyflow.py:1598 |  Print Shipping Label button clicked
+2026-04-07 15:34:06,179 | INFO | last_to_first_happplyflow.py:201 | Waiting for PDF download (Target: 883528MY)
+2026-04-07 15:34:06,179 | INFO | last_to_first_happplyflow.py:220 | Detected downloaded file: Shipping_Label.pdf
+2026-04-07 15:34:06,181 | INFO | last_to_first_happplyflow.py:234 | PDF renamed to: 883528MY.pdf
+2026-04-07 15:34:09,316 | INFO | last_to_first_happplyflow.py:1712 |  Switched back to Agribegri edit order page (final)
+2026-04-07 15:34:09,638 | INFO | last_to_first_happplyflow.py:1727 |  Order status set to Packed
+2026-04-07 15:34:10,843 | INFO | last_to_first_happplyflow.py:1741 |  Packed reason set to CL Surface
+2026-04-07 15:34:11,844 | INFO | last_to_first_happplyflow.py:1763 |  Skipping payment status change (not partial payment)
+2026-04-07 15:34:17,853 | INFO | last_to_first_happplyflow.py:1778 |  Submit button clicked successfully
+2026-04-07 15:34:19,966 | INFO | last_to_first_happplyflow.py:1788 |  Success popup OK clicked
+2026-04-07 15:34:21,467 | INFO | last_to_first_happplyflow.py:1802 |  Normal seller detected → Proceeding with label upload.
+2026-04-07 15:34:21,553 | INFO | last_to_first_happplyflow.py:1812 |  Label PDF uploaded: C:\Users\ghara\Documents\agribegri_UI\Downloads\883528MY.pdf
+2026-04-07 15:34:24,486 | INFO | last_to_first_happplyflow.py:1820 |  Manifest upload submit clicked
+2026-04-07 15:34:24,599 | INFO | last_to_first_happplyflow.py:1826 |  OK button clicked on upload popup
+2026-04-07 15:34:25,600 | INFO | last_to_first_happplyflow.py:1830 | Generating Invoice and sending combined email...
+2026-04-07 15:34:25,600 | INFO | last_to_first_happplyflow.py:121 | Email routing started | Seller: 'SRI SAI FORESTRY' | Company: 'Sri Sai Forestry'
+2026-04-07 15:34:25,600 | INFO | last_to_first_happplyflow.py:150 | Normal seller → No email will be sent
+2026-04-07 15:34:25,600 | INFO | last_to_first_happplyflow.py:1905 | No email rule → Skipping invoice download
+2026-04-07 15:34:25,601 | INFO | last_to_first_happplyflow.py:2070 |  Row 2 processed successfully.
+2026-04-07 15:34:25,806 | INFO | last_to_first_happplyflow.py:196 | Excel Log Written → Row: 2 | Order: 883528MY | Status: SUCCESS
+2026-04-07 15:34:25,859 | INFO | last_to_first_happplyflow.py:2123 |  Closing extra tab...
+2026-04-07 15:34:25,969 | INFO | last_to_first_happplyflow.py:2123 |  Closing extra tab...
+2026-04-07 15:34:26,057 | INFO | last_to_first_happplyflow.py:2054 | \n --- Processing Row Index: 3 (Page 1) ---
+2026-04-07 15:34:26,057 | INFO | last_to_first_happplyflow.py:514 | Processing row index: 3
+2026-04-07 15:34:26,094 | INFO | last_to_first_happplyflow.py:523 | Total filtered rows in table: 49
+2026-04-07 15:34:26,133 | INFO | last_to_first_happplyflow.py:469 | Extracting data for Row Index: 3
+2026-04-07 15:34:26,293 | INFO | last_to_first_happplyflow.py:499 | Row 3 extraction successful
+row_index: 3
+order_no: Confirm
+remark_id: 881361
+remark_href: https://abadmin.agribegri.com/admin/manage_orders.php#modal
+view_link: https://abadmin.agribegri.com/admin/edit_order.php?abo_id=914981
+truck_id: 914981
+truck_href: https://abadmin.agribegri.com/admin/manage_orders.php#surface_modal
+ --------------------------
+
+2026-04-07 15:34:26,294 | INFO | last_to_first_happplyflow.py:548 | Order detected: Confirm
+2026-04-07 15:34:26,294 | INFO | last_to_first_happplyflow.py:559 | Order Confirm valid for processing
+2026-04-07 15:34:26,294 | INFO | last_to_first_happplyflow.py:569 | Order Confirm → Full payment detected
+2026-04-07 15:34:27,891 | INFO | last_to_first_happplyflow.py:658 | Order Confirm → Pre-check Weight: 5000.0
+2026-04-07 15:34:27,891 | INFO | last_to_first_happplyflow.py:659 | Order Confirm → Pre-check Amount: 1888.0
+2026-04-07 15:34:28,604 | INFO | last_to_first_happplyflow.py:691 | Order Confirm → Truck icon clicked
+2026-04-07 15:34:28,642 | INFO | last_to_first_happplyflow.py:701 | Order Confirm → Surface modal opened
+2026-04-07 15:34:28,690 | INFO | last_to_first_happplyflow.py:710 | Order Confirm → Selecting 'Agribegri Surface'
+2026-04-07 15:34:29,288 | WARNING | last_to_first_happplyflow.py:714 | Order Confirm → Surface selection failed, retrying fallback
+ Current Selection: 'Agribegri Surface'
+ Agribegri Surface selected
+2026-04-07 15:34:30,911 | INFO | last_to_first_happplyflow.py:772 | Order Confirm → Seller detected: atpl gujarat
+2026-04-07 15:34:30,955 | INFO | last_to_first_happplyflow.py:790 | Order Confirm -> Custom Pickup: Real Trust Exim Corporation, India
+ Target Pickup Name: Real Trust Exim Corporation, India

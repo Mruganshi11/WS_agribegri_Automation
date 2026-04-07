@@ -1,0 +1,591 @@
+--- Automation Started via Dashboard ---
+2026-04-07 10:58:14,957 | INFO | odd_happy_flow.py:167 | Excel report file already exists
+2026-04-07 10:58:14,994 | INFO | odd_happy_flow.py:268 | Chrome browser starting...
+2026-04-07 10:58:15,000 | INFO | odd_happy_flow.py:292 | Display detected or Windows OS. Running in VISIBLE mode.
+2026-04-07 10:58:15,000 | INFO | logger.py:11 | ====== WebDriver manager ======
+2026-04-07 10:58:18,219 | INFO | logger.py:11 | Get LATEST chromedriver version for google-chrome
+2026-04-07 10:58:19,151 | INFO | logger.py:11 | Get LATEST chromedriver version for google-chrome
+2026-04-07 10:58:20,197 | INFO | logger.py:11 | Driver [C:\Users\ghara\.wdm\drivers\chromedriver\win64\146.0.7680.165\chromedriver-win32/chromedriver.exe] found in cache
+2026-04-07 10:58:21,749 | INFO | odd_happy_flow.py:325 | Chrome browser started successfully
+2026-04-07 10:58:21,749 | INFO | odd_happy_flow.py:332 | Opening Agribegri admin login page
+2026-04-07 10:58:23,809 | INFO | odd_happy_flow.py:336 | Entering username
+2026-04-07 10:58:24,661 | INFO | odd_happy_flow.py:344 | Entering password
+2026-04-07 10:58:25,960 | INFO | odd_happy_flow.py:352 | Entering OTP
+2026-04-07 10:58:27,772 | INFO | odd_happy_flow.py:359 | Login completed successfully
+2026-04-07 10:58:29,772 | INFO | odd_happy_flow.py:401 | Opening Manage Orders page
+2026-04-07 10:58:42,593 | INFO | odd_happy_flow.py:409 | Manage Orders page loaded
+2026-04-07 10:58:42,594 | INFO | odd_happy_flow.py:418 | Applying Date Filter | From: 2026-03-08 | To: 2026-04-07
+ Setting From Date: 2026-03-08
+ Setting To Date: 2026-04-07
+2026-04-07 10:58:44,188 | INFO | odd_happy_flow.py:442 | Date filter applied successfully
+2026-04-07 10:58:44,188 | INFO | odd_happy_flow.py:446 | Selecting Order Status: Confirm
+ 'Confirm' status selected
+2026-04-07 10:58:46,097 | INFO | odd_happy_flow.py:462 | Order Status 'Confirm' selected
+2026-04-07 10:58:46,283 | INFO | odd_happy_flow.py:386 | Shipping Through dropdown opened
+2026-04-07 10:58:46,377 | INFO | odd_happy_flow.py:398 | Shipping Through Courier selected
+2026-04-07 10:58:52,074 | INFO | odd_happy_flow.py:494 | Search completed. Orders table loaded successfully
+2026-04-07 10:58:53,075 | INFO | odd_happy_flow.py:2030 | Filtering done. Checking total orders...
+2026-04-07 10:58:53,121 | INFO | odd_happy_flow.py:2047 |  Total Orders Found: 29
+2026-04-07 10:58:53,122 | INFO | odd_happy_flow.py:2057 |  Total Pages to process: 1
+2026-04-07 10:58:53,122 | INFO | odd_happy_flow.py:2065 | \n --- STARTING PAGE 1 / 1 ---
+2026-04-07 10:58:53,123 | INFO | odd_happy_flow.py:2079 | \n --- Processing Row Index: 0 (Page 1) ---
+2026-04-07 10:58:53,123 | INFO | odd_happy_flow.py:548 | Processing row index: 0
+2026-04-07 10:58:53,146 | INFO | odd_happy_flow.py:557 | Total filtered rows in table: 29
+2026-04-07 10:58:53,175 | INFO | odd_happy_flow.py:503 | Extracting data for Row Index: 0
+2026-04-07 10:58:53,309 | INFO | odd_happy_flow.py:533 | Row 0 extraction successful
+row_index: 0
+order_no: Confirm
+remark_id: 880992
+remark_href: https://abadmin.agribegri.com/admin/manage_orders.php#modal
+view_link: https://abadmin.agribegri.com/admin/edit_order.php?abo_id=914612
+truck_id: 914612
+truck_href: https://abadmin.agribegri.com/admin/manage_orders.php#surface_modal
+ --------------------------
+
+2026-04-07 10:58:53,309 | INFO | odd_happy_flow.py:582 | Order detected: Confirm
+2026-04-07 10:58:53,310 | INFO | odd_happy_flow.py:593 | Order Confirm valid for processing
+2026-04-07 10:58:53,310 | INFO | odd_happy_flow.py:603 | Order Confirm → Full payment detected
+2026-04-07 10:58:54,552 | INFO | odd_happy_flow.py:692 | Order Confirm → Pre-check Weight: 6500.0
+2026-04-07 10:58:54,552 | INFO | odd_happy_flow.py:693 | Order Confirm → Pre-check Amount: 1715.0
+2026-04-07 10:58:55,262 | INFO | odd_happy_flow.py:725 | Order Confirm → Truck icon clicked
+2026-04-07 10:58:55,300 | INFO | odd_happy_flow.py:735 | Order Confirm → Surface modal opened
+2026-04-07 10:58:55,344 | INFO | odd_happy_flow.py:744 | Order Confirm → Selecting 'Agribegri Surface'
+2026-04-07 10:58:55,680 | WARNING | odd_happy_flow.py:748 | Order Confirm → Surface selection failed, retrying fallback
+ Current Selection: 'Agribegri Surface'
+ Agribegri Surface selected
+2026-04-07 10:58:56,939 | INFO | odd_happy_flow.py:806 | Order Confirm → Seller detected: essential biosciences madhya pradesh
+2026-04-07 10:58:56,965 | INFO | odd_happy_flow.py:832 | Order Confirm → Pickup mapping matched: essential biosciences
+ Target Pickup Name: Essential Biosciences
+2026-04-07 10:58:58,199 | INFO | odd_happy_flow.py:866 | Order Confirm → Pickup selected (Exact Match): Essential Biosciences
+2026-04-07 10:58:58,200 | INFO | odd_happy_flow.py:894 | Order Confirm → Final Pickup Selected: Essential Biosciences
+2026-04-07 10:58:58,851 | INFO | odd_happy_flow.py:908 | Order Confirm → Pickup value set successfully: Essential Biosciences
+2026-04-07 10:58:58,864 | INFO | odd_happy_flow.py:932 | Order Confirm  Pickup address selected successfully
+2026-04-07 10:59:00,049 | INFO | odd_happy_flow.py:946 | Order Confirm  Submit button clicked successfully
+2026-04-07 10:59:01,702 | INFO | odd_happy_flow.py:957 | Order Confirm → Surface shipment created successfully
+2026-04-07 10:59:03,948 | INFO | odd_happy_flow.py:967 | Order Confirm → Order detail page opened
+2026-04-07 10:59:04,737 | INFO | odd_happy_flow.py:988 | Order Confirm → Seller: Essential Biosciences | Company: Essential Biosciences
+2026-04-07 10:59:04,770 | INFO | odd_happy_flow.py:999 | Order Confirm → Seller Email found: essentialbioscience2@gmail.com
+
+ -------- SELLER INFO --------
+Company (Table): Essential Biosciences
+Seller (Table): Essential Biosciences
+Seller Name: Essential Biosciences
+Company Name: Essential Biosciences
+2026-04-07 10:59:04,771 | INFO | odd_happy_flow.py:1081 | Order Confirm → Seller: Essential Biosciences | Company: Essential Biosciences
+ -----------------------------
+
+2026-04-07 10:59:04,771 | INFO | odd_happy_flow.py:1100 | Order Confirm → Normal seller
+ Order detail tab opened & stored
+2026-04-07 10:59:04,824 | INFO | odd_happy_flow.py:1122 | Order Confirm → Dimensions parsed: L=35.00, B=30.00, H=25.00
+2026-04-07 10:59:04,829 | INFO | odd_happy_flow.py:1185 | Switched to order detail tab
+2026-04-07 10:59:04,831 | INFO | odd_happy_flow.py:1188 | Agribegri order tab stored
+2026-04-07 10:59:04,862 | INFO | odd_happy_flow.py:1201 | Order Number copied: 883148QY
+2026-04-07 10:59:04,895 | INFO | odd_happy_flow.py:1213 | Net Amount from Agribegri: 1715.0
+2026-04-07 10:59:04,895 | INFO | odd_happy_flow.py:1218 | Order 883148QY → Shipment amount: 1715.0
+2026-04-07 10:59:04,910 | INFO | odd_happy_flow.py:1225 | Stored Agribegri edit URL: https://abadmin.agribegri.com/admin/edit_order.php?abo_id=914612
+2026-04-07 10:59:04,910 | INFO | odd_happy_flow.py:1230 | Order 883148QY → Extracting shipping address details...
+ Customer Name: K Sudhakar
+ Customer Email: 9043666611@fastrr.com
+ Customer Address: Sri Gavisiddeshwara Nelayam Near Uucheshwara School Budugumpa
+Karatagi , Koppal Dist
+ Customer Pincode: 583229
+ Customer Phone: 9043666611
+ Customer City: Budgumpa ( Karatagi)
+ Customer Taluka: Gangawati
+ Customer District: Koppal
+ Customer State: KARNATAKA
+2026-04-07 10:59:05,246 | INFO | odd_happy_flow.py:1290 | Order 883148QY → Customer Details: Name=K Sudhakar, Email=9043666611@fastrr.com, Address=Sri Gavisiddeshwara Nelayam Near Uucheshwara School Budugumpa
+Karatagi , Koppal Dist, Pincode=583229, Phone=9043666611, City=Budgumpa ( Karatagi), Taluka=Gangawati, District=Koppal, State=KARNATAKA
+2026-04-07 10:59:05,246 | INFO | odd_happy_flow.py:1294 | Order 883148QY → Extracting product description...
+2026-04-07 10:59:05,292 | INFO | odd_happy_flow.py:1307 | Order 883148QY → Product Description: EBS KMB Potash Mobilizing Bacteria Bio Fertilizer, Use for Plants, Crops And Home Garden - 5 Liter (1 Ltr x 5 Qty)
+2026-04-07 10:59:20,397 | INFO | odd_happy_flow.py:1348 | Delhivery tab opened
+2026-04-07 10:59:20,397 | INFO | odd_happy_flow.py:1352 | Checking Delhivery login status...
+2026-04-07 10:59:25,201 | INFO | odd_happy_flow.py:1359 |  Login page detected — proceeding with login
+2026-04-07 10:59:25,504 | INFO | odd_happy_flow.py:1369 |  Email entered
+2026-04-07 10:59:27,145 | INFO | odd_happy_flow.py:1382 |  Password entered
+2026-04-07 10:59:29,373 | INFO | odd_happy_flow.py:1400 |  Login completed
+2026-04-07 10:59:34,273 | INFO | odd_happy_flow.py:1423 | Delhivery dashboard fully loaded
+2026-04-07 10:59:34,959 | INFO | odd_happy_flow.py:1440 |  Domestic dropdown clicked
+2026-04-07 10:59:36,707 | INFO | odd_happy_flow.py:1455 | AGRIBEGRI SURFACE selected
+2026-04-07 10:59:39,994 | INFO | odd_happy_flow.py:1471 |  AWB dropdown opened
+2026-04-07 10:59:40,423 | INFO | odd_happy_flow.py:1481 |  Order ID selected
+2026-04-07 10:59:40,664 | INFO | odd_happy_flow.py:1493 |  Order ID pasted: 883148QY
+2026-04-07 10:59:43,665 | INFO | odd_happy_flow.py:1502 |  Waiting for search result (Attempt 1)...
+2026-04-07 10:59:43,738 | INFO | odd_happy_flow.py:1512 |  Order search result clicked
+2026-04-07 10:59:46,828 | INFO | odd_happy_flow.py:1637 | Files before label download: 64
+2026-04-07 10:59:48,871 | INFO | odd_happy_flow.py:1641 |  Print Shipping Label button clicked
+2026-04-07 10:59:48,871 | INFO | odd_happy_flow.py:204 | Waiting for PDF download (Target: 883148QY)
+2026-04-07 10:59:48,872 | INFO | odd_happy_flow.py:223 | Detected downloaded file: Shipping_Label.pdf
+2026-04-07 10:59:48,874 | INFO | odd_happy_flow.py:237 | PDF renamed to: 883148QY.pdf
+2026-04-07 10:59:51,700 | INFO | odd_happy_flow.py:1755 |  Switched back to Agribegri edit order page (final)
+2026-04-07 10:59:51,969 | INFO | odd_happy_flow.py:1770 |  Order status set to Packed
+2026-04-07 10:59:53,120 | INFO | odd_happy_flow.py:1784 |  Packed reason set to CL Surface
+2026-04-07 10:59:54,121 | INFO | odd_happy_flow.py:1806 |  Skipping payment status change (not partial payment)
+2026-04-07 11:00:01,185 | INFO | odd_happy_flow.py:1821 |  Submit button clicked successfully
+2026-04-07 11:00:03,277 | INFO | odd_happy_flow.py:1831 |  Success popup OK clicked
+2026-04-07 11:00:04,777 | INFO | odd_happy_flow.py:1845 |  Normal seller detected → Proceeding with label upload.
+2026-04-07 11:00:04,861 | INFO | odd_happy_flow.py:1855 |  Label PDF uploaded: C:\Users\ghara\Documents\agribegri_UI\Downloads\883148QY.pdf
+2026-04-07 11:00:09,771 | INFO | odd_happy_flow.py:1863 |  Manifest upload submit clicked
+2026-04-07 11:00:09,877 | INFO | odd_happy_flow.py:1869 |  OK button clicked on upload popup
+2026-04-07 11:00:10,878 | INFO | odd_happy_flow.py:1873 | Generating Invoice and sending combined email...
+2026-04-07 11:00:10,878 | INFO | odd_happy_flow.py:124 | Email routing started | Seller: 'Essential Biosciences' | Company: 'Essential Biosciences'
+2026-04-07 11:00:10,878 | INFO | odd_happy_flow.py:153 | Normal seller → No email will be sent
+2026-04-07 11:00:10,878 | INFO | odd_happy_flow.py:1948 | No email rule → Skipping invoice download
+2026-04-07 11:00:10,879 | INFO | odd_happy_flow.py:2101 |  Row 0 processed successfully.
+2026-04-07 11:00:11,042 | INFO | odd_happy_flow.py:199 | Excel Log Written → Row: 0 | Order: 883148QY | Status: SUCCESS
+2026-04-07 11:00:11,123 | INFO | odd_happy_flow.py:2154 |  Closing extra tab...
+2026-04-07 11:00:11,241 | INFO | odd_happy_flow.py:2154 |  Closing extra tab...
+2026-04-07 11:00:11,321 | INFO | odd_happy_flow.py:2079 | \n --- Processing Row Index: 1 (Page 1) ---
+2026-04-07 11:00:11,321 | INFO | odd_happy_flow.py:2083 |  Skipping even row index: 1 (Row 2)
+2026-04-07 11:00:11,322 | INFO | odd_happy_flow.py:2079 | \n --- Processing Row Index: 2 (Page 1) ---
+2026-04-07 11:00:11,322 | INFO | odd_happy_flow.py:548 | Processing row index: 2
+2026-04-07 11:00:11,353 | INFO | odd_happy_flow.py:557 | Total filtered rows in table: 29
+2026-04-07 11:00:11,394 | INFO | odd_happy_flow.py:503 | Extracting data for Row Index: 2
+2026-04-07 11:00:11,533 | INFO | odd_happy_flow.py:533 | Row 2 extraction successful
+row_index: 2
+order_no: Confirm
+remark_id: 880973
+remark_href: https://abadmin.agribegri.com/admin/manage_orders.php#modal
+view_link: https://abadmin.agribegri.com/admin/edit_order.php?abo_id=914593
+truck_id: 914593
+truck_href: https://abadmin.agribegri.com/admin/manage_orders.php#surface_modal
+ --------------------------
+
+2026-04-07 11:00:11,534 | INFO | odd_happy_flow.py:582 | Order detected: Confirm
+2026-04-07 11:00:11,534 | INFO | odd_happy_flow.py:593 | Order Confirm valid for processing
+2026-04-07 11:00:11,535 | INFO | odd_happy_flow.py:603 | Order Confirm → Full payment detected
+2026-04-07 11:00:14,741 | INFO | odd_happy_flow.py:692 | Order Confirm → Pre-check Weight: 6500.0
+2026-04-07 11:00:14,741 | INFO | odd_happy_flow.py:693 | Order Confirm → Pre-check Amount: 1715.98
+2026-04-07 11:00:15,430 | INFO | odd_happy_flow.py:725 | Order Confirm → Truck icon clicked
+2026-04-07 11:00:16,137 | INFO | odd_happy_flow.py:735 | Order Confirm → Surface modal opened
+2026-04-07 11:00:16,179 | INFO | odd_happy_flow.py:744 | Order Confirm → Selecting 'Agribegri Surface'
+2026-04-07 11:00:16,965 | WARNING | odd_happy_flow.py:748 | Order Confirm → Surface selection failed, retrying fallback
+ Current Selection: 'Agribegri Surface'
+ Agribegri Surface selected
+2026-04-07 11:00:18,623 | INFO | odd_happy_flow.py:806 | Order Confirm → Seller detected: essential biosciences madhya pradesh
+2026-04-07 11:00:18,654 | INFO | odd_happy_flow.py:832 | Order Confirm → Pickup mapping matched: essential biosciences
+ Target Pickup Name: Essential Biosciences
+2026-04-07 11:00:19,914 | INFO | odd_happy_flow.py:866 | Order Confirm → Pickup selected (Exact Match): Essential Biosciences
+2026-04-07 11:00:19,914 | INFO | odd_happy_flow.py:894 | Order Confirm → Final Pickup Selected: Essential Biosciences
+2026-04-07 11:00:20,558 | INFO | odd_happy_flow.py:908 | Order Confirm → Pickup value set successfully: Essential Biosciences
+2026-04-07 11:00:20,569 | INFO | odd_happy_flow.py:932 | Order Confirm  Pickup address selected successfully
+2026-04-07 11:00:21,803 | INFO | odd_happy_flow.py:946 | Order Confirm  Submit button clicked successfully
+2026-04-07 11:00:24,485 | INFO | odd_happy_flow.py:957 | Order Confirm → Surface shipment created successfully
+2026-04-07 11:00:26,754 | INFO | odd_happy_flow.py:967 | Order Confirm → Order detail page opened
+2026-04-07 11:00:27,596 | INFO | odd_happy_flow.py:988 | Order Confirm → Seller: Essential Biosciences | Company: Essential Biosciences
+2026-04-07 11:00:27,625 | INFO | odd_happy_flow.py:999 | Order Confirm → Seller Email found: essentialbioscience2@gmail.com
+
+ -------- SELLER INFO --------
+Company (Table): Essential Biosciences
+Seller (Table): Essential Biosciences
+Seller Name: Essential Biosciences
+Company Name: Essential Biosciences
+2026-04-07 11:00:27,625 | INFO | odd_happy_flow.py:1081 | Order Confirm → Seller: Essential Biosciences | Company: Essential Biosciences
+ -----------------------------
+
+2026-04-07 11:00:27,625 | INFO | odd_happy_flow.py:1100 | Order Confirm → Normal seller
+ Order detail tab opened & stored
+2026-04-07 11:00:27,672 | INFO | odd_happy_flow.py:1122 | Order Confirm → Dimensions parsed: L=38.00, B=30.00, H=24.00
+2026-04-07 11:00:27,679 | INFO | odd_happy_flow.py:1185 | Switched to order detail tab
+2026-04-07 11:00:27,680 | INFO | odd_happy_flow.py:1188 | Agribegri order tab stored
+2026-04-07 11:00:27,708 | INFO | odd_happy_flow.py:1201 | Order Number copied: 883129EV
+2026-04-07 11:00:27,740 | INFO | odd_happy_flow.py:1213 | Net Amount from Agribegri: 1715.98
+2026-04-07 11:00:27,740 | INFO | odd_happy_flow.py:1218 | Order 883129EV → Shipment amount: 1715.98
+2026-04-07 11:00:27,754 | INFO | odd_happy_flow.py:1225 | Stored Agribegri edit URL: https://abadmin.agribegri.com/admin/edit_order.php?abo_id=914593
+2026-04-07 11:00:27,754 | INFO | odd_happy_flow.py:1230 | Order 883129EV → Extracting shipping address details...
+ Customer Name: K Sudhakar
+ Customer Email: 9043666611@fastrr.com
+ Customer Address: Sri Gavisiddeshwara Nelayam Near Uucheshwara School Budugumpa
+Karatagi , Koppal Dist
+ Customer Pincode: 583229
+ Customer Phone: 9043666611
+ Customer City: Budgumpa ( Karatagi)
+ Customer Taluka: Gangawati
+ Customer District: Koppal
+ Customer State: KARNATAKA
+2026-04-07 11:00:28,037 | INFO | odd_happy_flow.py:1290 | Order 883129EV → Customer Details: Name=K Sudhakar, Email=9043666611@fastrr.com, Address=Sri Gavisiddeshwara Nelayam Near Uucheshwara School Budugumpa
+Karatagi , Koppal Dist, Pincode=583229, Phone=9043666611, City=Budgumpa ( Karatagi), Taluka=Gangawati, District=Koppal, State=KARNATAKA
+2026-04-07 11:00:28,037 | INFO | odd_happy_flow.py:1294 | Order 883129EV → Extracting product description...
+2026-04-07 11:00:28,079 | INFO | odd_happy_flow.py:1307 | Order 883129EV → Product Description: EBS PSB Phosphate Solubilising Bacteria Bio Fertilizer beneficial to pulses and useful in all crops and under all climates - 5 Liter (1 Ltr x 5 Qty)
+2026-04-07 11:00:43,185 | INFO | odd_happy_flow.py:1348 | Delhivery tab opened
+2026-04-07 11:00:43,185 | INFO | odd_happy_flow.py:1352 | Checking Delhivery login status...
+2026-04-07 11:00:46,212 | INFO | odd_happy_flow.py:1411 |  Already logged in — skipping login
+2026-04-07 11:00:48,771 | INFO | odd_happy_flow.py:1423 | Delhivery dashboard fully loaded
+2026-04-07 11:00:49,455 | INFO | odd_happy_flow.py:1440 |  Domestic dropdown clicked
+2026-04-07 11:00:50,086 | INFO | odd_happy_flow.py:1455 | AGRIBEGRI SURFACE selected
+2026-04-07 11:00:51,683 | INFO | odd_happy_flow.py:1471 |  AWB dropdown opened
+2026-04-07 11:00:51,900 | INFO | odd_happy_flow.py:1481 |  Order ID selected
+2026-04-07 11:00:52,101 | INFO | odd_happy_flow.py:1493 |  Order ID pasted: 883129EV
+2026-04-07 11:00:55,102 | INFO | odd_happy_flow.py:1502 |  Waiting for search result (Attempt 1)...
+2026-04-07 11:00:55,168 | INFO | odd_happy_flow.py:1512 |  Order search result clicked
+2026-04-07 11:00:57,739 | INFO | odd_happy_flow.py:1637 | Files before label download: 65
+2026-04-07 11:00:59,770 | INFO | odd_happy_flow.py:1641 |  Print Shipping Label button clicked
+2026-04-07 11:00:59,770 | INFO | odd_happy_flow.py:204 | Waiting for PDF download (Target: 883129EV)
+2026-04-07 11:00:59,771 | INFO | odd_happy_flow.py:223 | Detected downloaded file: Shipping_Label.pdf
+2026-04-07 11:00:59,773 | INFO | odd_happy_flow.py:237 | PDF renamed to: 883129EV.pdf
+2026-04-07 11:01:03,181 | INFO | odd_happy_flow.py:1755 |  Switched back to Agribegri edit order page (final)
+2026-04-07 11:01:03,379 | INFO | odd_happy_flow.py:1770 |  Order status set to Packed
+2026-04-07 11:01:04,523 | INFO | odd_happy_flow.py:1784 |  Packed reason set to CL Surface
+2026-04-07 11:01:05,523 | INFO | odd_happy_flow.py:1806 |  Skipping payment status change (not partial payment)
+2026-04-07 11:01:12,892 | INFO | odd_happy_flow.py:1821 |  Submit button clicked successfully
+2026-04-07 11:01:14,966 | INFO | odd_happy_flow.py:1831 |  Success popup OK clicked
+2026-04-07 11:01:16,466 | INFO | odd_happy_flow.py:1845 |  Normal seller detected → Proceeding with label upload.
+2026-04-07 11:01:16,536 | INFO | odd_happy_flow.py:1855 |  Label PDF uploaded: C:\Users\ghara\Documents\agribegri_UI\Downloads\883129EV.pdf
+2026-04-07 11:01:19,008 | INFO | odd_happy_flow.py:1863 |  Manifest upload submit clicked
+2026-04-07 11:01:19,075 | INFO | odd_happy_flow.py:1869 |  OK button clicked on upload popup
+2026-04-07 11:01:20,075 | INFO | odd_happy_flow.py:1873 | Generating Invoice and sending combined email...
+2026-04-07 11:01:20,075 | INFO | odd_happy_flow.py:124 | Email routing started | Seller: 'Essential Biosciences' | Company: 'Essential Biosciences'
+2026-04-07 11:01:20,075 | INFO | odd_happy_flow.py:153 | Normal seller → No email will be sent
+2026-04-07 11:01:20,076 | INFO | odd_happy_flow.py:1948 | No email rule → Skipping invoice download
+2026-04-07 11:01:20,076 | INFO | odd_happy_flow.py:2101 |  Row 2 processed successfully.
+2026-04-07 11:01:20,184 | INFO | odd_happy_flow.py:199 | Excel Log Written → Row: 2 | Order: 883129EV | Status: SUCCESS
+2026-04-07 11:01:20,219 | INFO | odd_happy_flow.py:2154 |  Closing extra tab...
+2026-04-07 11:01:20,303 | INFO | odd_happy_flow.py:2154 |  Closing extra tab...
+2026-04-07 11:01:20,377 | INFO | odd_happy_flow.py:2079 | \n --- Processing Row Index: 3 (Page 1) ---
+2026-04-07 11:01:20,378 | INFO | odd_happy_flow.py:2083 |  Skipping even row index: 3 (Row 4)
+2026-04-07 11:01:20,378 | INFO | odd_happy_flow.py:2079 | \n --- Processing Row Index: 4 (Page 1) ---
+2026-04-07 11:01:20,379 | INFO | odd_happy_flow.py:548 | Processing row index: 4
+2026-04-07 11:01:20,426 | INFO | odd_happy_flow.py:557 | Total filtered rows in table: 29
+2026-04-07 11:01:20,469 | INFO | odd_happy_flow.py:503 | Extracting data for Row Index: 4
+2026-04-07 11:01:20,601 | INFO | odd_happy_flow.py:533 | Row 4 extraction successful
+row_index: 4
+order_no: Confirm
+remark_id: 880971
+remark_href: https://abadmin.agribegri.com/admin/manage_orders.php#modal
+view_link: https://abadmin.agribegri.com/admin/edit_order.php?abo_id=914591
+truck_id: 914591
+truck_href: https://abadmin.agribegri.com/admin/manage_orders.php#surface_modal
+ --------------------------
+
+2026-04-07 11:01:20,601 | INFO | odd_happy_flow.py:582 | Order detected: Confirm
+2026-04-07 11:01:20,601 | INFO | odd_happy_flow.py:593 | Order Confirm valid for processing
+2026-04-07 11:01:20,601 | INFO | odd_happy_flow.py:603 | Order Confirm → Full payment detected
+2026-04-07 11:01:21,805 | INFO | odd_happy_flow.py:692 | Order Confirm → Pre-check Weight: 2500.0
+2026-04-07 11:01:21,806 | INFO | odd_happy_flow.py:693 | Order Confirm → Pre-check Amount: 1505.0
+2026-04-07 11:01:22,491 | INFO | odd_happy_flow.py:725 | Order Confirm → Truck icon clicked
+2026-04-07 11:01:22,531 | INFO | odd_happy_flow.py:735 | Order Confirm → Surface modal opened
+2026-04-07 11:01:22,577 | INFO | odd_happy_flow.py:744 | Order Confirm → Selecting 'Agribegri Surface'
+2026-04-07 11:01:22,925 | WARNING | odd_happy_flow.py:748 | Order Confirm → Surface selection failed, retrying fallback
+ Current Selection: 'Agribegri Surface'
+ Agribegri Surface selected
+2026-04-07 11:01:24,666 | INFO | odd_happy_flow.py:806 | Order Confirm → Seller detected: kukkar spary centre punjab
+2026-04-07 11:01:24,694 | INFO | odd_happy_flow.py:832 | Order Confirm → Pickup mapping matched: kukkar spary centre
+ Target Pickup Name: Kukkar Spary Centre
+2026-04-07 11:01:26,557 | INFO | odd_happy_flow.py:866 | Order Confirm → Pickup selected (Exact Match): Kukkar Spary Centre
+2026-04-07 11:01:26,558 | INFO | odd_happy_flow.py:894 | Order Confirm → Final Pickup Selected: Kukkar Spary Centre
+2026-04-07 11:01:27,197 | INFO | odd_happy_flow.py:908 | Order Confirm → Pickup value set successfully: Kukkar Spary Centre
+2026-04-07 11:01:27,208 | INFO | odd_happy_flow.py:932 | Order Confirm  Pickup address selected successfully
+2026-04-07 11:01:28,368 | INFO | odd_happy_flow.py:946 | Order Confirm  Submit button clicked successfully
+2026-04-07 11:01:30,035 | INFO | odd_happy_flow.py:957 | Order Confirm → Surface shipment created successfully
+2026-04-07 11:01:32,368 | INFO | odd_happy_flow.py:967 | Order Confirm → Order detail page opened
+2026-04-07 11:01:33,227 | INFO | odd_happy_flow.py:988 | Order Confirm → Seller: Kukkar Spary Centre | Company: NACL Industries Limited
+2026-04-07 11:01:33,265 | INFO | odd_happy_flow.py:999 | Order Confirm → Seller Email found: kukkarspraycentre@gmail.com
+
+ -------- SELLER INFO --------
+Company (Table): NACL Industries Limited
+Seller (Table): Kukkar Spary Centre
+Seller Name: Kukkar Spary Centre
+Company Name: NACL Industries Limited
+2026-04-07 11:01:33,266 | INFO | odd_happy_flow.py:1081 | Order Confirm → Seller: Kukkar Spary Centre | Company: NACL Industries Limited
+ -----------------------------
+
+2026-04-07 11:01:33,267 | INFO | odd_happy_flow.py:1100 | Order Confirm → Normal seller
+ Order detail tab opened & stored
+2026-04-07 11:01:33,326 | INFO | odd_happy_flow.py:1122 | Order Confirm → Dimensions parsed: L=28.00, B=22.00, H=15.00
+2026-04-07 11:01:33,335 | INFO | odd_happy_flow.py:1185 | Switched to order detail tab
+2026-04-07 11:01:33,337 | INFO | odd_happy_flow.py:1188 | Agribegri order tab stored
+2026-04-07 11:01:33,380 | INFO | odd_happy_flow.py:1201 | Order Number copied: 883127BJ
+2026-04-07 11:01:33,417 | INFO | odd_happy_flow.py:1213 | Net Amount from Agribegri: 1505.0
+2026-04-07 11:01:33,417 | INFO | odd_happy_flow.py:1218 | Order 883127BJ → Shipment amount: 1505.0
+2026-04-07 11:01:33,432 | INFO | odd_happy_flow.py:1225 | Stored Agribegri edit URL: https://abadmin.agribegri.com/admin/edit_order.php?abo_id=914591
+2026-04-07 11:01:33,432 | INFO | odd_happy_flow.py:1230 | Order 883127BJ → Extracting shipping address details...
+ Customer Name: Sushant Kumar Naik
+ Customer Email: 
+ Customer Address: Plot No 3E/392, Sector-9, CDA, Cuttack, Plot No 3E/392,
+Sector-9, CDA, Cuttack, Kathojodi Enclav
+ Customer Pincode: 753014
+ Customer Phone: 7008261077
+ Customer City: Cuttack
+ Customer Taluka: Cuttack Sadar
+ Customer District: Cuttack
+ Customer State: Odisha
+2026-04-07 11:01:33,716 | INFO | odd_happy_flow.py:1290 | Order 883127BJ → Customer Details: Name=Sushant Kumar Naik, Email=, Address=Plot No 3E/392, Sector-9, CDA, Cuttack, Plot No 3E/392,
+Sector-9, CDA, Cuttack, Kathojodi Enclav, Pincode=753014, Phone=7008261077, City=Cuttack, Taluka=Cuttack Sadar, District=Cuttack, State=Odisha
+2026-04-07 11:01:33,716 | INFO | odd_happy_flow.py:1294 | Order 883127BJ → Extracting product description...
+2026-04-07 11:01:33,754 | INFO | odd_happy_flow.py:1307 | Order 883127BJ → Product Description: Nagarjuna Profex Super Insecticide - 2 Liter (1 Ltr x 2 Qty)
+2026-04-07 11:01:48,877 | INFO | odd_happy_flow.py:1348 | Delhivery tab opened
+2026-04-07 11:01:48,878 | INFO | odd_happy_flow.py:1352 | Checking Delhivery login status...
+2026-04-07 11:01:51,904 | INFO | odd_happy_flow.py:1411 |  Already logged in — skipping login
+2026-04-07 11:01:54,339 | INFO | odd_happy_flow.py:1423 | Delhivery dashboard fully loaded
+2026-04-07 11:01:54,971 | INFO | odd_happy_flow.py:1440 |  Domestic dropdown clicked
+2026-04-07 11:01:55,597 | INFO | odd_happy_flow.py:1455 | AGRIBEGRI SURFACE selected
+2026-04-07 11:01:57,167 | INFO | odd_happy_flow.py:1471 |  AWB dropdown opened
+2026-04-07 11:01:57,445 | INFO | odd_happy_flow.py:1481 |  Order ID selected
+2026-04-07 11:01:57,655 | INFO | odd_happy_flow.py:1493 |  Order ID pasted: 883127BJ
+2026-04-07 11:02:00,656 | INFO | odd_happy_flow.py:1502 |  Waiting for search result (Attempt 1)...
+2026-04-07 11:02:00,722 | INFO | odd_happy_flow.py:1512 |  Order search result clicked
+2026-04-07 11:02:03,301 | INFO | odd_happy_flow.py:1637 | Files before label download: 66
+2026-04-07 11:02:05,333 | INFO | odd_happy_flow.py:1641 |  Print Shipping Label button clicked
+2026-04-07 11:02:05,333 | INFO | odd_happy_flow.py:204 | Waiting for PDF download (Target: 883127BJ)
+2026-04-07 11:02:05,334 | INFO | odd_happy_flow.py:223 | Detected downloaded file: Shipping_Label.pdf
+2026-04-07 11:02:05,348 | INFO | odd_happy_flow.py:237 | PDF renamed to: 883127BJ.pdf
+2026-04-07 11:02:08,112 | INFO | odd_happy_flow.py:1755 |  Switched back to Agribegri edit order page (final)
+2026-04-07 11:02:08,313 | INFO | odd_happy_flow.py:1770 |  Order status set to Packed
+2026-04-07 11:02:09,461 | INFO | odd_happy_flow.py:1784 |  Packed reason set to CL Surface
+2026-04-07 11:02:10,461 | INFO | odd_happy_flow.py:1806 |  Skipping payment status change (not partial payment)
+2026-04-07 11:02:17,986 | INFO | odd_happy_flow.py:1821 |  Submit button clicked successfully
+2026-04-07 11:02:20,072 | INFO | odd_happy_flow.py:1831 |  Success popup OK clicked
+2026-04-07 11:02:21,572 | INFO | odd_happy_flow.py:1845 |  Normal seller detected → Proceeding with label upload.
+2026-04-07 11:02:21,636 | INFO | odd_happy_flow.py:1855 |  Label PDF uploaded: C:\Users\ghara\Documents\agribegri_UI\Downloads\883127BJ.pdf
+2026-04-07 11:02:23,822 | INFO | odd_happy_flow.py:1863 |  Manifest upload submit clicked
+2026-04-07 11:02:23,900 | INFO | odd_happy_flow.py:1869 |  OK button clicked on upload popup
+2026-04-07 11:02:24,900 | INFO | odd_happy_flow.py:1873 | Generating Invoice and sending combined email...
+2026-04-07 11:02:24,901 | INFO | odd_happy_flow.py:124 | Email routing started | Seller: 'Kukkar Spary Centre' | Company: 'NACL Industries Limited'
+2026-04-07 11:02:24,901 | INFO | odd_happy_flow.py:153 | Normal seller → No email will be sent
+2026-04-07 11:02:24,901 | INFO | odd_happy_flow.py:1948 | No email rule → Skipping invoice download
+2026-04-07 11:02:24,902 | INFO | odd_happy_flow.py:2101 |  Row 4 processed successfully.
+2026-04-07 11:02:25,036 | INFO | odd_happy_flow.py:199 | Excel Log Written → Row: 4 | Order: 883127BJ | Status: SUCCESS
+2026-04-07 11:02:25,072 | INFO | odd_happy_flow.py:2154 |  Closing extra tab...
+2026-04-07 11:02:25,159 | INFO | odd_happy_flow.py:2154 |  Closing extra tab...
+2026-04-07 11:02:25,243 | INFO | odd_happy_flow.py:2079 | \n --- Processing Row Index: 5 (Page 1) ---
+2026-04-07 11:02:25,243 | INFO | odd_happy_flow.py:2083 |  Skipping even row index: 5 (Row 6)
+2026-04-07 11:02:25,244 | INFO | odd_happy_flow.py:2079 | \n --- Processing Row Index: 6 (Page 1) ---
+2026-04-07 11:02:25,244 | INFO | odd_happy_flow.py:548 | Processing row index: 6
+2026-04-07 11:02:25,271 | INFO | odd_happy_flow.py:557 | Total filtered rows in table: 29
+2026-04-07 11:02:25,298 | INFO | odd_happy_flow.py:503 | Extracting data for Row Index: 6
+2026-04-07 11:02:25,444 | INFO | odd_happy_flow.py:533 | Row 6 extraction successful
+row_index: 6
+order_no: Confirm
+remark_id: 880969
+remark_href: https://abadmin.agribegri.com/admin/manage_orders.php#modal
+view_link: https://abadmin.agribegri.com/admin/edit_order.php?abo_id=914589
+truck_id: 914589
+truck_href: https://abadmin.agribegri.com/admin/manage_orders.php#surface_modal
+ --------------------------
+
+2026-04-07 11:02:25,445 | INFO | odd_happy_flow.py:582 | Order detected: Confirm
+2026-04-07 11:02:25,445 | INFO | odd_happy_flow.py:593 | Order Confirm valid for processing
+2026-04-07 11:02:25,445 | INFO | odd_happy_flow.py:603 | Order Confirm → Full payment detected
+2026-04-07 11:02:26,425 | INFO | odd_happy_flow.py:692 | Order Confirm → Pre-check Weight: 1500.0
+2026-04-07 11:02:26,425 | INFO | odd_happy_flow.py:693 | Order Confirm → Pre-check Amount: 407.0
+2026-04-07 11:02:27,100 | INFO | odd_happy_flow.py:725 | Order Confirm → Truck icon clicked
+2026-04-07 11:02:27,135 | INFO | odd_happy_flow.py:735 | Order Confirm → Surface modal opened
+2026-04-07 11:02:27,173 | INFO | odd_happy_flow.py:744 | Order Confirm → Selecting 'Agribegri Surface'
+2026-04-07 11:02:27,429 | WARNING | odd_happy_flow.py:748 | Order Confirm → Surface selection failed, retrying fallback
+ Current Selection: 'Agribegri Surface'
+ Agribegri Surface selected
+2026-04-07 11:02:28,922 | INFO | odd_happy_flow.py:806 | Order Confirm → Seller detected: amit singla punjab
+2026-04-07 11:02:28,949 | INFO | odd_happy_flow.py:832 | Order Confirm → Pickup mapping matched: amit singla
+ Target Pickup Name: Amit singla
+2026-04-07 11:02:29,473 | INFO | odd_happy_flow.py:866 | Order Confirm → Pickup selected (Exact Match): Amit singla
+2026-04-07 11:02:29,473 | INFO | odd_happy_flow.py:894 | Order Confirm → Final Pickup Selected: Amit singla
+2026-04-07 11:02:30,107 | INFO | odd_happy_flow.py:908 | Order Confirm → Pickup value set successfully: Amit singla
+2026-04-07 11:02:30,119 | INFO | odd_happy_flow.py:932 | Order Confirm  Pickup address selected successfully
+2026-04-07 11:02:31,279 | INFO | odd_happy_flow.py:946 | Order Confirm  Submit button clicked successfully
+2026-04-07 11:02:32,460 | INFO | odd_happy_flow.py:957 | Order Confirm → Surface shipment created successfully
+2026-04-07 11:02:34,688 | INFO | odd_happy_flow.py:967 | Order Confirm → Order detail page opened
+2026-04-07 11:02:35,590 | INFO | odd_happy_flow.py:988 | Order Confirm → Seller: Amit singla | Company: Sulphur Mills limited
+2026-04-07 11:02:35,623 | INFO | odd_happy_flow.py:999 | Order Confirm → Seller Email found: Krmcmoga@yahoo.com
+
+ -------- SELLER INFO --------
+Company (Table): Sulphur Mills limited
+Seller (Table): Amit singla
+Seller Name: Amit singla
+Company Name: Sulphur Mills limited
+2026-04-07 11:02:35,623 | INFO | odd_happy_flow.py:1081 | Order Confirm → Seller: Amit singla | Company: Sulphur Mills limited
+ -----------------------------
+
+2026-04-07 11:02:35,623 | INFO | odd_happy_flow.py:1100 | Order Confirm → Normal seller
+ Order detail tab opened & stored
+2026-04-07 11:02:35,675 | INFO | odd_happy_flow.py:1122 | Order Confirm → Dimensions parsed: L=25.00, B=25.00, H=10.00
+2026-04-07 11:02:35,681 | INFO | odd_happy_flow.py:1185 | Switched to order detail tab
+2026-04-07 11:02:35,683 | INFO | odd_happy_flow.py:1188 | Agribegri order tab stored
+2026-04-07 11:02:35,711 | INFO | odd_happy_flow.py:1201 | Order Number copied: 883125GR
+2026-04-07 11:02:35,741 | INFO | odd_happy_flow.py:1213 | Net Amount from Agribegri: 407.0
+2026-04-07 11:02:35,741 | INFO | odd_happy_flow.py:1218 | Order 883125GR → Shipment amount: 407.0
+2026-04-07 11:02:35,755 | INFO | odd_happy_flow.py:1225 | Stored Agribegri edit URL: https://abadmin.agribegri.com/admin/edit_order.php?abo_id=914589
+2026-04-07 11:02:35,755 | INFO | odd_happy_flow.py:1230 | Order 883125GR → Extracting shipping address details...
+ Customer Name: Upendra Vakalapudi
+ Customer Email: 9494084841@fastrr.com
+ Customer Address: 2-37A, Opp Meeseva Tadiparru Postal Code-534227
+Company-N/A City-West Godavari, Andhra Pradesh
+ Customer Pincode: 534227
+ Customer Phone: 9494084841
+ Customer City: West Godavari
+ Customer Taluka: Undrajavaram
+ Customer District: West Godavari
+ Customer State: ANDHRA PRADESH
+2026-04-07 11:02:36,021 | INFO | odd_happy_flow.py:1290 | Order 883125GR → Customer Details: Name=Upendra Vakalapudi, Email=9494084841@fastrr.com, Address=2-37A, Opp Meeseva Tadiparru Postal Code-534227
+Company-N/A City-West Godavari, Andhra Pradesh, Pincode=534227, Phone=9494084841, City=West Godavari, Taluka=Undrajavaram, District=West Godavari, State=ANDHRA PRADESH
+2026-04-07 11:02:36,021 | INFO | odd_happy_flow.py:1294 | Order 883125GR → Extracting product description...
+2026-04-07 11:02:36,057 | INFO | odd_happy_flow.py:1307 | Order 883125GR → Product Description: Sulphur Mills Probor Boron 20% Micronutrient Fertilizer, Used In Foliar Spray - 1 Kg (1 Kg x 1 Qty)
+2026-04-07 11:02:51,172 | INFO | odd_happy_flow.py:1348 | Delhivery tab opened
+2026-04-07 11:02:51,173 | INFO | odd_happy_flow.py:1352 | Checking Delhivery login status...
+2026-04-07 11:02:54,198 | INFO | odd_happy_flow.py:1411 |  Already logged in — skipping login
+2026-04-07 11:02:56,462 | INFO | odd_happy_flow.py:1423 | Delhivery dashboard fully loaded
+2026-04-07 11:02:57,095 | INFO | odd_happy_flow.py:1440 |  Domestic dropdown clicked
+2026-04-07 11:02:57,711 | INFO | odd_happy_flow.py:1455 | AGRIBEGRI SURFACE selected
+2026-04-07 11:02:59,276 | INFO | odd_happy_flow.py:1471 |  AWB dropdown opened
+2026-04-07 11:02:59,871 | INFO | odd_happy_flow.py:1481 |  Order ID selected
+2026-04-07 11:03:00,045 | INFO | odd_happy_flow.py:1493 |  Order ID pasted: 883125GR
+2026-04-07 11:03:03,045 | INFO | odd_happy_flow.py:1502 |  Waiting for search result (Attempt 1)...
+2026-04-07 11:03:03,121 | INFO | odd_happy_flow.py:1512 |  Order search result clicked
+2026-04-07 11:03:05,675 | INFO | odd_happy_flow.py:1637 | Files before label download: 67
+2026-04-07 11:03:07,707 | INFO | odd_happy_flow.py:1641 |  Print Shipping Label button clicked
+2026-04-07 11:03:07,708 | INFO | odd_happy_flow.py:204 | Waiting for PDF download (Target: 883125GR)
+2026-04-07 11:03:07,709 | INFO | odd_happy_flow.py:223 | Detected downloaded file: Shipping_Label.pdf
+2026-04-07 11:03:07,711 | INFO | odd_happy_flow.py:237 | PDF renamed to: 883125GR.pdf
+2026-04-07 11:03:10,232 | INFO | odd_happy_flow.py:1755 |  Switched back to Agribegri edit order page (final)
+2026-04-07 11:03:10,489 | INFO | odd_happy_flow.py:1770 |  Order status set to Packed
+2026-04-07 11:03:11,630 | INFO | odd_happy_flow.py:1784 |  Packed reason set to CL Surface
+2026-04-07 11:03:12,631 | INFO | odd_happy_flow.py:1806 |  Skipping payment status change (not partial payment)
+2026-04-07 11:03:19,067 | INFO | odd_happy_flow.py:1821 |  Submit button clicked successfully
+2026-04-07 11:03:21,137 | INFO | odd_happy_flow.py:1831 |  Success popup OK clicked
+2026-04-07 11:03:22,638 | INFO | odd_happy_flow.py:1845 |  Normal seller detected → Proceeding with label upload.
+2026-04-07 11:03:22,712 | INFO | odd_happy_flow.py:1855 |  Label PDF uploaded: C:\Users\ghara\Documents\agribegri_UI\Downloads\883125GR.pdf
+2026-04-07 11:03:24,819 | INFO | odd_happy_flow.py:1863 |  Manifest upload submit clicked
+2026-04-07 11:03:24,879 | INFO | odd_happy_flow.py:1869 |  OK button clicked on upload popup
+2026-04-07 11:03:25,880 | INFO | odd_happy_flow.py:1873 | Generating Invoice and sending combined email...
+2026-04-07 11:03:25,880 | INFO | odd_happy_flow.py:124 | Email routing started | Seller: 'Amit singla' | Company: 'Sulphur Mills limited'
+2026-04-07 11:03:25,881 | INFO | odd_happy_flow.py:153 | Normal seller → No email will be sent
+2026-04-07 11:03:25,881 | INFO | odd_happy_flow.py:1948 | No email rule → Skipping invoice download
+2026-04-07 11:03:25,881 | INFO | odd_happy_flow.py:2101 |  Row 6 processed successfully.
+2026-04-07 11:03:25,997 | INFO | odd_happy_flow.py:199 | Excel Log Written → Row: 6 | Order: 883125GR | Status: SUCCESS
+2026-04-07 11:03:26,032 | INFO | odd_happy_flow.py:2154 |  Closing extra tab...
+2026-04-07 11:03:26,117 | INFO | odd_happy_flow.py:2154 |  Closing extra tab...
+2026-04-07 11:03:26,198 | INFO | odd_happy_flow.py:2079 | \n --- Processing Row Index: 7 (Page 1) ---
+2026-04-07 11:03:26,198 | INFO | odd_happy_flow.py:2083 |  Skipping even row index: 7 (Row 8)
+2026-04-07 11:03:26,199 | INFO | odd_happy_flow.py:2079 | \n --- Processing Row Index: 8 (Page 1) ---
+2026-04-07 11:03:26,199 | INFO | odd_happy_flow.py:548 | Processing row index: 8
+2026-04-07 11:03:26,223 | INFO | odd_happy_flow.py:557 | Total filtered rows in table: 29
+2026-04-07 11:03:26,256 | INFO | odd_happy_flow.py:503 | Extracting data for Row Index: 8
+2026-04-07 11:03:26,374 | INFO | odd_happy_flow.py:533 | Row 8 extraction successful
+row_index: 8
+order_no: Confirm
+remark_id: 880959
+remark_href: https://abadmin.agribegri.com/admin/manage_orders.php#modal
+view_link: https://abadmin.agribegri.com/admin/edit_order.php?abo_id=914579
+truck_id: 914579
+truck_href: https://abadmin.agribegri.com/admin/manage_orders.php#surface_modal
+ --------------------------
+
+2026-04-07 11:03:26,374 | INFO | odd_happy_flow.py:582 | Order detected: Confirm
+2026-04-07 11:03:26,374 | INFO | odd_happy_flow.py:593 | Order Confirm valid for processing
+2026-04-07 11:03:26,374 | INFO | odd_happy_flow.py:603 | Order Confirm → Full payment detected
+2026-04-07 11:03:27,298 | INFO | odd_happy_flow.py:692 | Order Confirm → Pre-check Weight: 400.0
+2026-04-07 11:03:27,298 | INFO | odd_happy_flow.py:693 | Order Confirm → Pre-check Amount: 234.0
+2026-04-07 11:03:27,964 | INFO | odd_happy_flow.py:725 | Order Confirm → Truck icon clicked
+2026-04-07 11:03:27,995 | INFO | odd_happy_flow.py:735 | Order Confirm → Surface modal opened
+2026-04-07 11:03:28,031 | INFO | odd_happy_flow.py:744 | Order Confirm → Selecting 'Agribegri Surface'
+2026-04-07 11:03:28,274 | WARNING | odd_happy_flow.py:748 | Order Confirm → Surface selection failed, retrying fallback
+ Current Selection: 'Agribegri Surface'
+ Agribegri Surface selected
+2026-04-07 11:03:29,537 | INFO | odd_happy_flow.py:806 | Order Confirm → Seller detected: piyush kataria rajasthan
+2026-04-07 11:03:29,563 | INFO | odd_happy_flow.py:832 | Order Confirm → Pickup mapping matched: piyush kataria
+ Target Pickup Name: PIYUSH KATARIA
+2026-04-07 11:03:31,829 | INFO | odd_happy_flow.py:866 | Order Confirm → Pickup selected (Exact Match): PIYUSH KATARIA
+2026-04-07 11:03:31,829 | INFO | odd_happy_flow.py:894 | Order Confirm → Final Pickup Selected: PIYUSH KATARIA
+2026-04-07 11:03:32,409 | INFO | odd_happy_flow.py:908 | Order Confirm → Pickup value set successfully: PIYUSH KATARIA
+2026-04-07 11:03:32,418 | INFO | odd_happy_flow.py:932 | Order Confirm  Pickup address selected successfully
+2026-04-07 11:03:33,552 | INFO | odd_happy_flow.py:946 | Order Confirm  Submit button clicked successfully
+2026-04-07 11:03:34,679 | INFO | odd_happy_flow.py:957 | Order Confirm → Surface shipment created successfully
+2026-04-07 11:03:36,854 | INFO | odd_happy_flow.py:967 | Order Confirm → Order detail page opened
+2026-04-07 11:03:37,598 | INFO | odd_happy_flow.py:988 | Order Confirm → Seller: PIYUSH KATARIA | Company: HPM Chemicals and Fertilizers Ltd.
+2026-04-07 11:03:37,627 | INFO | odd_happy_flow.py:999 | Order Confirm → Seller Email found: manglamseedssk@gmail.com
+
+ -------- SELLER INFO --------
+Company (Table): HPM Chemicals and Fertilizers Ltd.
+Seller (Table): PIYUSH KATARIA
+Seller Name: PIYUSH KATARIA
+Company Name: HPM Chemicals and Fertilizers Ltd.
+2026-04-07 11:03:37,628 | INFO | odd_happy_flow.py:1081 | Order Confirm → Seller: PIYUSH KATARIA | Company: HPM Chemicals and Fertilizers Ltd.
+ -----------------------------
+
+2026-04-07 11:03:37,628 | INFO | odd_happy_flow.py:1100 | Order Confirm → Normal seller
+ Order detail tab opened & stored
+2026-04-07 11:03:37,675 | INFO | odd_happy_flow.py:1122 | Order Confirm → Dimensions parsed: L=10.00, B=20.00, H=10.00
+2026-04-07 11:03:37,681 | INFO | odd_happy_flow.py:1185 | Switched to order detail tab
+2026-04-07 11:03:37,683 | INFO | odd_happy_flow.py:1188 | Agribegri order tab stored
+2026-04-07 11:03:37,712 | INFO | odd_happy_flow.py:1201 | Order Number copied: 883115MM
+2026-04-07 11:03:37,748 | INFO | odd_happy_flow.py:1213 | Net Amount from Agribegri: 234.0
+2026-04-07 11:03:37,748 | INFO | odd_happy_flow.py:1218 | Order 883115MM → Shipment amount: 234.0
+2026-04-07 11:03:37,764 | INFO | odd_happy_flow.py:1225 | Stored Agribegri edit URL: https://abadmin.agribegri.com/admin/edit_order.php?abo_id=914579
+2026-04-07 11:03:37,764 | INFO | odd_happy_flow.py:1230 | Order 883115MM → Extracting shipping address details...
+ Customer Name: Rajesh Mahajan
+ Customer Email: rajeshmahajan030@gmail.com
+ Customer Address: Bambhada Makan Na 626,Ward N 12,, Madhya Pradesh, 450445,Mobile,
+No-7898842230
+ Customer Pincode: 450445
+ Customer Phone: 7898842230
+ Customer City: Burhanpur
+ Customer Taluka: 
+ Customer District: 
+ Customer State: MADHYA PRADESH
+2026-04-07 11:03:38,068 | INFO | odd_happy_flow.py:1290 | Order 883115MM → Customer Details: Name=Rajesh Mahajan, Email=rajeshmahajan030@gmail.com, Address=Bambhada Makan Na 626,Ward N 12,, Madhya Pradesh, 450445,Mobile,
+No-7898842230, Pincode=450445, Phone=7898842230, City=Burhanpur, Taluka=, District=, State=MADHYA PRADESH
+2026-04-07 11:03:38,068 | INFO | odd_happy_flow.py:1294 | Order 883115MM → Extracting product description...
+2026-04-07 11:03:38,112 | INFO | odd_happy_flow.py:1307 | Order 883115MM → Product Description: HPM Super Sonata - Plant Growth Regulator - 100 Ml (50 ML x 2 Qty)
+2026-04-07 11:03:53,244 | INFO | odd_happy_flow.py:1348 | Delhivery tab opened
+2026-04-07 11:03:53,244 | INFO | odd_happy_flow.py:1352 | Checking Delhivery login status...
+2026-04-07 11:03:56,269 | INFO | odd_happy_flow.py:1411 |  Already logged in — skipping login
+2026-04-07 11:03:58,380 | INFO | odd_happy_flow.py:1423 | Delhivery dashboard fully loaded
+2026-04-07 11:03:59,043 | INFO | odd_happy_flow.py:1440 |  Domestic dropdown clicked
+2026-04-07 11:03:59,672 | INFO | odd_happy_flow.py:1455 | AGRIBEGRI SURFACE selected
+2026-04-07 11:04:01,242 | INFO | odd_happy_flow.py:1471 |  AWB dropdown opened
+2026-04-07 11:04:01,468 | INFO | odd_happy_flow.py:1481 |  Order ID selected
+2026-04-07 11:04:01,676 | INFO | odd_happy_flow.py:1493 |  Order ID pasted: 883115MM
+2026-04-07 11:04:04,676 | INFO | odd_happy_flow.py:1502 |  Waiting for search result (Attempt 1)...
+2026-04-07 11:04:04,757 | INFO | odd_happy_flow.py:1512 |  Order search result clicked
+2026-04-07 11:04:07,316 | INFO | odd_happy_flow.py:1637 | Files before label download: 68
+2026-04-07 11:04:09,352 | INFO | odd_happy_flow.py:1641 |  Print Shipping Label button clicked
+2026-04-07 11:04:09,353 | INFO | odd_happy_flow.py:204 | Waiting for PDF download (Target: 883115MM)
+2026-04-07 11:04:09,353 | INFO | odd_happy_flow.py:223 | Detected downloaded file: Shipping_Label.pdf
+2026-04-07 11:04:09,355 | INFO | odd_happy_flow.py:237 | PDF renamed to: 883115MM.pdf
+2026-04-07 11:04:12,162 | INFO | odd_happy_flow.py:1755 |  Switched back to Agribegri edit order page (final)
+2026-04-07 11:04:12,369 | INFO | odd_happy_flow.py:1770 |  Order status set to Packed
+2026-04-07 11:04:13,519 | INFO | odd_happy_flow.py:1784 |  Packed reason set to CL Surface
+2026-04-07 11:04:14,520 | INFO | odd_happy_flow.py:1806 |  Skipping payment status change (not partial payment)
+2026-04-07 11:04:20,787 | INFO | odd_happy_flow.py:1821 |  Submit button clicked successfully
+2026-04-07 11:04:22,875 | INFO | odd_happy_flow.py:1831 |  Success popup OK clicked
+2026-04-07 11:04:24,376 | INFO | odd_happy_flow.py:1845 |  Normal seller detected → Proceeding with label upload.
+2026-04-07 11:04:24,453 | INFO | odd_happy_flow.py:1855 |  Label PDF uploaded: C:\Users\ghara\Documents\agribegri_UI\Downloads\883115MM.pdf
+2026-04-07 11:04:25,995 | INFO | odd_happy_flow.py:1863 |  Manifest upload submit clicked
+2026-04-07 11:04:26,749 | INFO | odd_happy_flow.py:1869 |  OK button clicked on upload popup
+2026-04-07 11:04:27,750 | INFO | odd_happy_flow.py:1873 | Generating Invoice and sending combined email...
+2026-04-07 11:04:27,750 | INFO | odd_happy_flow.py:124 | Email routing started | Seller: 'PIYUSH KATARIA' | Company: 'HPM Chemicals and Fertilizers Ltd.'
+2026-04-07 11:04:27,750 | INFO | odd_happy_flow.py:153 | Normal seller → No email will be sent
+2026-04-07 11:04:27,750 | INFO | odd_happy_flow.py:1948 | No email rule → Skipping invoice download
+2026-04-07 11:04:27,750 | INFO | odd_happy_flow.py:2101 |  Row 8 processed successfully.
+2026-04-07 11:04:27,870 | INFO | odd_happy_flow.py:199 | Excel Log Written → Row: 8 | Order: 883115MM | Status: SUCCESS
+2026-04-07 11:04:27,908 | INFO | odd_happy_flow.py:2154 |  Closing extra tab...
+2026-04-07 11:04:27,996 | INFO | odd_happy_flow.py:2154 |  Closing extra tab...
+2026-04-07 11:04:28,083 | INFO | odd_happy_flow.py:2079 | \n --- Processing Row Index: 9 (Page 1) ---
+2026-04-07 11:04:28,083 | INFO | odd_happy_flow.py:2083 |  Skipping even row index: 9 (Row 10)
+2026-04-07 11:04:28,084 | INFO | odd_happy_flow.py:2079 | \n --- Processing Row Index: 10 (Page 1) ---
+2026-04-07 11:04:28,084 | INFO | odd_happy_flow.py:548 | Processing row index: 10
+2026-04-07 11:04:28,106 | INFO | odd_happy_flow.py:557 | Total filtered rows in table: 29
+2026-04-07 11:04:28,146 | INFO | odd_happy_flow.py:503 | Extracting data for Row Index: 10
+2026-04-07 11:04:28,277 | INFO | odd_happy_flow.py:533 | Row 10 extraction successful
+row_index: 10
+order_no: Confirm
+remark_id: 880943
+remark_href: https://abadmin.agribegri.com/admin/manage_orders.php#modal
+view_link: https://abadmin.agribegri.com/admin/edit_order.php?abo_id=914563
+truck_id: 914563
+truck_href: https://abadmin.agribegri.com/admin/manage_orders.php#surface_modal
+ --------------------------
+
+2026-04-07 11:04:28,277 | INFO | odd_happy_flow.py:582 | Order detected: Confirm
+2026-04-07 11:04:28,277 | INFO | odd_happy_flow.py:593 | Order Confirm valid for processing
+2026-04-07 11:04:28,277 | INFO | odd_happy_flow.py:603 | Order Confirm → Full payment detected
+2026-04-07 11:04:29,514 | INFO | odd_happy_flow.py:692 | Order Confirm → Pre-check Weight: 700.0
+2026-04-07 11:04:29,514 | INFO | odd_happy_flow.py:693 | Order Confirm → Pre-check Amount: 760.0
+2026-04-07 11:04:30,285 | INFO | odd_happy_flow.py:725 | Order Confirm → Truck icon clicked
+2026-04-07 11:04:30,312 | INFO | odd_happy_flow.py:735 | Order Confirm → Surface modal opened
+2026-04-07 11:04:30,349 | INFO | odd_happy_flow.py:744 | Order Confirm → Selecting 'Agribegri Surface'
+2026-04-07 11:04:31,163 | WARNING | odd_happy_flow.py:748 | Order Confirm → Surface selection failed, retrying fallback
+ Current Selection: 'Agribegri Surface'
+ Agribegri Surface selected
+2026-04-07 11:04:32,480 | INFO | odd_happy_flow.py:806 | Order Confirm → Seller detected: zeal biologicals telangana
+2026-04-07 11:04:32,509 | INFO | odd_happy_flow.py:832 | Order Confirm → Pickup mapping matched: zeal biologicals
+ Target Pickup Name: Zeal Biologicals
