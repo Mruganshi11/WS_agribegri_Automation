@@ -12,17 +12,50 @@ from django.contrib import messages
 
 # Absolute Paths
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-LOG_FILE = os.path.join(BASE_DIR, 'automation.log')
-PID_FILE = os.path.join(BASE_DIR, 'script.pid')
 BALANCE_FILE = os.path.join(BASE_DIR, 'balance.txt')
 ORDERS_COUNT_FILE = os.path.join(BASE_DIR, 'orders_count.txt')
 HISTORY_FILE = os.path.join(BASE_DIR, 'processed_orders.json')
-SCRIPT_PATH = os.path.join(BASE_DIR, 'm_happy_flow_final.py')
+CLUBBING_HISTORY_FILE = os.path.join(BASE_DIR, 'clubbing_processed_orders.json')
+
+# Script Paths
+ODD_SCRIPT_PATH = os.path.join(BASE_DIR, 'm_happy_flow_final.py')
+EVEN_SCRIPT_PATH = os.path.join(BASE_DIR, 'last_to_first_happplyflow.py')
+CLUBBING_SCRIPT_PATH = os.path.join(BASE_DIR, 'clubbing_final.py')
+CLUBBING_LOG = os.path.join(BASE_DIR, 'clubbing_automation.log')
+CLUBBING_PID = os.path.join(BASE_DIR, 'clubbing_script.pid')
 PYTHON_EXE = os.path.join(BASE_DIR, 'venv', 'Scripts', 'python.exe')
+
+def get_paths(flow_type):
+    if flow_type == 'even':
+        return {
+            'script': EVEN_SCRIPT_PATH,
+            'log': os.path.join(BASE_DIR, 'even_automation.log'),
+            'pid': os.path.join(BASE_DIR, 'even_script.pid'),
+            'title': 'Last to First Flow'
+        }
+    else:
+        return {
+            'script': ODD_SCRIPT_PATH,
+            'log': os.path.join(BASE_DIR, 'odd_automation.log'),
+            'pid': os.path.join(BASE_DIR, 'odd_script.pid'),
+            'title': 'First to Last Flow'
+        }
 
 @login_required(login_url='login')
 def index(request):
-    return render(request, 'dashboard/index.html')
+    mode = request.GET.get('mode', 'odd')
+    paths = get_paths(mode)
+    return render(request, 'dashboard/index.html', {
+        'mode': mode,
+        'title': paths['title'],
+        'log_file_name': os.path.basename(paths['script'])
+    })
+
+@login_required(login_url='login')
+def clubbing_index(request):
+    return render(request, 'dashboard/clubbing.html', {
+        'title': 'Clubbing Flow Automation'
+    })
 
 def get_balance_value():
     if not os.path.exists(BALANCE_FILE):
@@ -60,11 +93,17 @@ def set_balance(request):
 @csrf_exempt
 def run_script(request):
     if request.method == 'POST':
-        if not os.path.exists(SCRIPT_PATH):
-            return JsonResponse({'status': 'error', 'message': 'Script not found.'}, status=404)
-        
         try:
             data = json.loads(request.body)
+            flow_type = data.get('flow_type', 'odd')
+            paths = get_paths(flow_type)
+            script_path = paths['script']
+            log_file = paths['log']
+            pid_file = paths['pid']
+
+            if not os.path.exists(script_path):
+                return JsonResponse({'status': 'error', 'message': f'Script {os.path.basename(script_path)} not found.'}, status=404)
+            
             username = data.get('username')
             password = data.get('password')
             otp = data.get('otp')
@@ -77,17 +116,17 @@ def run_script(request):
             if get_balance_value() < 0.75:
                 return JsonResponse({'status': 'error', 'message': 'Insufficient balance. Please recharge.'})
 
-            # Stop existing if any
-            stop_script(request)
+            # Stop existing if any for THIS flow type
+            _stop_script_by_type(flow_type)
 
-            with open(LOG_FILE, 'w', encoding='utf-8') as f:
-                f.write("--- Automation Started via Dashboard ---\n")
+            with open(log_file, 'w', encoding='utf-8') as f:
+                f.write(f"--- {paths['title']} Started via Dashboard ---\n")
             
-            log_f = open(LOG_FILE, 'a', encoding='utf-8')
+            log_f = open(log_file, 'a', encoding='utf-8')
             env = os.environ.copy()
             env['PYTHONIOENCODING'] = 'utf-8'
 
-            cmd = [PYTHON_EXE, '-u', SCRIPT_PATH, username, password, otp]
+            cmd = [PYTHON_EXE, '-u', script_path, username, password, otp]
             if target_order_id:
                 cmd.append(target_order_id)
 
@@ -100,10 +139,10 @@ def run_script(request):
                 creationflags=subprocess.CREATE_NO_WINDOW if os.name == 'nt' else 0
             )
             
-            with open(PID_FILE, 'w') as f:
+            with open(pid_file, 'w') as f:
                 f.write(str(process.pid))
             
-            return JsonResponse({'status': 'success', 'message': f'Started (PID: {process.pid})'})
+            return JsonResponse({'status': 'success', 'message': f'Started {flow_type} flow (PID: {process.pid})'})
         except Exception as e:
             return JsonResponse({'status': 'error', 'message': str(e)}, status=500)
             
@@ -111,10 +150,107 @@ def run_script(request):
 
 @login_required(login_url='login')
 @csrf_exempt
-def stop_script(request):
+def run_clubbing_script(request):
+    if request.method == 'POST':
+        try:
+            data = json.loads(request.body)
+            username = data.get('username', 'Clubbed')
+            password = data.get('password', 'Clubbed@022026')
+            otp = data.get('otp', '123456')
+
+            if not os.path.exists(CLUBBING_SCRIPT_PATH):
+                return JsonResponse({'status': 'error', 'message': 'clubbing_final.py not found.'}, status=404)
+
+            # Stop any existing clubbing process
+            _stop_clubbing()
+
+            with open(CLUBBING_LOG, 'w', encoding='utf-8') as f:
+                f.write('--- Clubbing Flow Started via Dashboard ---\n')
+
+            log_f = open(CLUBBING_LOG, 'a', encoding='utf-8')
+            env = os.environ.copy()
+            env['PYTHONIOENCODING'] = 'utf-8'
+
+            process = subprocess.Popen(
+                [PYTHON_EXE, '-u', CLUBBING_SCRIPT_PATH, username, password, otp],
+                cwd=BASE_DIR,
+                stdout=log_f,
+                stderr=subprocess.STDOUT,
+                env=env,
+                creationflags=subprocess.CREATE_NO_WINDOW if os.name == 'nt' else 0
+            )
+
+            with open(CLUBBING_PID, 'w') as f:
+                f.write(str(process.pid))
+
+            return JsonResponse({'status': 'success', 'message': f'Clubbing flow started (PID: {process.pid})'})
+        except Exception as e:
+            return JsonResponse({'status': 'error', 'message': str(e)}, status=500)
+    return JsonResponse({'status': 'error', 'message': 'POST required'}, status=405)
+
+def _stop_clubbing():
+    if os.path.exists(CLUBBING_PID):
+        try:
+            with open(CLUBBING_PID, 'r') as f:
+                pid = int(f.read().strip())
+            parent = psutil.Process(pid)
+            for child in parent.children(recursive=True):
+                child.kill()
+            parent.kill()
+        except:
+            pass
+        if os.path.exists(CLUBBING_PID):
+            os.remove(CLUBBING_PID)
+
+@login_required(login_url='login')
+@csrf_exempt
+def stop_clubbing_script(request):
+    if request.method == 'POST':
+        _stop_clubbing()
+        return JsonResponse({'status': 'success', 'message': 'Clubbing flow stopped.'})
+    return JsonResponse({'status': 'error', 'message': 'POST required'}, status=405)
+
+@login_required(login_url='login')
+def check_clubbing_status(request):
     pid = None
-    if os.path.exists(PID_FILE):
-        with open(PID_FILE, 'r') as f:
+    if os.path.exists(CLUBBING_PID):
+        try:
+            with open(CLUBBING_PID, 'r') as f:
+                pid = int(f.read().strip())
+        except:
+            pass
+
+    is_running = False
+    msg = 'Offline'
+    if pid:
+        try:
+            process = psutil.Process(pid)
+            if process.is_running() and process.status() != psutil.STATUS_ZOMBIE:
+                is_running = True
+                msg = f'Running (PID: {pid})'
+        except:
+            if os.path.exists(CLUBBING_PID):
+                os.remove(CLUBBING_PID)
+
+    return JsonResponse({'running': is_running, 'message': msg})
+
+@login_required(login_url='login')
+def get_clubbing_logs(request):
+    if not os.path.exists(CLUBBING_LOG):
+        return JsonResponse({'logs': 'No logs yet.'})
+    try:
+        with open(CLUBBING_LOG, 'r', encoding='utf-8', errors='replace') as f:
+            lines = f.readlines()
+            return JsonResponse({'logs': ''.join(lines[-200:])})
+    except Exception as e:
+        return JsonResponse({'logs': f'Error: {str(e)}'})
+
+def _stop_script_by_type(flow_type):
+    paths = get_paths(flow_type)
+    pid_file = paths['pid']
+    pid = None
+    if os.path.exists(pid_file):
+        with open(pid_file, 'r') as f:
             try:
                 pid = int(f.read().strip())
             except:
@@ -126,22 +262,33 @@ def stop_script(request):
             for child in parent.children(recursive=True):
                 child.kill()
             parent.kill()
-            if os.path.exists(PID_FILE):
-                os.remove(PID_FILE)
-            return JsonResponse({'status': 'success', 'message': 'Process stopped.'})
         except:
-            if os.path.exists(PID_FILE):
-                os.remove(PID_FILE)
-    
-    return JsonResponse({'status': 'error', 'message': 'No active process to stop.'})
+            pass
+        if os.path.exists(pid_file):
+            os.remove(pid_file)
+    return True
+
+@login_required(login_url='login')
+@csrf_exempt
+def stop_script(request):
+    if request.method == 'POST':
+        data = json.loads(request.body)
+        flow_type = data.get('flow_type', 'odd')
+        if _stop_script_by_type(flow_type):
+            return JsonResponse({'status': 'success', 'message': f'{flow_type.capitalize()} flow stopped.'})
+    return JsonResponse({'status': 'error', 'message': 'Failed to stop process.'})
 
 @login_required(login_url='login')
 def check_status(request):
+    flow_type = request.GET.get('flow_type', 'odd')
+    paths = get_paths(flow_type)
+    pid_file = paths['pid']
+    
     pid = None
     balance = get_balance_value()
     orders_count = get_orders_count_value()
-    if os.path.exists(PID_FILE):
-        with open(PID_FILE, 'r') as f:
+    if os.path.exists(pid_file):
+        with open(pid_file, 'r') as f:
             try:
                 pid = int(f.read().strip())
             except:
@@ -156,18 +303,22 @@ def check_status(request):
                 is_running = True
                 msg = f'Running (PID: {pid})'
         except:
-            if os.path.exists(PID_FILE):
-                os.remove(PID_FILE)
+            if os.path.exists(pid_file):
+                os.remove(pid_file)
     
     return JsonResponse({'running': is_running, 'message': msg, 'balance': balance, 'orders_count': orders_count})
 
 @login_required(login_url='login')
 def get_logs(request):
-    if not os.path.exists(LOG_FILE):
+    flow_type = request.GET.get('flow_type', 'odd')
+    paths = get_paths(flow_type)
+    log_file = paths['log']
+
+    if not os.path.exists(log_file):
         return JsonResponse({'logs': 'Log file not found.', 'balance': get_balance_value(), 'orders_count': get_orders_count_value()})
     
     try:
-        with open(LOG_FILE, 'r', encoding='utf-8', errors='replace') as f:
+        with open(log_file, 'r', encoding='utf-8', errors='replace') as f:
             lines = f.readlines()
             return JsonResponse({'logs': "".join(lines[-200:]), 'balance': get_balance_value(), 'orders_count': get_orders_count_value()})
     except Exception as e:
@@ -180,11 +331,22 @@ def order_history(request):
         try:
             with open(HISTORY_FILE, 'r') as f:
                 history = json.load(f)
-                # Show latest first
                 history.reverse()
         except:
             history = []
     return render(request, 'dashboard/history.html', {'history': history})
+
+@login_required(login_url='login')
+def clubbing_history(request):
+    history = []
+    if os.path.exists(CLUBBING_HISTORY_FILE):
+        try:
+            with open(CLUBBING_HISTORY_FILE, 'r') as f:
+                history = json.load(f)
+                history.reverse()
+        except:
+            history = []
+    return render(request, 'dashboard/clubbing_history.html', {'history': history})
 
 @login_required(login_url='login')
 @csrf_exempt
@@ -200,6 +362,16 @@ def clear_history_view(request):
                 f.write("0")
                 
         return JsonResponse({'status': 'success', 'message': 'History and order count cleared.'})
+    except Exception as e:
+        return JsonResponse({'status': 'error', 'message': str(e)})
+
+@login_required(login_url='login')
+@csrf_exempt
+def clear_clubbing_history(request):
+    try:
+        if os.path.exists(CLUBBING_HISTORY_FILE):
+            os.remove(CLUBBING_HISTORY_FILE)
+        return JsonResponse({'status': 'success', 'message': 'Clubbing history cleared.'})
     except Exception as e:
         return JsonResponse({'status': 'error', 'message': str(e)})
 
