@@ -159,6 +159,40 @@
             z-index: 10;
         }
 
+        .mode-nav {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-bottom: 30px;
+            animation: fadeInDown 0.6s ease-out;
+        }
+
+        .mode-link {
+            padding: 10px 25px;
+            border-radius: 12px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1rem;
+            transition: all 0.3s ease;
+            backdrop-filter: blur(10px);
+            border: 1px solid var(--border);
+            color: var(--text-secondary);
+            background: rgba(30, 41, 59, 0.4);
+        }
+
+        .mode-link:hover {
+            border-color: var(--primary);
+            color: var(--text-primary);
+            transform: translateY(-2px);
+        }
+
+        .mode-link.active {
+            background: linear-gradient(135deg, rgba(16, 185, 129, 0.2), rgba(5, 150, 105, 0.1));
+            color: var(--primary);
+            border-color: var(--primary);
+            box-shadow: 0 0 20px rgba(16, 185, 129, 0.2);
+        }
+
         .btn-logout {
             background: rgba(239, 68, 68, 0.1);
             color: var(--danger);
@@ -514,13 +548,42 @@
                 Logout
             </a>
         </div>
+        <div class="mode-nav">
+            <a href="?mode=odd" class="mode-link {% if mode == 'odd' %}active{% endif %}">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round" style="margin-right: 8px; vertical-align: middle;">
+                    <polyline points="7 13 12 18 17 13"></polyline>
+                    <polyline points="7 6 12 11 17 6"></polyline>
+                </svg>
+                First to Last Flow
+            </a>
+            <a href="?mode=even" class="mode-link {% if mode == 'even' %}active{% endif %}">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round" style="margin-right: 8px; vertical-align: middle;">
+                    <polyline points="17 11 12 6 7 11"></polyline>
+                    <polyline points="17 18 12 13 7 18"></polyline>
+                </svg>
+                Last to First Flow
+            </a>
+            <a href="/clubbing/" class="mode-link">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round" style="margin-right: 8px; vertical-align: middle;">
+                    <circle cx="18" cy="5" r="3"></circle>
+                    <circle cx="6" cy="12" r="3"></circle>
+                    <circle cx="18" cy="19" r="3"></circle>
+                    <line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line>
+                    <line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line>
+                </svg>
+                Clubbing Flow
+            </a>
+        </div>
         <div class="header">
             <div id="statusBadge" class="status-badge offline">
                 <span class="pulse-dot"></span>
                 System Offline
             </div>
             <h1>Agribegri Automation</h1>
-            <p class="subtitle">Real-time Order Processing Dashboard</p>
+            <p class="subtitle">{{ mode|title }} Rows - Real-time Order Processing Dashboard</p>
         </div>
 
         <div class="card" style="margin-bottom: 20px;">
@@ -636,7 +699,7 @@
 
         <div class="terminal-container">
             <div class="terminal-header">
-                <span class="terminal-title">LIVE_LOGS: final_automation_refactored.py</span>
+                <span class="terminal-title">LIVE_LOGS: {{ log_file_name }}</span>
                 <span class="terminal-time" id="timestamp">--:--:--</span>
             </div>
             <div id="terminal" class="terminal-body">Waiting for automation to start...</div>
@@ -666,11 +729,13 @@
             spinner.style.display = 'block';
             btnText.innerText = 'Launching...';
 
+            const flow_type = "{{ mode }}";
+
             try {
                 const r = await fetch('/run-script/', {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
-                    body: JSON.stringify({ username, password, otp, targetOrderId })
+                    body: JSON.stringify({ username, password, otp, targetOrderId, flow_type })
                 });
                 const data = await r.json();
 
@@ -712,7 +777,11 @@
             if (!confirm('Stop the automation process?')) return;
 
             try {
-                const r = await fetch('/stop-script/', { method: 'POST' });
+                const r = await fetch('/stop-script/', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ flow_type: "{{ mode }}" })
+                });
                 const data = await r.json();
                 alert(data.message);
                 updateStatus();
@@ -746,7 +815,7 @@
 
         async function updateStatus() {
             try {
-                const r = await fetch('/check-status/');
+                const r = await fetch('/check-status/?flow_type={{ mode }}');
                 const data = await r.json();
 
                 const badge = document.getElementById('statusBadge');
@@ -817,7 +886,7 @@
 
         async function fetchLogs() {
             try {
-                const r = await fetch('/get-logs/');
+                const r = await fetch('/get-logs/?flow_type={{ mode }}');
                 const data = await r.json();
 
                 if (data.balance !== undefined) {
