@@ -1,0 +1,147 @@
+--- Clubbing Flow Started via Dashboard ---
+ Waiting 5s → After Login
+ Clicked Manage Orders from navigation
+ Waiting 5s → After clicking Manage Orders
+ Waiting 5s → After setting From Date
+ To Date set to today via JS: 07-04-2026
+ Waiting 5s → After setting To Date
+ Waiting 5s → After selecting Order Status = Confirm
+ Waiting 5s → After selecting Shipping Through Courier
+ Waiting 5s → After Search results loaded
+ Seller → Pickup mapping loaded
+ Total Price: 7698.0
+Total Weight: 13000.0
+ Total Price: 1583.0
+Total Weight: 2500.0
+
+=========== ALL ORDERS DATA ===========
+{
+    "883534EV - W": [
+        {
+            "order_status": "Confirm\n07/04/2026",
+            "seller_name": "Rahul garg",
+            "order_no": "883534EV - W",
+            "product_name": "Tata Rallis Koranda Insecticide - 10 Liter (1 Ltr x 10 Qty) of TATA RALLIS\nSuggested Product: 27",
+            "ord_by": "HILAL AHMAD BHAT (Jammu & kashmir)\n9906757988",
+            "payment_status": "Bank Partial Payment Recieved",
+            "advance_payment": "700.00",
+            "total_for_investigation": "9281.00",
+            "actions": {
+                "remark": "https://abadmin.agribegri.com/admin/manage_orders_user.php?user=263240#modal",
+                "view": "https://abadmin.agribegri.com/admin/edit_order.php?abo_id=915000",
+                "truck": "https://abadmin.agribegri.com/admin/manage_orders_user.php?user=263240#surface_modal"
+            },
+            "view_details": [
+                {
+                    "product_name": "Tata Rallis Koranda Insecticide - 10 Liter (1 Ltr x 10 Qty)",
+                    "company": "TATA RALLIS",
+                    "seller": "Rahul garg",
+                    "weight": 13000.0,
+                    "dimension": "45.00 X 35.00 X 34.00",
+                    "courier_charge": "659.00",
+                    "quantity": 1,
+                    "price": 7698.0
+                }
+            ]
+        }
+    ],
+    "883535EV - W": [
+        {
+            "order_status": "Confirm\n07/04/2026",
+            "seller_name": "Rahul garg",
+            "order_no": "883535EV - W",
+            "product_name": "Tata Rallis Koranda Insecticide - 2 Liter (1 Ltr x 2 Qty) of TATA RALLIS\nSuggested Product: 27",
+            "ord_by": "HILAL AHMAD BHAT (Jammu & kashmir)\n9906757988",
+            "payment_status": "Bank Partial Payment Recieved",
+            "advance_payment": "100.00",
+            "total_for_investigation": "9281.00",
+            "actions": {
+                "remark": "https://abadmin.agribegri.com/admin/manage_orders_user.php?user=263240#modal",
+                "view": "https://abadmin.agribegri.com/admin/edit_order.php?abo_id=915001",
+                "truck": "https://abadmin.agribegri.com/admin/manage_orders_user.php?user=263240#surface_modal"
+            },
+            "view_details": [
+                {
+                    "product_name": "Tata Rallis Koranda Insecticide - 2 Liter (1 Ltr x 2 Qty)",
+                    "company": "TATA RALLIS",
+                    "seller": "Rahul garg",
+                    "weight": 2500.0,
+                    "dimension": "19.00 X 20.00 X 29.00",
+                    "courier_charge": "172.00",
+                    "quantity": 1,
+                    "price": 1583.0
+                }
+            ]
+        }
+    ]
+}
+=======================================
+
+ Total Price: 7698.0
+Total Weight: 13000.0
+ Total Price: 1583.0
+Total Weight: 2500.0
+
+=========== ALL ORDERS DATA ===========
+{
+    "883534EV - W": [
+        {
+            "order_status": "Confirm\n07/04/2026",
+            "seller_name": "Rahul garg",
+            "order_no": "883534EV - W",
+            "product_name": "Tata Rallis Koranda Insecticide - 10 Liter (1 Ltr x 10 Qty) of TATA RALLIS\nSuggested Product: 27",
+            "ord_by": "HILAL AHMAD BHAT (Jammu & kashmir)\n9906757988",
+            "payment_status": "Bank Partial Payment Recieved",
+            "advance_payment": "700.00",
+            "total_for_investigation": "9281.00",
+            "actions": {
+                "remark": "https://abadmin.agribegri.com/admin/manage_orders_user.php?user=263240#modal",
+                "view": "https://abadmin.agribegri.com/admin/edit_order.php?abo_id=915000",
+                "truck": "https://abadmin.agribegri.com/admin/manage_orders_user.php?user=263240#surface_modal"
+            },
+            "view_details": [
+                {
+                    "product_name": "Tata Rallis Koranda Insecticide - 10 Liter (1 Ltr x 10 Qty)",
+                    "company": "TATA RALLIS",
+                    "seller": "Rahul garg",
+                    "weight": 13000.0,
+                    "dimension": "45.00 X 35.00 X 34.00",
+                    "courier_charge": "659.00",
+                    "quantity": 1,
+                    "price": 7698.0
+                }
+            ]
+        }
+    ],
+    "883535EV - W": [
+        {
+            "order_status": "Confirm\n07/04/2026",
+            "seller_name": "Rahul garg",
+            "order_no": "883535EV - W",
+            "product_name": "Tata Rallis Koranda Insecticide - 2 Liter (1 Ltr x 2 Qty) of TATA RALLIS\nSuggested Product: 27",
+            "ord_by": "HILAL AHMAD BHAT (Jammu & kashmir)\n9906757988",
+            "payment_status": "Bank Partial Payment Recieved",
+            "advance_payment": "100.00",
+            "total_for_investigation": "9281.00",
+            "actions": {
+                "remark": "https://abadmin.agribegri.com/admin/manage_orders_user.php?user=263240#modal",
+                "view": "https://abadmin.agribegri.com/admin/edit_order.php?abo_id=915001",
+                "truck": "https://abadmin.agribegri.com/admin/manage_orders_user.php?user=263240#surface_modal"
+            },
+            "view_details": [
+                {
+                    "product_name": "Tata Rallis Koranda Insecticide - 2 Liter (1 Ltr x 2 Qty)",
+                    "company": "TATA RALLIS",
+                    "seller": "Rahul garg",
+                    "weight": 2500.0,
+                    "dimension": "19.00 X 20.00 X 29.00",
+                    "courier_charge": "172.00",
+                    "quantity": 1,
+                    "price": 1583.0
+                }
+            ]
+        }
+    ]
+}
+=======================================
+
