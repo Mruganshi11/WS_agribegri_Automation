@@ -1,0 +1,1102 @@
+--- First to Last Flow Started via Dashboard ---
+2026-04-07 15:35:41,831 | INFO | m_happy_flow_final.py:164 | Excel report file already exists
+2026-04-07 15:35:41,871 | INFO | m_happy_flow_final.py:264 | Chrome browser starting...
+2026-04-07 15:35:41,875 | INFO | logger.py:11 | ====== WebDriver manager ======
+2026-04-07 15:35:45,661 | INFO | logger.py:11 | Get LATEST chromedriver version for google-chrome
+2026-04-07 15:35:46,716 | INFO | logger.py:11 | Get LATEST chromedriver version for google-chrome
+2026-04-07 15:35:47,860 | INFO | logger.py:11 | Driver [C:\Users\ghara\.wdm\drivers\chromedriver\win64\146.0.7680.165\chromedriver-win32/chromedriver.exe] found in cache
+2026-04-07 15:35:48,952 | INFO | m_happy_flow_final.py:301 | Chrome browser started successfully
+2026-04-07 15:35:48,953 | INFO | m_happy_flow_final.py:308 | Opening Agribegri admin login page
+2026-04-07 15:35:53,991 | INFO | m_happy_flow_final.py:311 | Entering username
+2026-04-07 15:35:57,296 | INFO | m_happy_flow_final.py:317 | Entering password
+2026-04-07 15:36:00,516 | INFO | m_happy_flow_final.py:322 | Entering OTP
+2026-04-07 15:36:00,739 | INFO | m_happy_flow_final.py:326 | Login completed successfully
+2026-04-07 15:36:02,740 | INFO | m_happy_flow_final.py:367 | Opening Manage Orders page
+2026-04-07 15:36:21,548 | INFO | m_happy_flow_final.py:375 | Manage Orders page loaded
+2026-04-07 15:36:21,549 | INFO | m_happy_flow_final.py:384 | Applying Date Filter | From: 2026-03-08 | To: 2026-04-07
+ Setting From Date: 2026-03-08
+ Setting To Date: 2026-04-07
+2026-04-07 15:36:23,190 | INFO | m_happy_flow_final.py:408 | Date filter applied successfully
+2026-04-07 15:36:23,190 | INFO | m_happy_flow_final.py:412 | Selecting Order Status: Confirm
+ 'Confirm' status selected
+2026-04-07 15:36:25,382 | INFO | m_happy_flow_final.py:428 | Order Status 'Confirm' selected
+2026-04-07 15:36:25,669 | INFO | m_happy_flow_final.py:352 | Shipping Through dropdown opened
+2026-04-07 15:36:25,836 | INFO | m_happy_flow_final.py:364 | Shipping Through Courier selected
+2026-04-07 15:36:33,221 | INFO | m_happy_flow_final.py:460 | Search completed. Orders table loaded successfully
+2026-04-07 15:36:34,221 | INFO | m_happy_flow_final.py:1987 | Filtering done. Checking total orders...
+2026-04-07 15:36:34,280 | INFO | m_happy_flow_final.py:2004 |  Total Orders Found: 52
+2026-04-07 15:36:34,281 | INFO | m_happy_flow_final.py:2014 |  Total Pages to process: 2
+2026-04-07 15:36:34,281 | INFO | m_happy_flow_final.py:2022 | \n --- STARTING PAGE 1 / 2 ---
+2026-04-07 15:36:34,282 | INFO | m_happy_flow_final.py:2036 | \n --- Processing Row Index: 0 (Page 1) ---
+2026-04-07 15:36:34,282 | INFO | m_happy_flow_final.py:514 | Processing row index: 0
+2026-04-07 15:36:34,312 | INFO | m_happy_flow_final.py:523 | Total filtered rows in table: 50
+2026-04-07 15:36:34,348 | INFO | m_happy_flow_final.py:469 | Extracting data for Row Index: 0
+2026-04-07 15:36:34,553 | INFO | m_happy_flow_final.py:499 | Row 0 extraction successful
+row_index: 0
+order_no: Confirm
+remark_id: 881427
+remark_href: https://abadmin.agribegri.com/admin/manage_orders.php#modal
+view_link: https://abadmin.agribegri.com/admin/edit_order.php?abo_id=915047
+truck_id: 915047
+truck_href: https://abadmin.agribegri.com/admin/manage_orders.php#surface_modal
+ --------------------------
+
+2026-04-07 15:36:34,553 | INFO | m_happy_flow_final.py:548 | Order detected: Confirm
+2026-04-07 15:36:34,554 | INFO | m_happy_flow_final.py:559 | Order Confirm valid for processing
+2026-04-07 15:36:34,554 | INFO | m_happy_flow_final.py:567 | Order Confirm → Partial payment detected
+2026-04-07 15:36:36,022 | INFO | m_happy_flow_final.py:658 | Order Confirm → Pre-check Weight: 600.0
+2026-04-07 15:36:36,023 | INFO | m_happy_flow_final.py:659 | Order Confirm → Pre-check Amount: 1722.0
+2026-04-07 15:36:36,778 | INFO | m_happy_flow_final.py:691 | Order Confirm → Truck icon clicked
+2026-04-07 15:36:36,830 | INFO | m_happy_flow_final.py:701 | Order Confirm → Surface modal opened
+2026-04-07 15:36:36,884 | INFO | m_happy_flow_final.py:710 | Order Confirm → Selecting 'Agribegri Surface'
+2026-04-07 15:36:37,422 | WARNING | m_happy_flow_final.py:714 | Order Confirm → Surface selection failed, retrying fallback
+ Current Selection: 'Agribegri Surface'
+ Agribegri Surface selected
+2026-04-07 15:36:39,084 | INFO | m_happy_flow_final.py:772 | Order Confirm → Seller detected: rahul garg punjab
+2026-04-07 15:36:39,115 | INFO | m_happy_flow_final.py:798 | Order Confirm → Pickup mapping matched: rahul garg
+ Target Pickup Name: Rahul Garg
+2026-04-07 15:36:42,307 | INFO | m_happy_flow_final.py:832 | Order Confirm → Pickup selected (Exact Match): Rahul Garg
+2026-04-07 15:36:42,307 | INFO | m_happy_flow_final.py:860 | Order Confirm → Final Pickup Selected: Rahul Garg
+2026-04-07 15:36:43,004 | INFO | m_happy_flow_final.py:874 | Order Confirm → Pickup value set successfully: Rahul Garg
+2026-04-07 15:36:43,021 | INFO | m_happy_flow_final.py:898 | Order Confirm  Pickup address selected successfully
+2026-04-07 15:36:44,214 | INFO | m_happy_flow_final.py:912 | Order Confirm  Submit button clicked successfully
+2026-04-07 15:36:45,390 | INFO | m_happy_flow_final.py:923 | Order Confirm → Surface shipment created successfully
+2026-04-07 15:36:47,628 | INFO | m_happy_flow_final.py:933 | Order Confirm → Order detail page opened
+2026-04-07 15:36:48,594 | INFO | m_happy_flow_final.py:954 | Order Confirm → Seller: Rahul garg | Company: Godrej Agrovet Limited
+2026-04-07 15:36:48,634 | INFO | m_happy_flow_final.py:965 | Order Confirm → Seller Email found: 998877garg@gmail.com
+
+ -------- SELLER INFO --------
+Company (Table): Godrej Agrovet Limited
+Seller (Table): Rahul garg
+Seller Name: Rahul garg
+Company Name: Godrej Agrovet Limited
+2026-04-07 15:36:48,635 | INFO | m_happy_flow_final.py:1047 | Order Confirm → Seller: Rahul garg | Company: Godrej Agrovet Limited
+ -----------------------------
+
+2026-04-07 15:36:48,635 | INFO | m_happy_flow_final.py:1066 | Order Confirm → Normal seller
+ Order detail tab opened & stored
+2026-04-07 15:36:48,701 | INFO | m_happy_flow_final.py:1088 | Order Confirm → Dimensions parsed: L=12.00, B=15.00, H=18.00
+2026-04-07 15:36:48,710 | INFO | m_happy_flow_final.py:1151 | Switched to order detail tab
+2026-04-07 15:36:48,713 | INFO | m_happy_flow_final.py:1154 | Agribegri order tab stored
+2026-04-07 15:36:48,758 | INFO | m_happy_flow_final.py:1167 | Order Number copied: 883581LN
+2026-04-07 15:36:48,804 | INFO | m_happy_flow_final.py:1179 | Net Amount from Agribegri: 1722.0
+2026-04-07 15:36:48,804 | INFO | m_happy_flow_final.py:1184 | Order 883581LN → Shipment amount: 1722.0
+2026-04-07 15:36:48,823 | INFO | m_happy_flow_final.py:1191 | Stored Agribegri edit URL: https://abadmin.agribegri.com/admin/edit_order.php?abo_id=915047
+2026-04-07 15:36:48,824 | INFO | m_happy_flow_final.py:1196 | Order 883581LN → Extracting shipping address details...
+ Customer Name: Patel Kamleshkumar
+ Customer Email: 
+ Customer Address: 187/188 , Mahatma Faliyu, Kanthariya
+ Customer Pincode: 388307
+ Customer Phone: 9426284207
+ Customer City: Kanthariya
+ Customer Taluka: Anklav
+ Customer District: Anand
+ Customer State: GUJARAT
+2026-04-07 15:36:49,212 | INFO | m_happy_flow_final.py:1256 | Order 883581LN → Customer Details: Name=Patel Kamleshkumar, Email=, Address=187/188 , Mahatma Faliyu, Kanthariya, Pincode=388307, Phone=9426284207, City=Kanthariya, Taluka=Anklav, District=Anand, State=GUJARAT
+2026-04-07 15:36:49,212 | INFO | m_happy_flow_final.py:1260 | Order 883581LN → Extracting product description...
+2026-04-07 15:36:49,270 | INFO | m_happy_flow_final.py:1273 | Order 883581LN → Product Description: Godrej Double Crop Yield Enhancer - 500 Ml (500 ML x 1 Qty)
+2026-04-07 15:37:04,403 | INFO | m_happy_flow_final.py:1314 | Delhivery tab opened
+2026-04-07 15:37:04,403 | INFO | m_happy_flow_final.py:1318 | Checking Delhivery login status...
+2026-04-07 15:37:07,510 | INFO | m_happy_flow_final.py:1325 |  Login page detected — proceeding with login
+2026-04-07 15:37:07,813 | INFO | m_happy_flow_final.py:1335 |  Email entered
+2026-04-07 15:37:09,453 | INFO | m_happy_flow_final.py:1348 |  Password entered
+2026-04-07 15:37:11,474 | INFO | m_happy_flow_final.py:1357 |  Login completed
+2026-04-07 15:37:16,715 | INFO | m_happy_flow_final.py:1380 | Delhivery dashboard fully loaded
+2026-04-07 15:37:17,414 | INFO | m_happy_flow_final.py:1397 |  Domestic dropdown clicked
+2026-04-07 15:37:19,064 | INFO | m_happy_flow_final.py:1412 | AGRIBEGRI SURFACE selected
+2026-04-07 15:37:22,693 | INFO | m_happy_flow_final.py:1428 |  AWB dropdown opened
+2026-04-07 15:37:22,983 | INFO | m_happy_flow_final.py:1438 |  Order ID selected
+2026-04-07 15:37:23,204 | INFO | m_happy_flow_final.py:1450 |  Order ID pasted: 883581LN
+2026-04-07 15:37:26,205 | INFO | m_happy_flow_final.py:1459 |  Waiting for search result (Attempt 1)...
+2026-04-07 15:37:26,291 | INFO | m_happy_flow_final.py:1469 |  Order search result clicked
+2026-04-07 15:37:28,291 | INFO | m_happy_flow_final.py:1493 |  Partial payment flow activated in Delhivery
+2026-04-07 15:37:32,060 | INFO | m_happy_flow_final.py:1500 |  Forced return to Agribegri edit order page
+2026-04-07 15:37:32,097 | INFO | m_happy_flow_final.py:1515 |  Correct COD Amount copied: 1552.00
+2026-04-07 15:37:32,269 | INFO | m_happy_flow_final.py:1529 |  Payment Details edit icon clicked (correct one)
+2026-04-07 15:37:33,708 | INFO | m_happy_flow_final.py:1552 |  Cash On Delivery selected
+2026-04-07 15:37:34,401 | INFO | m_happy_flow_final.py:1562 |  Collectable amount entered: 1552.00
+2026-04-07 15:37:34,474 | INFO | m_happy_flow_final.py:1569 | COD payment saved
+2026-04-07 15:37:37,039 | INFO | m_happy_flow_final.py:1594 | Files before label download: 110
+2026-04-07 15:37:39,085 | INFO | m_happy_flow_final.py:1598 |  Print Shipping Label button clicked
+2026-04-07 15:37:39,085 | INFO | m_happy_flow_final.py:201 | Waiting for PDF download (Target: 883581LN)
+2026-04-07 15:37:39,086 | INFO | m_happy_flow_final.py:220 | Detected downloaded file: Shipping_Label.pdf
+2026-04-07 15:37:39,124 | INFO | m_happy_flow_final.py:234 | PDF renamed to: 883581LN.pdf
+2026-04-07 15:37:41,900 | INFO | m_happy_flow_final.py:1712 |  Switched back to Agribegri edit order page (final)
+2026-04-07 15:37:42,172 | INFO | m_happy_flow_final.py:1727 |  Order status set to Packed
+2026-04-07 15:37:43,352 | INFO | m_happy_flow_final.py:1741 |  Packed reason set to CL Surface
+2026-04-07 15:37:44,353 | INFO | m_happy_flow_final.py:1749 |  Setting payment status: Bank Partial Payment Recieved
+2026-04-07 15:37:44,488 | INFO | m_happy_flow_final.py:1759 |  Payment status set to Bank Partial Payment Recieved
+2026-04-07 15:37:51,138 | INFO | m_happy_flow_final.py:1778 |  Submit button clicked successfully
+2026-04-07 15:37:53,236 | INFO | m_happy_flow_final.py:1788 |  Success popup OK clicked
+2026-04-07 15:37:54,737 | INFO | m_happy_flow_final.py:1802 |  Normal seller detected → Proceeding with label upload.
+2026-04-07 15:37:54,827 | INFO | m_happy_flow_final.py:1812 |  Label PDF uploaded: C:\Users\ghara\Documents\agribegri_UI\Downloads\883581LN.pdf
+2026-04-07 15:37:57,072 | INFO | m_happy_flow_final.py:1820 |  Manifest upload submit clicked
+2026-04-07 15:37:57,162 | INFO | m_happy_flow_final.py:1826 |  OK button clicked on upload popup
+2026-04-07 15:37:58,163 | INFO | m_happy_flow_final.py:1830 | Generating Invoice and sending combined email...
+2026-04-07 15:37:58,163 | INFO | m_happy_flow_final.py:121 | Email routing started | Seller: 'Rahul garg' | Company: 'Godrej Agrovet Limited'
+2026-04-07 15:37:58,164 | INFO | m_happy_flow_final.py:150 | Normal seller → No email will be sent
+2026-04-07 15:37:58,164 | INFO | m_happy_flow_final.py:1905 | No email rule → Skipping invoice download
+2026-04-07 15:37:58,164 | INFO | m_happy_flow_final.py:2052 |  Row 0 processed successfully.
+2026-04-07 15:37:58,374 | INFO | m_happy_flow_final.py:196 | Excel Log Written → Row: 0 | Order: 883581LN | Status: SUCCESS
+2026-04-07 15:37:58,423 | INFO | m_happy_flow_final.py:2105 |  Closing extra tab...
+2026-04-07 15:37:58,560 | INFO | m_happy_flow_final.py:2105 |  Closing extra tab...
+2026-04-07 15:37:58,644 | INFO | m_happy_flow_final.py:2036 | \n --- Processing Row Index: 1 (Page 1) ---
+2026-04-07 15:37:58,644 | INFO | m_happy_flow_final.py:514 | Processing row index: 1
+2026-04-07 15:37:58,676 | INFO | m_happy_flow_final.py:523 | Total filtered rows in table: 50
+2026-04-07 15:37:58,712 | INFO | m_happy_flow_final.py:469 | Extracting data for Row Index: 1
+2026-04-07 15:37:58,870 | INFO | m_happy_flow_final.py:499 | Row 1 extraction successful
+row_index: 1
+order_no: Confirm
+remark_id: 881381
+remark_href: https://abadmin.agribegri.com/admin/manage_orders.php#modal
+view_link: https://abadmin.agribegri.com/admin/edit_order.php?abo_id=915001
+truck_id: 915001
+truck_href: https://abadmin.agribegri.com/admin/manage_orders.php#surface_modal
+ --------------------------
+
+2026-04-07 15:37:58,871 | INFO | m_happy_flow_final.py:548 | Order detected: Confirm
+2026-04-07 15:37:58,871 | INFO | m_happy_flow_final.py:559 | Order Confirm valid for processing
+2026-04-07 15:37:58,871 | INFO | m_happy_flow_final.py:567 | Order Confirm → Partial payment detected
+2026-04-07 15:38:00,000 | INFO | m_happy_flow_final.py:658 | Order Confirm → Pre-check Weight: 2500.0
+2026-04-07 15:38:00,001 | INFO | m_happy_flow_final.py:659 | Order Confirm → Pre-check Amount: 1583.0
+2026-04-07 15:38:00,726 | INFO | m_happy_flow_final.py:691 | Order Confirm → Truck icon clicked
+2026-04-07 15:38:00,771 | INFO | m_happy_flow_final.py:701 | Order Confirm → Surface modal opened
+2026-04-07 15:38:00,818 | INFO | m_happy_flow_final.py:710 | Order Confirm → Selecting 'Agribegri Surface'
+2026-04-07 15:38:01,581 | WARNING | m_happy_flow_final.py:714 | Order Confirm → Surface selection failed, retrying fallback
+ Current Selection: 'Agribegri Surface'
+ Agribegri Surface selected
+2026-04-07 15:38:03,147 | INFO | m_happy_flow_final.py:772 | Order Confirm → Seller detected: rahul garg punjab
+2026-04-07 15:38:03,179 | INFO | m_happy_flow_final.py:798 | Order Confirm → Pickup mapping matched: rahul garg
+ Target Pickup Name: Rahul Garg
+2026-04-07 15:38:06,334 | INFO | m_happy_flow_final.py:832 | Order Confirm → Pickup selected (Exact Match): Rahul Garg
+2026-04-07 15:38:06,334 | INFO | m_happy_flow_final.py:860 | Order Confirm → Final Pickup Selected: Rahul Garg
+2026-04-07 15:38:06,999 | INFO | m_happy_flow_final.py:874 | Order Confirm → Pickup value set successfully: Rahul Garg
+2026-04-07 15:38:07,073 | INFO | m_happy_flow_final.py:898 | Order Confirm  Pickup address selected successfully
+2026-04-07 15:38:08,078 | ERROR | m_happy_flow_final.py:1964 | Error inside click_truck_icons_one_by_one: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=146.0.7680.178)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x11acdf3+10b03]
+	chromedriver!GetHandleVerifier [0x11acf24+10c34]
+	chromedriver!(No symbol) [0xf92120]
+	chromedriver!(No symbol) [0xf70c53]
+	chromedriver!(No symbol) [0x100431b]
+	chromedriver!(No symbol) [0x101a309]
+	chromedriver!(No symbol) [0xffd8a6]
+	chromedriver!(No symbol) [0xfd0229]
+	chromedriver!(No symbol) [0xfd0fe4]
+	chromedriver!GetHandleVerifier [0x14148b9+2785c9]
+	chromedriver!GetHandleVerifier [0x140feb5+273bc5]
+	chromedriver!GetHandleVerifier [0x142e06b+291d7b]
+	chromedriver!GetHandleVerifier [0x11c5cc8+299d8]
+	chromedriver!GetHandleVerifier [0x11cd9fd+3170d]
+	chromedriver!GetHandleVerifier [0x11b58c8+195d8]
+	chromedriver!GetHandleVerifier [0x11b5a92+197a2]
+	chromedriver!GetHandleVerifier [0x119ee9a+2baa]
+	KERNEL32!BaseThreadInitThunk [0x747b5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x7712d81b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x7712d7a1+231]
+
+Traceback (most recent call last):
+  File "C:\Users\ghara\Documents\agribegri_UI\m_happy_flow_final.py", line 906, in click_truck_icons_one_by_one
+    submit_btn = wait.until(
+        EC.element_to_be_clickable((By.NAME, "submit_surface"))
+    )
+  File "C:\Users\ghara\Documents\agribegri_UI\venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 112, in until
+    value = method(self._driver)
+  File "C:\Users\ghara\Documents\agribegri_UI\venv\Lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 514, in _predicate
+    target = driver.find_element(*target)  # grab element at locator
+  File "C:\Users\ghara\Documents\agribegri_UI\venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 816, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ghara\Documents\agribegri_UI\venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 446, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\ghara\Documents\agribegri_UI\venv\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=146.0.7680.178)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x11acdf3+10b03]
+	chromedriver!GetHandleVerifier [0x11acf24+10c34]
+	chromedriver!(No symbol) [0xf92120]
+	chromedriver!(No symbol) [0xf70c53]
+	chromedriver!(No symbol) [0x100431b]
+	chromedriver!(No symbol) [0x101a309]
+	chromedriver!(No symbol) [0xffd8a6]
+	chromedriver!(No symbol) [0xfd0229]
+	chromedriver!(No symbol) [0xfd0fe4]
+	chromedriver!GetHandleVerifier [0x14148b9+2785c9]
+	chromedriver!GetHandleVerifier [0x140feb5+273bc5]
+	chromedriver!GetHandleVerifier [0x142e06b+291d7b]
+	chromedriver!GetHandleVerifier [0x11c5cc8+299d8]
+	chromedriver!GetHandleVerifier [0x11cd9fd+3170d]
+	chromedriver!GetHandleVerifier [0x11b58c8+195d8]
+	chromedriver!GetHandleVerifier [0x11b5a92+197a2]
+	chromedriver!GetHandleVerifier [0x119ee9a+2baa]
+	KERNEL32!BaseThreadInitThunk [0x747b5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x7712d81b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x7712d7a1+231]
+
+2026-04-07 15:38:08,116 | ERROR | m_happy_flow_final.py:2082 |  Row 1 failed: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=146.0.7680.178)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x11acdf3+10b03]
+	chromedriver!GetHandleVerifier [0x11acf24+10c34]
+	chromedriver!(No symbol) [0xf92120]
+	chromedriver!(No symbol) [0xf70c53]
+	chromedriver!(No symbol) [0x100431b]
+	chromedriver!(No symbol) [0x101a309]
+	chromedriver!(No symbol) [0xffd8a6]
+	chromedriver!(No symbol) [0xfd0229]
+	chromedriver!(No symbol) [0xfd0fe4]
+	chromedriver!GetHandleVerifier [0x14148b9+2785c9]
+	chromedriver!GetHandleVerifier [0x140feb5+273bc5]
+	chromedriver!GetHandleVerifier [0x142e06b+291d7b]
+	chromedriver!GetHandleVerifier [0x11c5cc8+299d8]
+	chromedriver!GetHandleVerifier [0x11cd9fd+3170d]
+	chromedriver!GetHandleVerifier [0x11b58c8+195d8]
+	chromedriver!GetHandleVerifier [0x11b5a92+197a2]
+	chromedriver!GetHandleVerifier [0x119ee9a+2baa]
+	KERNEL32!BaseThreadInitThunk [0x747b5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x7712d81b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x7712d7a1+231]
+ (Order: Confirm)
+2026-04-07 15:38:08,300 | INFO | m_happy_flow_final.py:196 | Excel Log Written → Row: 1 | Order: Confirm | Status: ERROR
+2026-04-07 15:38:08,315 | WARNING | m_happy_flow_final.py:2111 |  Cleanup warning: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=146.0.7680.178); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x11acdf3+10b03]
+	chromedriver!GetHandleVerifier [0x11acf24+10c34]
+	chromedriver!(No symbol) [0xf92120]
+	chromedriver!(No symbol) [0xf7fe7e]
+	chromedriver!(No symbol) [0xf80b46]
+	chromedriver!(No symbol) [0xf92a57]
+	chromedriver!(No symbol) [0xf70708]
+	chromedriver!(No symbol) [0x100d1a1]
+	chromedriver!(No symbol) [0xffdad3]
+	chromedriver!(No symbol) [0xfd0229]
+	chromedriver!(No symbol) [0xfd0fe4]
+	chromedriver!GetHandleVerifier [0x14148b9+2785c9]
+	chromedriver!GetHandleVerifier [0x140feb5+273bc5]
+	chromedriver!GetHandleVerifier [0x142e06b+291d7b]
+	chromedriver!GetHandleVerifier [0x11c5cc8+299d8]
+	chromedriver!GetHandleVerifier [0x11cd9fd+3170d]
+	chromedriver!GetHandleVerifier [0x11b58c8+195d8]
+	chromedriver!GetHandleVerifier [0x11b5a92+197a2]
+	chromedriver!GetHandleVerifier [0x119ee9a+2baa]
+	KERNEL32!BaseThreadInitThunk [0x747b5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x7712d81b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x7712d7a1+231]
+
+2026-04-07 15:38:08,316 | INFO | m_happy_flow_final.py:2036 | \n --- Processing Row Index: 2 (Page 1) ---
+2026-04-07 15:38:08,316 | INFO | m_happy_flow_final.py:514 | Processing row index: 2
+2026-04-07 15:38:08,723 | ERROR | m_happy_flow_final.py:1964 | Error inside click_truck_icons_one_by_one: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x11acdf3+10b03]
+	chromedriver!GetHandleVerifier [0x11acf24+10c34]
+	chromedriver!(No symbol) [0xf91f5e]
+	chromedriver!(No symbol) [0xfcf4b7]
+	chromedriver!(No symbol) [0xffd9c6]
+	chromedriver!(No symbol) [0xff8e42]
+	chromedriver!(No symbol) [0xff8462]
+	chromedriver!(No symbol) [0xf6534e]
+	chromedriver!(No symbol) [0xf658ee]
+	chromedriver!(No symbol) [0xf65dcd]
+	chromedriver!GetHandleVerifier [0x14148b9+2785c9]
+	chromedriver!GetHandleVerifier [0x140feb5+273bc5]
+	chromedriver!GetHandleVerifier [0x142e06b+291d7b]
+	chromedriver!GetHandleVerifier [0x11c5cc8+299d8]
+	chromedriver!GetHandleVerifier [0x11cd9fd+3170d]
+	chromedriver!(No symbol) [0xf64ee9]
+	chromedriver!(No symbol) [0xf64530]
+	chromedriver!GetHandleVerifier [0x1562e9f+3c6baf]
+	KERNEL32!BaseThreadInitThunk [0x747b5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x7712d81b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x7712d7a1+231]
+
+Traceback (most recent call last):
+  File "C:\Users\ghara\Documents\agribegri_UI\m_happy_flow_final.py", line 518, in click_truck_icons_one_by_one
+    rows = wait.until(
+        EC.presence_of_all_elements_located(
+            (By.XPATH, "//table[@id='dyntable']/tbody/tr")
+        )
+    )
+  File "C:\Users\ghara\Documents\agribegri_UI\venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 112, in until
+    value = method(self._driver)
+  File "C:\Users\ghara\Documents\agribegri_UI\venv\Lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 243, in _predicate
+    return driver.find_elements(*locator)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\ghara\Documents\agribegri_UI\venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 847, in find_elements
+    return self.execute(Command.FIND_ELEMENTS, {"using": by, "value": value})["value"] or []
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ghara\Documents\agribegri_UI\venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 446, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\ghara\Documents\agribegri_UI\venv\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x11acdf3+10b03]
+	chromedriver!GetHandleVerifier [0x11acf24+10c34]
+	chromedriver!(No symbol) [0xf91f5e]
+	chromedriver!(No symbol) [0xfcf4b7]
+	chromedriver!(No symbol) [0xffd9c6]
+	chromedriver!(No symbol) [0xff8e42]
+	chromedriver!(No symbol) [0xff8462]
+	chromedriver!(No symbol) [0xf6534e]
+	chromedriver!(No symbol) [0xf658ee]
+	chromedriver!(No symbol) [0xf65dcd]
+	chromedriver!GetHandleVerifier [0x14148b9+2785c9]
+	chromedriver!GetHandleVerifier [0x140feb5+273bc5]
+	chromedriver!GetHandleVerifier [0x142e06b+291d7b]
+	chromedriver!GetHandleVerifier [0x11c5cc8+299d8]
+	chromedriver!GetHandleVerifier [0x11cd9fd+3170d]
+	chromedriver!(No symbol) [0xf64ee9]
+	chromedriver!(No symbol) [0xf64530]
+	chromedriver!GetHandleVerifier [0x1562e9f+3c6baf]
+	KERNEL32!BaseThreadInitThunk [0x747b5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x7712d81b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x7712d7a1+231]
+
+2026-04-07 15:38:08,727 | ERROR | m_happy_flow_final.py:2082 |  Row 2 failed: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x11acdf3+10b03]
+	chromedriver!GetHandleVerifier [0x11acf24+10c34]
+	chromedriver!(No symbol) [0xf91f5e]
+	chromedriver!(No symbol) [0xfcf4b7]
+	chromedriver!(No symbol) [0xffd9c6]
+	chromedriver!(No symbol) [0xff8e42]
+	chromedriver!(No symbol) [0xff8462]
+	chromedriver!(No symbol) [0xf6534e]
+	chromedriver!(No symbol) [0xf658ee]
+	chromedriver!(No symbol) [0xf65dcd]
+	chromedriver!GetHandleVerifier [0x14148b9+2785c9]
+	chromedriver!GetHandleVerifier [0x140feb5+273bc5]
+	chromedriver!GetHandleVerifier [0x142e06b+291d7b]
+	chromedriver!GetHandleVerifier [0x11c5cc8+299d8]
+	chromedriver!GetHandleVerifier [0x11cd9fd+3170d]
+	chromedriver!(No symbol) [0xf64ee9]
+	chromedriver!(No symbol) [0xf64530]
+	chromedriver!GetHandleVerifier [0x1562e9f+3c6baf]
+	KERNEL32!BaseThreadInitThunk [0x747b5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x7712d81b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x7712d7a1+231]
+ (Order: Unknown)
+2026-04-07 15:38:08,935 | INFO | m_happy_flow_final.py:196 | Excel Log Written → Row: 2 | Order: Unknown | Status: ERROR
+2026-04-07 15:38:08,950 | WARNING | m_happy_flow_final.py:2111 |  Cleanup warning: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x11acdf3+10b03]
+	chromedriver!GetHandleVerifier [0x11acf24+10c34]
+	chromedriver!(No symbol) [0xf91f5e]
+	chromedriver!(No symbol) [0xfcf4b7]
+	chromedriver!(No symbol) [0xffd9c6]
+	chromedriver!(No symbol) [0xff8e42]
+	chromedriver!(No symbol) [0xff8462]
+	chromedriver!(No symbol) [0xf6534e]
+	chromedriver!(No symbol) [0xf658ee]
+	chromedriver!(No symbol) [0xf65dcd]
+	chromedriver!GetHandleVerifier [0x14148b9+2785c9]
+	chromedriver!GetHandleVerifier [0x140feb5+273bc5]
+	chromedriver!GetHandleVerifier [0x142e06b+291d7b]
+	chromedriver!GetHandleVerifier [0x11c5cc8+299d8]
+	chromedriver!GetHandleVerifier [0x11cd9fd+3170d]
+	chromedriver!(No symbol) [0xf64ee9]
+	chromedriver!(No symbol) [0xf64530]
+	chromedriver!GetHandleVerifier [0x1562e9f+3c6baf]
+	KERNEL32!BaseThreadInitThunk [0x747b5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x7712d81b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x7712d7a1+231]
+
+2026-04-07 15:38:08,952 | INFO | m_happy_flow_final.py:2036 | \n --- Processing Row Index: 3 (Page 1) ---
+2026-04-07 15:38:08,952 | INFO | m_happy_flow_final.py:514 | Processing row index: 3
+2026-04-07 15:38:08,955 | ERROR | m_happy_flow_final.py:1964 | Error inside click_truck_icons_one_by_one: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x11acdf3+10b03]
+	chromedriver!GetHandleVerifier [0x11acf24+10c34]
+	chromedriver!(No symbol) [0xf91f5e]
+	chromedriver!(No symbol) [0xfcf4b7]
+	chromedriver!(No symbol) [0xffd9c6]
+	chromedriver!(No symbol) [0xff8e42]
+	chromedriver!(No symbol) [0xff8462]
+	chromedriver!(No symbol) [0xf6534e]
+	chromedriver!(No symbol) [0xf658ee]
+	chromedriver!(No symbol) [0xf65dcd]
+	chromedriver!GetHandleVerifier [0x14148b9+2785c9]
+	chromedriver!GetHandleVerifier [0x140feb5+273bc5]
+	chromedriver!GetHandleVerifier [0x142e06b+291d7b]
+	chromedriver!GetHandleVerifier [0x11c5cc8+299d8]
+	chromedriver!GetHandleVerifier [0x11cd9fd+3170d]
+	chromedriver!(No symbol) [0xf64ee9]
+	chromedriver!(No symbol) [0xf64530]
+	chromedriver!GetHandleVerifier [0x1562e9f+3c6baf]
+	KERNEL32!BaseThreadInitThunk [0x747b5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x7712d81b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x7712d7a1+231]
+
+Traceback (most recent call last):
+  File "C:\Users\ghara\Documents\agribegri_UI\m_happy_flow_final.py", line 518, in click_truck_icons_one_by_one
+    rows = wait.until(
+        EC.presence_of_all_elements_located(
+            (By.XPATH, "//table[@id='dyntable']/tbody/tr")
+        )
+    )
+  File "C:\Users\ghara\Documents\agribegri_UI\venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 112, in until
+    value = method(self._driver)
+  File "C:\Users\ghara\Documents\agribegri_UI\venv\Lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 243, in _predicate
+    return driver.find_elements(*locator)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\ghara\Documents\agribegri_UI\venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 847, in find_elements
+    return self.execute(Command.FIND_ELEMENTS, {"using": by, "value": value})["value"] or []
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ghara\Documents\agribegri_UI\venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 446, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\ghara\Documents\agribegri_UI\venv\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x11acdf3+10b03]
+	chromedriver!GetHandleVerifier [0x11acf24+10c34]
+	chromedriver!(No symbol) [0xf91f5e]
+	chromedriver!(No symbol) [0xfcf4b7]
+	chromedriver!(No symbol) [0xffd9c6]
+	chromedriver!(No symbol) [0xff8e42]
+	chromedriver!(No symbol) [0xff8462]
+	chromedriver!(No symbol) [0xf6534e]
+	chromedriver!(No symbol) [0xf658ee]
+	chromedriver!(No symbol) [0xf65dcd]
+	chromedriver!GetHandleVerifier [0x14148b9+2785c9]
+	chromedriver!GetHandleVerifier [0x140feb5+273bc5]
+	chromedriver!GetHandleVerifier [0x142e06b+291d7b]
+	chromedriver!GetHandleVerifier [0x11c5cc8+299d8]
+	chromedriver!GetHandleVerifier [0x11cd9fd+3170d]
+	chromedriver!(No symbol) [0xf64ee9]
+	chromedriver!(No symbol) [0xf64530]
+	chromedriver!GetHandleVerifier [0x1562e9f+3c6baf]
+	KERNEL32!BaseThreadInitThunk [0x747b5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x7712d81b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x7712d7a1+231]
+
+2026-04-07 15:38:08,960 | ERROR | m_happy_flow_final.py:2082 |  Row 3 failed: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x11acdf3+10b03]
+	chromedriver!GetHandleVerifier [0x11acf24+10c34]
+	chromedriver!(No symbol) [0xf91f5e]
+	chromedriver!(No symbol) [0xfcf4b7]
+	chromedriver!(No symbol) [0xffd9c6]
+	chromedriver!(No symbol) [0xff8e42]
+	chromedriver!(No symbol) [0xff8462]
+	chromedriver!(No symbol) [0xf6534e]
+	chromedriver!(No symbol) [0xf658ee]
+	chromedriver!(No symbol) [0xf65dcd]
+	chromedriver!GetHandleVerifier [0x14148b9+2785c9]
+	chromedriver!GetHandleVerifier [0x140feb5+273bc5]
+	chromedriver!GetHandleVerifier [0x142e06b+291d7b]
+	chromedriver!GetHandleVerifier [0x11c5cc8+299d8]
+	chromedriver!GetHandleVerifier [0x11cd9fd+3170d]
+	chromedriver!(No symbol) [0xf64ee9]
+	chromedriver!(No symbol) [0xf64530]
+	chromedriver!GetHandleVerifier [0x1562e9f+3c6baf]
+	KERNEL32!BaseThreadInitThunk [0x747b5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x7712d81b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x7712d7a1+231]
+ (Order: Unknown)
+2026-04-07 15:38:09,166 | INFO | m_happy_flow_final.py:196 | Excel Log Written → Row: 3 | Order: Unknown | Status: ERROR
+2026-04-07 15:38:09,182 | WARNING | m_happy_flow_final.py:2111 |  Cleanup warning: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x11acdf3+10b03]
+	chromedriver!GetHandleVerifier [0x11acf24+10c34]
+	chromedriver!(No symbol) [0xf91f5e]
+	chromedriver!(No symbol) [0xfcf4b7]
+	chromedriver!(No symbol) [0xffd9c6]
+	chromedriver!(No symbol) [0xff8e42]
+	chromedriver!(No symbol) [0xff8462]
+	chromedriver!(No symbol) [0xf6534e]
+	chromedriver!(No symbol) [0xf658ee]
+	chromedriver!(No symbol) [0xf65dcd]
+	chromedriver!GetHandleVerifier [0x14148b9+2785c9]
+	chromedriver!GetHandleVerifier [0x140feb5+273bc5]
+	chromedriver!GetHandleVerifier [0x142e06b+291d7b]
+	chromedriver!GetHandleVerifier [0x11c5cc8+299d8]
+	chromedriver!GetHandleVerifier [0x11cd9fd+3170d]
+	chromedriver!(No symbol) [0xf64ee9]
+	chromedriver!(No symbol) [0xf64530]
+	chromedriver!GetHandleVerifier [0x1562e9f+3c6baf]
+	KERNEL32!BaseThreadInitThunk [0x747b5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x7712d81b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x7712d7a1+231]
+
+2026-04-07 15:38:09,183 | INFO | m_happy_flow_final.py:2036 | \n --- Processing Row Index: 4 (Page 1) ---
+2026-04-07 15:38:09,183 | INFO | m_happy_flow_final.py:514 | Processing row index: 4
+2026-04-07 15:38:09,186 | ERROR | m_happy_flow_final.py:1964 | Error inside click_truck_icons_one_by_one: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x11acdf3+10b03]
+	chromedriver!GetHandleVerifier [0x11acf24+10c34]
+	chromedriver!(No symbol) [0xf91f5e]
+	chromedriver!(No symbol) [0xfcf4b7]
+	chromedriver!(No symbol) [0xffd9c6]
+	chromedriver!(No symbol) [0xff8e42]
+	chromedriver!(No symbol) [0xff8462]
+	chromedriver!(No symbol) [0xf6534e]
+	chromedriver!(No symbol) [0xf658ee]
+	chromedriver!(No symbol) [0xf65dcd]
+	chromedriver!GetHandleVerifier [0x14148b9+2785c9]
+	chromedriver!GetHandleVerifier [0x140feb5+273bc5]
+	chromedriver!GetHandleVerifier [0x142e06b+291d7b]
+	chromedriver!GetHandleVerifier [0x11c5cc8+299d8]
+	chromedriver!GetHandleVerifier [0x11cd9fd+3170d]
+	chromedriver!(No symbol) [0xf64ee9]
+	chromedriver!(No symbol) [0xf64530]
+	chromedriver!GetHandleVerifier [0x1562e9f+3c6baf]
+	KERNEL32!BaseThreadInitThunk [0x747b5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x7712d81b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x7712d7a1+231]
+
+Traceback (most recent call last):
+  File "C:\Users\ghara\Documents\agribegri_UI\m_happy_flow_final.py", line 518, in click_truck_icons_one_by_one
+    rows = wait.until(
+        EC.presence_of_all_elements_located(
+            (By.XPATH, "//table[@id='dyntable']/tbody/tr")
+        )
+    )
+  File "C:\Users\ghara\Documents\agribegri_UI\venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 112, in until
+    value = method(self._driver)
+  File "C:\Users\ghara\Documents\agribegri_UI\venv\Lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 243, in _predicate
+    return driver.find_elements(*locator)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\ghara\Documents\agribegri_UI\venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 847, in find_elements
+    return self.execute(Command.FIND_ELEMENTS, {"using": by, "value": value})["value"] or []
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ghara\Documents\agribegri_UI\venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 446, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\ghara\Documents\agribegri_UI\venv\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x11acdf3+10b03]
+	chromedriver!GetHandleVerifier [0x11acf24+10c34]
+	chromedriver!(No symbol) [0xf91f5e]
+	chromedriver!(No symbol) [0xfcf4b7]
+	chromedriver!(No symbol) [0xffd9c6]
+	chromedriver!(No symbol) [0xff8e42]
+	chromedriver!(No symbol) [0xff8462]
+	chromedriver!(No symbol) [0xf6534e]
+	chromedriver!(No symbol) [0xf658ee]
+	chromedriver!(No symbol) [0xf65dcd]
+	chromedriver!GetHandleVerifier [0x14148b9+2785c9]
+	chromedriver!GetHandleVerifier [0x140feb5+273bc5]
+	chromedriver!GetHandleVerifier [0x142e06b+291d7b]
+	chromedriver!GetHandleVerifier [0x11c5cc8+299d8]
+	chromedriver!GetHandleVerifier [0x11cd9fd+3170d]
+	chromedriver!(No symbol) [0xf64ee9]
+	chromedriver!(No symbol) [0xf64530]
+	chromedriver!GetHandleVerifier [0x1562e9f+3c6baf]
+	KERNEL32!BaseThreadInitThunk [0x747b5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x7712d81b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x7712d7a1+231]
+
+2026-04-07 15:38:09,190 | ERROR | m_happy_flow_final.py:2082 |  Row 4 failed: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x11acdf3+10b03]
+	chromedriver!GetHandleVerifier [0x11acf24+10c34]
+	chromedriver!(No symbol) [0xf91f5e]
+	chromedriver!(No symbol) [0xfcf4b7]
+	chromedriver!(No symbol) [0xffd9c6]
+	chromedriver!(No symbol) [0xff8e42]
+	chromedriver!(No symbol) [0xff8462]
+	chromedriver!(No symbol) [0xf6534e]
+	chromedriver!(No symbol) [0xf658ee]
+	chromedriver!(No symbol) [0xf65dcd]
+	chromedriver!GetHandleVerifier [0x14148b9+2785c9]
+	chromedriver!GetHandleVerifier [0x140feb5+273bc5]
+	chromedriver!GetHandleVerifier [0x142e06b+291d7b]
+	chromedriver!GetHandleVerifier [0x11c5cc8+299d8]
+	chromedriver!GetHandleVerifier [0x11cd9fd+3170d]
+	chromedriver!(No symbol) [0xf64ee9]
+	chromedriver!(No symbol) [0xf64530]
+	chromedriver!GetHandleVerifier [0x1562e9f+3c6baf]
+	KERNEL32!BaseThreadInitThunk [0x747b5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x7712d81b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x7712d7a1+231]
+ (Order: Unknown)
+2026-04-07 15:38:09,381 | INFO | m_happy_flow_final.py:196 | Excel Log Written → Row: 4 | Order: Unknown | Status: ERROR
+2026-04-07 15:38:09,393 | WARNING | m_happy_flow_final.py:2111 |  Cleanup warning: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x11acdf3+10b03]
+	chromedriver!GetHandleVerifier [0x11acf24+10c34]
+	chromedriver!(No symbol) [0xf91f5e]
+	chromedriver!(No symbol) [0xfcf4b7]
+	chromedriver!(No symbol) [0xffd9c6]
+	chromedriver!(No symbol) [0xff8e42]
+	chromedriver!(No symbol) [0xff8462]
+	chromedriver!(No symbol) [0xf6534e]
+	chromedriver!(No symbol) [0xf658ee]
+	chromedriver!(No symbol) [0xf65dcd]
+	chromedriver!GetHandleVerifier [0x14148b9+2785c9]
+	chromedriver!GetHandleVerifier [0x140feb5+273bc5]
+	chromedriver!GetHandleVerifier [0x142e06b+291d7b]
+	chromedriver!GetHandleVerifier [0x11c5cc8+299d8]
+	chromedriver!GetHandleVerifier [0x11cd9fd+3170d]
+	chromedriver!(No symbol) [0xf64ee9]
+	chromedriver!(No symbol) [0xf64530]
+	chromedriver!GetHandleVerifier [0x1562e9f+3c6baf]
+	KERNEL32!BaseThreadInitThunk [0x747b5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x7712d81b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x7712d7a1+231]
+
+2026-04-07 15:38:09,394 | INFO | m_happy_flow_final.py:2036 | \n --- Processing Row Index: 5 (Page 1) ---
+2026-04-07 15:38:09,394 | INFO | m_happy_flow_final.py:514 | Processing row index: 5
+2026-04-07 15:38:09,396 | ERROR | m_happy_flow_final.py:1964 | Error inside click_truck_icons_one_by_one: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x11acdf3+10b03]
+	chromedriver!GetHandleVerifier [0x11acf24+10c34]
+	chromedriver!(No symbol) [0xf91f5e]
+	chromedriver!(No symbol) [0xfcf4b7]
+	chromedriver!(No symbol) [0xffd9c6]
+	chromedriver!(No symbol) [0xff8e42]
+	chromedriver!(No symbol) [0xff8462]
+	chromedriver!(No symbol) [0xf6534e]
+	chromedriver!(No symbol) [0xf658ee]
+	chromedriver!(No symbol) [0xf65dcd]
+	chromedriver!GetHandleVerifier [0x14148b9+2785c9]
+	chromedriver!GetHandleVerifier [0x140feb5+273bc5]
+	chromedriver!GetHandleVerifier [0x142e06b+291d7b]
+	chromedriver!GetHandleVerifier [0x11c5cc8+299d8]
+	chromedriver!GetHandleVerifier [0x11cd9fd+3170d]
+	chromedriver!(No symbol) [0xf64ee9]
+	chromedriver!(No symbol) [0xf64530]
+	chromedriver!GetHandleVerifier [0x1562e9f+3c6baf]
+	KERNEL32!BaseThreadInitThunk [0x747b5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x7712d81b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x7712d7a1+231]
+
+Traceback (most recent call last):
+  File "C:\Users\ghara\Documents\agribegri_UI\m_happy_flow_final.py", line 518, in click_truck_icons_one_by_one
+    rows = wait.until(
+        EC.presence_of_all_elements_located(
+            (By.XPATH, "//table[@id='dyntable']/tbody/tr")
+        )
+    )
+  File "C:\Users\ghara\Documents\agribegri_UI\venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 112, in until
+    value = method(self._driver)
+  File "C:\Users\ghara\Documents\agribegri_UI\venv\Lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 243, in _predicate
+    return driver.find_elements(*locator)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\ghara\Documents\agribegri_UI\venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 847, in find_elements
+    return self.execute(Command.FIND_ELEMENTS, {"using": by, "value": value})["value"] or []
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ghara\Documents\agribegri_UI\venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 446, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\ghara\Documents\agribegri_UI\venv\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x11acdf3+10b03]
+	chromedriver!GetHandleVerifier [0x11acf24+10c34]
+	chromedriver!(No symbol) [0xf91f5e]
+	chromedriver!(No symbol) [0xfcf4b7]
+	chromedriver!(No symbol) [0xffd9c6]
+	chromedriver!(No symbol) [0xff8e42]
+	chromedriver!(No symbol) [0xff8462]
+	chromedriver!(No symbol) [0xf6534e]
+	chromedriver!(No symbol) [0xf658ee]
+	chromedriver!(No symbol) [0xf65dcd]
+	chromedriver!GetHandleVerifier [0x14148b9+2785c9]
+	chromedriver!GetHandleVerifier [0x140feb5+273bc5]
+	chromedriver!GetHandleVerifier [0x142e06b+291d7b]
+	chromedriver!GetHandleVerifier [0x11c5cc8+299d8]
+	chromedriver!GetHandleVerifier [0x11cd9fd+3170d]
+	chromedriver!(No symbol) [0xf64ee9]
+	chromedriver!(No symbol) [0xf64530]
+	chromedriver!GetHandleVerifier [0x1562e9f+3c6baf]
+	KERNEL32!BaseThreadInitThunk [0x747b5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x7712d81b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x7712d7a1+231]
+
+2026-04-07 15:38:09,400 | ERROR | m_happy_flow_final.py:2082 |  Row 5 failed: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x11acdf3+10b03]
+	chromedriver!GetHandleVerifier [0x11acf24+10c34]
+	chromedriver!(No symbol) [0xf91f5e]
+	chromedriver!(No symbol) [0xfcf4b7]
+	chromedriver!(No symbol) [0xffd9c6]
+	chromedriver!(No symbol) [0xff8e42]
+	chromedriver!(No symbol) [0xff8462]
+	chromedriver!(No symbol) [0xf6534e]
+	chromedriver!(No symbol) [0xf658ee]
+	chromedriver!(No symbol) [0xf65dcd]
+	chromedriver!GetHandleVerifier [0x14148b9+2785c9]
+	chromedriver!GetHandleVerifier [0x140feb5+273bc5]
+	chromedriver!GetHandleVerifier [0x142e06b+291d7b]
+	chromedriver!GetHandleVerifier [0x11c5cc8+299d8]
+	chromedriver!GetHandleVerifier [0x11cd9fd+3170d]
+	chromedriver!(No symbol) [0xf64ee9]
+	chromedriver!(No symbol) [0xf64530]
+	chromedriver!GetHandleVerifier [0x1562e9f+3c6baf]
+	KERNEL32!BaseThreadInitThunk [0x747b5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x7712d81b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x7712d7a1+231]
+ (Order: Unknown)
+2026-04-07 15:38:09,541 | INFO | m_happy_flow_final.py:196 | Excel Log Written → Row: 5 | Order: Unknown | Status: ERROR
+2026-04-07 15:38:09,554 | WARNING | m_happy_flow_final.py:2111 |  Cleanup warning: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x11acdf3+10b03]
+	chromedriver!GetHandleVerifier [0x11acf24+10c34]
+	chromedriver!(No symbol) [0xf91f5e]
+	chromedriver!(No symbol) [0xfcf4b7]
+	chromedriver!(No symbol) [0xffd9c6]
+	chromedriver!(No symbol) [0xff8e42]
+	chromedriver!(No symbol) [0xff8462]
+	chromedriver!(No symbol) [0xf6534e]
+	chromedriver!(No symbol) [0xf658ee]
+	chromedriver!(No symbol) [0xf65dcd]
+	chromedriver!GetHandleVerifier [0x14148b9+2785c9]
+	chromedriver!GetHandleVerifier [0x140feb5+273bc5]
+	chromedriver!GetHandleVerifier [0x142e06b+291d7b]
+	chromedriver!GetHandleVerifier [0x11c5cc8+299d8]
+	chromedriver!GetHandleVerifier [0x11cd9fd+3170d]
+	chromedriver!(No symbol) [0xf64ee9]
+	chromedriver!(No symbol) [0xf64530]
+	chromedriver!GetHandleVerifier [0x1562e9f+3c6baf]
+	KERNEL32!BaseThreadInitThunk [0x747b5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x7712d81b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x7712d7a1+231]
+
+2026-04-07 15:38:09,555 | INFO | m_happy_flow_final.py:2036 | \n --- Processing Row Index: 6 (Page 1) ---
+2026-04-07 15:38:09,555 | INFO | m_happy_flow_final.py:514 | Processing row index: 6
+2026-04-07 15:38:09,558 | ERROR | m_happy_flow_final.py:1964 | Error inside click_truck_icons_one_by_one: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x11acdf3+10b03]
+	chromedriver!GetHandleVerifier [0x11acf24+10c34]
+	chromedriver!(No symbol) [0xf91f5e]
+	chromedriver!(No symbol) [0xfcf4b7]
+	chromedriver!(No symbol) [0xffd9c6]
+	chromedriver!(No symbol) [0xff8e42]
+	chromedriver!(No symbol) [0xff8462]
+	chromedriver!(No symbol) [0xf6534e]
+	chromedriver!(No symbol) [0xf658ee]
+	chromedriver!(No symbol) [0xf65dcd]
+	chromedriver!GetHandleVerifier [0x14148b9+2785c9]
+	chromedriver!GetHandleVerifier [0x140feb5+273bc5]
+	chromedriver!GetHandleVerifier [0x142e06b+291d7b]
+	chromedriver!GetHandleVerifier [0x11c5cc8+299d8]
+	chromedriver!GetHandleVerifier [0x11cd9fd+3170d]
+	chromedriver!(No symbol) [0xf64ee9]
+	chromedriver!(No symbol) [0xf64530]
+	chromedriver!GetHandleVerifier [0x1562e9f+3c6baf]
+	KERNEL32!BaseThreadInitThunk [0x747b5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x7712d81b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x7712d7a1+231]
+
+Traceback (most recent call last):
+  File "C:\Users\ghara\Documents\agribegri_UI\m_happy_flow_final.py", line 518, in click_truck_icons_one_by_one
+    rows = wait.until(
+        EC.presence_of_all_elements_located(
+            (By.XPATH, "//table[@id='dyntable']/tbody/tr")
+        )
+    )
+  File "C:\Users\ghara\Documents\agribegri_UI\venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 112, in until
+    value = method(self._driver)
+  File "C:\Users\ghara\Documents\agribegri_UI\venv\Lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 243, in _predicate
+    return driver.find_elements(*locator)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\ghara\Documents\agribegri_UI\venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 847, in find_elements
+    return self.execute(Command.FIND_ELEMENTS, {"using": by, "value": value})["value"] or []
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ghara\Documents\agribegri_UI\venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 446, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\ghara\Documents\agribegri_UI\venv\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x11acdf3+10b03]
+	chromedriver!GetHandleVerifier [0x11acf24+10c34]
+	chromedriver!(No symbol) [0xf91f5e]
+	chromedriver!(No symbol) [0xfcf4b7]
+	chromedriver!(No symbol) [0xffd9c6]
+	chromedriver!(No symbol) [0xff8e42]
+	chromedriver!(No symbol) [0xff8462]
+	chromedriver!(No symbol) [0xf6534e]
+	chromedriver!(No symbol) [0xf658ee]
+	chromedriver!(No symbol) [0xf65dcd]
+	chromedriver!GetHandleVerifier [0x14148b9+2785c9]
+	chromedriver!GetHandleVerifier [0x140feb5+273bc5]
+	chromedriver!GetHandleVerifier [0x142e06b+291d7b]
+	chromedriver!GetHandleVerifier [0x11c5cc8+299d8]
+	chromedriver!GetHandleVerifier [0x11cd9fd+3170d]
+	chromedriver!(No symbol) [0xf64ee9]
+	chromedriver!(No symbol) [0xf64530]
+	chromedriver!GetHandleVerifier [0x1562e9f+3c6baf]
+	KERNEL32!BaseThreadInitThunk [0x747b5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x7712d81b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x7712d7a1+231]
+
+2026-04-07 15:38:09,561 | ERROR | m_happy_flow_final.py:2082 |  Row 6 failed: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x11acdf3+10b03]
+	chromedriver!GetHandleVerifier [0x11acf24+10c34]
+	chromedriver!(No symbol) [0xf91f5e]
+	chromedriver!(No symbol) [0xfcf4b7]
+	chromedriver!(No symbol) [0xffd9c6]
+	chromedriver!(No symbol) [0xff8e42]
+	chromedriver!(No symbol) [0xff8462]
+	chromedriver!(No symbol) [0xf6534e]
+	chromedriver!(No symbol) [0xf658ee]
+	chromedriver!(No symbol) [0xf65dcd]
+	chromedriver!GetHandleVerifier [0x14148b9+2785c9]
+	chromedriver!GetHandleVerifier [0x140feb5+273bc5]
+	chromedriver!GetHandleVerifier [0x142e06b+291d7b]
+	chromedriver!GetHandleVerifier [0x11c5cc8+299d8]
+	chromedriver!GetHandleVerifier [0x11cd9fd+3170d]
+	chromedriver!(No symbol) [0xf64ee9]
+	chromedriver!(No symbol) [0xf64530]
+	chromedriver!GetHandleVerifier [0x1562e9f+3c6baf]
+	KERNEL32!BaseThreadInitThunk [0x747b5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x7712d81b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x7712d7a1+231]
+ (Order: Unknown)
+2026-04-07 15:38:09,695 | INFO | m_happy_flow_final.py:196 | Excel Log Written → Row: 6 | Order: Unknown | Status: ERROR
+2026-04-07 15:38:09,708 | WARNING | m_happy_flow_final.py:2111 |  Cleanup warning: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x11acdf3+10b03]
+	chromedriver!GetHandleVerifier [0x11acf24+10c34]
+	chromedriver!(No symbol) [0xf91f5e]
+	chromedriver!(No symbol) [0xfcf4b7]
+	chromedriver!(No symbol) [0xffd9c6]
+	chromedriver!(No symbol) [0xff8e42]
+	chromedriver!(No symbol) [0xff8462]
+	chromedriver!(No symbol) [0xf6534e]
+	chromedriver!(No symbol) [0xf658ee]
+	chromedriver!(No symbol) [0xf65dcd]
+	chromedriver!GetHandleVerifier [0x14148b9+2785c9]
+	chromedriver!GetHandleVerifier [0x140feb5+273bc5]
+	chromedriver!GetHandleVerifier [0x142e06b+291d7b]
+	chromedriver!GetHandleVerifier [0x11c5cc8+299d8]
+	chromedriver!GetHandleVerifier [0x11cd9fd+3170d]
+	chromedriver!(No symbol) [0xf64ee9]
+	chromedriver!(No symbol) [0xf64530]
+	chromedriver!GetHandleVerifier [0x1562e9f+3c6baf]
+	KERNEL32!BaseThreadInitThunk [0x747b5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x7712d81b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x7712d7a1+231]
+
+2026-04-07 15:38:09,708 | INFO | m_happy_flow_final.py:2036 | \n --- Processing Row Index: 7 (Page 1) ---
+2026-04-07 15:38:09,709 | INFO | m_happy_flow_final.py:514 | Processing row index: 7
+2026-04-07 15:38:09,711 | ERROR | m_happy_flow_final.py:1964 | Error inside click_truck_icons_one_by_one: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x11acdf3+10b03]
+	chromedriver!GetHandleVerifier [0x11acf24+10c34]
+	chromedriver!(No symbol) [0xf91f5e]
+	chromedriver!(No symbol) [0xfcf4b7]
+	chromedriver!(No symbol) [0xffd9c6]
+	chromedriver!(No symbol) [0xff8e42]
+	chromedriver!(No symbol) [0xff8462]
+	chromedriver!(No symbol) [0xf6534e]
+	chromedriver!(No symbol) [0xf658ee]
+	chromedriver!(No symbol) [0xf65dcd]
+	chromedriver!GetHandleVerifier [0x14148b9+2785c9]
+	chromedriver!GetHandleVerifier [0x140feb5+273bc5]
+	chromedriver!GetHandleVerifier [0x142e06b+291d7b]
+	chromedriver!GetHandleVerifier [0x11c5cc8+299d8]
+	chromedriver!GetHandleVerifier [0x11cd9fd+3170d]
+	chromedriver!(No symbol) [0xf64ee9]
+	chromedriver!(No symbol) [0xf64530]
+	chromedriver!GetHandleVerifier [0x1562e9f+3c6baf]
+	KERNEL32!BaseThreadInitThunk [0x747b5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x7712d81b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x7712d7a1+231]
+
+Traceback (most recent call last):
+  File "C:\Users\ghara\Documents\agribegri_UI\m_happy_flow_final.py", line 518, in click_truck_icons_one_by_one
+    rows = wait.until(
+        EC.presence_of_all_elements_located(
+            (By.XPATH, "//table[@id='dyntable']/tbody/tr")
+        )
+    )
+  File "C:\Users\ghara\Documents\agribegri_UI\venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 112, in until
+    value = method(self._driver)
+  File "C:\Users\ghara\Documents\agribegri_UI\venv\Lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 243, in _predicate
+    return driver.find_elements(*locator)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\ghara\Documents\agribegri_UI\venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 847, in find_elements
+    return self.execute(Command.FIND_ELEMENTS, {"using": by, "value": value})["value"] or []
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ghara\Documents\agribegri_UI\venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 446, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\ghara\Documents\agribegri_UI\venv\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x11acdf3+10b03]
+	chromedriver!GetHandleVerifier [0x11acf24+10c34]
+	chromedriver!(No symbol) [0xf91f5e]
+	chromedriver!(No symbol) [0xfcf4b7]
+	chromedriver!(No symbol) [0xffd9c6]
+	chromedriver!(No symbol) [0xff8e42]
+	chromedriver!(No symbol) [0xff8462]
+	chromedriver!(No symbol) [0xf6534e]
+	chromedriver!(No symbol) [0xf658ee]
+	chromedriver!(No symbol) [0xf65dcd]
+	chromedriver!GetHandleVerifier [0x14148b9+2785c9]
+	chromedriver!GetHandleVerifier [0x140feb5+273bc5]
+	chromedriver!GetHandleVerifier [0x142e06b+291d7b]
+	chromedriver!GetHandleVerifier [0x11c5cc8+299d8]
+	chromedriver!GetHandleVerifier [0x11cd9fd+3170d]
+	chromedriver!(No symbol) [0xf64ee9]
+	chromedriver!(No symbol) [0xf64530]
+	chromedriver!GetHandleVerifier [0x1562e9f+3c6baf]
+	KERNEL32!BaseThreadInitThunk [0x747b5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x7712d81b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x7712d7a1+231]
+
+2026-04-07 15:38:09,714 | ERROR | m_happy_flow_final.py:2082 |  Row 7 failed: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x11acdf3+10b03]
+	chromedriver!GetHandleVerifier [0x11acf24+10c34]
+	chromedriver!(No symbol) [0xf91f5e]
+	chromedriver!(No symbol) [0xfcf4b7]
+	chromedriver!(No symbol) [0xffd9c6]
+	chromedriver!(No symbol) [0xff8e42]
+	chromedriver!(No symbol) [0xff8462]
+	chromedriver!(No symbol) [0xf6534e]
+	chromedriver!(No symbol) [0xf658ee]
+	chromedriver!(No symbol) [0xf65dcd]
+	chromedriver!GetHandleVerifier [0x14148b9+2785c9]
+	chromedriver!GetHandleVerifier [0x140feb5+273bc5]
+	chromedriver!GetHandleVerifier [0x142e06b+291d7b]
+	chromedriver!GetHandleVerifier [0x11c5cc8+299d8]
+	chromedriver!GetHandleVerifier [0x11cd9fd+3170d]
+	chromedriver!(No symbol) [0xf64ee9]
+	chromedriver!(No symbol) [0xf64530]
+	chromedriver!GetHandleVerifier [0x1562e9f+3c6baf]
+	KERNEL32!BaseThreadInitThunk [0x747b5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x7712d81b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x7712d7a1+231]
+ (Order: Unknown)
+2026-04-07 15:38:09,896 | INFO | m_happy_flow_final.py:196 | Excel Log Written → Row: 7 | Order: Unknown | Status: ERROR
+2026-04-07 15:38:09,907 | WARNING | m_happy_flow_final.py:2111 |  Cleanup warning: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x11acdf3+10b03]
+	chromedriver!GetHandleVerifier [0x11acf24+10c34]
+	chromedriver!(No symbol) [0xf91f5e]
+	chromedriver!(No symbol) [0xfcf4b7]
+	chromedriver!(No symbol) [0xffd9c6]
+	chromedriver!(No symbol) [0xff8e42]
+	chromedriver!(No symbol) [0xff8462]
+	chromedriver!(No symbol) [0xf6534e]
+	chromedriver!(No symbol) [0xf658ee]
+	chromedriver!(No symbol) [0xf65dcd]
+	chromedriver!GetHandleVerifier [0x14148b9+2785c9]
+	chromedriver!GetHandleVerifier [0x140feb5+273bc5]
+	chromedriver!GetHandleVerifier [0x142e06b+291d7b]
+	chromedriver!GetHandleVerifier [0x11c5cc8+299d8]
+	chromedriver!GetHandleVerifier [0x11cd9fd+3170d]
+	chromedriver!(No symbol) [0xf64ee9]
+	chromedriver!(No symbol) [0xf64530]
+	chromedriver!GetHandleVerifier [0x1562e9f+3c6baf]
+	KERNEL32!BaseThreadInitThunk [0x747b5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x7712d81b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x7712d7a1+231]
+
+2026-04-07 15:38:09,908 | INFO | m_happy_flow_final.py:2036 | \n --- Processing Row Index: 8 (Page 1) ---
+2026-04-07 15:38:09,908 | INFO | m_happy_flow_final.py:514 | Processing row index: 8
+2026-04-07 15:38:09,911 | ERROR | m_happy_flow_final.py:1964 | Error inside click_truck_icons_one_by_one: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x11acdf3+10b03]
+	chromedriver!GetHandleVerifier [0x11acf24+10c34]
+	chromedriver!(No symbol) [0xf91f5e]
+	chromedriver!(No symbol) [0xfcf4b7]
+	chromedriver!(No symbol) [0xffd9c6]
+	chromedriver!(No symbol) [0xff8e42]
+	chromedriver!(No symbol) [0xff8462]
+	chromedriver!(No symbol) [0xf6534e]
+	chromedriver!(No symbol) [0xf658ee]
+	chromedriver!(No symbol) [0xf65dcd]
+	chromedriver!GetHandleVerifier [0x14148b9+2785c9]
+	chromedriver!GetHandleVerifier [0x140feb5+273bc5]
+	chromedriver!GetHandleVerifier [0x142e06b+291d7b]
+	chromedriver!GetHandleVerifier [0x11c5cc8+299d8]
+	chromedriver!GetHandleVerifier [0x11cd9fd+3170d]
+	chromedriver!(No symbol) [0xf64ee9]
+	chromedriver!(No symbol) [0xf64530]
+	chromedriver!GetHandleVerifier [0x1562e9f+3c6baf]
+	KERNEL32!BaseThreadInitThunk [0x747b5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x7712d81b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x7712d7a1+231]
+
+Traceback (most recent call last):
+  File "C:\Users\ghara\Documents\agribegri_UI\m_happy_flow_final.py", line 518, in click_truck_icons_one_by_one
+    rows = wait.until(
+        EC.presence_of_all_elements_located(
+            (By.XPATH, "//table[@id='dyntable']/tbody/tr")
+        )
+    )
+  File "C:\Users\ghara\Documents\agribegri_UI\venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 112, in until
+    value = method(self._driver)
+  File "C:\Users\ghara\Documents\agribegri_UI\venv\Lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 243, in _predicate
+    return driver.find_elements(*locator)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\ghara\Documents\agribegri_UI\venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 847, in find_elements
+    return self.execute(Command.FIND_ELEMENTS, {"using": by, "value": value})["value"] or []
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ghara\Documents\agribegri_UI\venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 446, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\ghara\Documents\agribegri_UI\venv\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x11acdf3+10b03]
+	chromedriver!GetHandleVerifier [0x11acf24+10c34]
+	chromedriver!(No symbol) [0xf91f5e]
+	chromedriver!(No symbol) [0xfcf4b7]
+	chromedriver!(No symbol) [0xffd9c6]
+	chromedriver!(No symbol) [0xff8e42]
+	chromedriver!(No symbol) [0xff8462]
+	chromedriver!(No symbol) [0xf6534e]
+	chromedriver!(No symbol) [0xf658ee]
+	chromedriver!(No symbol) [0xf65dcd]
+	chromedriver!GetHandleVerifier [0x14148b9+2785c9]
+	chromedriver!GetHandleVerifier [0x140feb5+273bc5]
+	chromedriver!GetHandleVerifier [0x142e06b+291d7b]
+	chromedriver!GetHandleVerifier [0x11c5cc8+299d8]
+	chromedriver!GetHandleVerifier [0x11cd9fd+3170d]
+	chromedriver!(No symbol) [0xf64ee9]
+	chromedriver!(No symbol) [0xf64530]
+	chromedriver!GetHandleVerifier [0x1562e9f+3c6baf]
+	KERNEL32!BaseThreadInitThunk [0x747b5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x7712d81b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x7712d7a1+231]
+
+2026-04-07 15:38:09,913 | ERROR | m_happy_flow_final.py:2082 |  Row 8 failed: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x11acdf3+10b03]
+	chromedriver!GetHandleVerifier [0x11acf24+10c34]
+	chromedriver!(No symbol) [0xf91f5e]
+	chromedriver!(No symbol) [0xfcf4b7]
+	chromedriver!(No symbol) [0xffd9c6]
+	chromedriver!(No symbol) [0xff8e42]
+	chromedriver!(No symbol) [0xff8462]
+	chromedriver!(No symbol) [0xf6534e]
+	chromedriver!(No symbol) [0xf658ee]
+	chromedriver!(No symbol) [0xf65dcd]
+	chromedriver!GetHandleVerifier [0x14148b9+2785c9]
+	chromedriver!GetHandleVerifier [0x140feb5+273bc5]
+	chromedriver!GetHandleVerifier [0x142e06b+291d7b]
+	chromedriver!GetHandleVerifier [0x11c5cc8+299d8]
+	chromedriver!GetHandleVerifier [0x11cd9fd+3170d]
+	chromedriver!(No symbol) [0xf64ee9]
+	chromedriver!(No symbol) [0xf64530]
+	chromedriver!GetHandleVerifier [0x1562e9f+3c6baf]
+	KERNEL32!BaseThreadInitThunk [0x747b5d49+19]
+	ntdll!RtlInitializeExceptionChain [0x7712d81b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x7712d7a1+231]
+ (Order: Unknown)

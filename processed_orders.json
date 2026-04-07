@@ -1,820 +1,802 @@
 [
     {
         "status": "Processed",
-        "order_id": "845123DZ",
-        "seller": "sagar biotech pvt ltd gujarat",
-        "amount": 670.0,
-        "customer": "Yash Dhakad",
-        "timestamp": "2026-02-13 15:50:12"
-    },
-    {
-        "status": "Error",
-        "order_id": "845126AW - M\nFastrr Id : 698ed34188e88852865e33b2",
-        "error": "Pickup not found for: atpl gujarat (Searched: atpl)",
-        "timestamp": "2026-02-13 15:50:18"
+        "order_id": "872040BJ",
+        "seller": "ABHISHEK JHAWAR",
+        "amount": 516.0,
+        "customer": "Mohd",
+        "timestamp": "2026-03-23 15:37:42"
     },
     {
         "status": "Processed",
-        "order_id": "845127CO",
-        "seller": "abhijit buch maharashtra",
-        "amount": 392.0,
-        "customer": "COL",
-        "timestamp": "2026-02-13 15:51:03"
+        "order_id": "872004D",
+        "seller": "Rahul garg",
+        "amount": 304.0,
+        "customer": "B",
+        "timestamp": "2026-03-23 15:39:03"
     },
     {
         "status": "Processed",
-        "order_id": "845130SH",
-        "seller": "keshav goyal punjab",
-        "amount": 863.0,
-        "customer": "Shashi Shekhar Dubey",
-        "timestamp": "2026-02-13 15:51:46"
-    },
-    {
-        "status": "Processed",
-        "order_id": "845141IP",
-        "seller": "berrysun agro science pvt. ltd. haryana",
-        "amount": 2133.0,
-        "customer": "Ravi K M",
-        "timestamp": "2026-02-13 15:52:27"
+        "order_id": "872003AX",
+        "seller": "RK chemicals",
+        "amount": 1269.2,
+        "customer": "Ashok",
+        "timestamp": "2026-03-23 15:40:22"
     },
     {
         "status": "Error",
-        "order_id": "845143VL - W",
-        "error": "Pickup not found for: agribegri trade link pvt. ltd. gujarat (Searched: agribegri trade link pvt. ltd.)",
-        "timestamp": "2026-02-13 15:52:36"
-    },
-    {
-        "status": "Error",
-        "order_id": "845144VL - W",
-        "error": "Pickup not found for: agribegri trade link pvt. ltd. gujarat (Searched: agribegri trade link pvt. ltd.)",
-        "timestamp": "2026-02-13 15:52:44"
-    },
-    {
-        "status": "Processed",
-        "order_id": "845161VN",
-        "seller": "mitrasena maharashtra",
-        "amount": 12050.0,
-        "customer": "Deependra",
-        "timestamp": "2026-02-13 15:53:25"
-    },
-    {
-        "status": "Error",
-        "order_id": "845126AW - M\nFastrr Id : 698ed34188e88852865e33b2",
-        "error": "Pickup not found for: atpl gujarat (Searched: atpl)",
-        "timestamp": "2026-02-13 15:55:49"
-    },
-    {
-        "status": "Error",
-        "order_id": "845143VL - W",
-        "error": "Pickup not found for: agribegri trade link pvt. ltd. gujarat (Searched: agribegri trade link pvt. ltd.)",
-        "timestamp": "2026-02-13 15:55:59"
-    },
-    {
-        "status": "Error",
-        "order_id": "845144VL - W",
-        "error": "Pickup not found for: agribegri trade link pvt. ltd. gujarat (Searched: agribegri trade link pvt. ltd.)",
-        "timestamp": "2026-02-13 15:56:07"
-    },
-    {
-        "status": "Error",
-        "order_id": "845164GR - A\nFastrr Transaction Id : Cuoplfnt1770970934385\nFastrr Id : 698eded0d868ce1cfee37bd8\nFastrr Pg Transaction Id : CEP7H751BQTR6R",
-        "error": "Pickup not found for: agribegri trade link pvt. ltd. gujarat (Searched: agribegri trade link pvt. ltd.)",
-        "timestamp": "2026-02-13 15:56:17"
-    },
-    {
-        "status": "Error",
-        "order_id": "845165RJ - A\nFastrr Transaction Id : Cuoplfnt1770970934385\nFastrr Id : 698eded0d868ce1cfee37bd8\nFastrr Pg Transaction Id : CEP7H751BQTR6R",
-        "error": "Pickup not found for: agribegri trade link pvt. ltd. gujarat (Searched: agribegri trade link pvt. ltd.)",
-        "timestamp": "2026-02-13 15:56:25"
-    },
-    {
-        "status": "Processed",
-        "order_id": "845166KH",
-        "seller": "muhammed meerasha tamil nadu",
-        "amount": 561.0,
-        "customer": "M Singaraiah Naik",
-        "timestamp": "2026-02-13 15:57:16"
-    },
-    {
-        "status": "Processed",
-        "order_id": "845167HG",
-        "seller": "ishan mistry of sk inter gujarat",
-        "amount": 999.0,
-        "customer": "Rahul Ji",
-        "timestamp": "2026-02-13 15:57:57"
-    },
-    {
-        "status": "Processed",
-        "order_id": "845169TD",
-        "seller": "piyush kataria rajasthan",
-        "amount": 1209.0,
-        "customer": "M Singaraiah Naik",
-        "timestamp": "2026-02-13 15:58:39"
-    },
-    {
-        "status": "Error",
-        "order_id": "845172OJ - A\nFastrr Transaction Id : Cuoplfnt1770970934385\nFastrr Id : 698eded0d868ce1cfee37bd8\nFastrr Pg Transaction Id : CEP7H751BQTR6R",
-        "error": "Message: \nStacktrace:\nSymbols not available. Dumping unresolved backtrace:\n\t0x7ff7f3ab5715\n\t0x7ff7f3ab5770\n\t0x7ff7f386108d\n\t0x7ff7f38bc3be\n\t0x7ff7f38bc6cc\n\t0x7ff7f390d2f7\n\t0x7ff7f3909e45\n\t0x7ff7f38acc28\n\t0x7ff7f38adb33\n\t0x7ff7f3d9e9f0\n\t0x7ff7f3d98ded\n\t0x7ff7f3db969a\n\t0x7ff7f3ad11e5\n\t0x7ff7f3ad99cc\n\t0x7ff7f3abebf4\n\t0x7ff7f3abeda6\n\t0x7ff7f3aa4e87\n\t0x7ff97051e8d7\n\t0x7ff9716ac40c\n",
-        "timestamp": "2026-02-13 15:59:32"
-    },
-    {
-        "status": "Error",
-        "order_id": "845175XS - W\nFastrr Id : 698ee203e1a85b3c7e82ced7",
-        "error": "Message: \nStacktrace:\nSymbols not available. Dumping unresolved backtrace:\n\t0x7ff7f3ab5715\n\t0x7ff7f3ab5770\n\t0x7ff7f386108d\n\t0x7ff7f38bc3be\n\t0x7ff7f38bc6cc\n\t0x7ff7f390d2f7\n\t0x7ff7f3909e45\n\t0x7ff7f38acc28\n\t0x7ff7f38adb33\n\t0x7ff7f3d9e9f0\n\t0x7ff7f3d98ded\n\t0x7ff7f3db969a\n\t0x7ff7f3ad11e5\n\t0x7ff7f3ad99cc\n\t0x7ff7f3abebf4\n\t0x7ff7f3abeda6\n\t0x7ff7f3aa4e87\n\t0x7ff97051e8d7\n\t0x7ff9716ac40c\n",
-        "timestamp": "2026-02-13 16:00:20"
-    },
-    {
-        "status": "Error",
-        "order_id": "845176RX - A\nFastrr Transaction Id : Cudsewep1770971915935\nFastrr Id : 698ee1f72217e53ac79e27ae\nFastrr Pg Transaction Id : CKT5TKJ1BQV6MA",
-        "error": "Message: \nStacktrace:\nSymbols not available. Dumping unresolved backtrace:\n\t0x7ff7f3ab5715\n\t0x7ff7f3ab5770\n\t0x7ff7f386108d\n\t0x7ff7f38bc3be\n\t0x7ff7f38bc6cc\n\t0x7ff7f390d2f7\n\t0x7ff7f3909e45\n\t0x7ff7f38acc28\n\t0x7ff7f38adb33\n\t0x7ff7f3d9e9f0\n\t0x7ff7f3d98ded\n\t0x7ff7f3db969a\n\t0x7ff7f3ad11e5\n\t0x7ff7f3ad99cc\n\t0x7ff7f3abebf4\n\t0x7ff7f3abeda6\n\t0x7ff7f3aa4e87\n\t0x7ff97051e8d7\n\t0x7ff9716ac40c\n",
-        "timestamp": "2026-02-13 16:01:15"
-    },
-    {
-        "status": "Processed",
-        "order_id": "845179NU",
-        "seller": "rahul garg punjab",
-        "amount": 6120.0,
-        "customer": "KUMARAGURUBARAN B",
-        "timestamp": "2026-02-13 16:01:59"
-    },
-    {
-        "status": "Error",
-        "order_id": "845181WK - W\nFastrr Id : 698ee1a1743929586ce3b319",
-        "error": "Message: \nStacktrace:\nSymbols not available. Dumping unresolved backtrace:\n\t0x7ff7f3ab5715\n\t0x7ff7f3ab5770\n\t0x7ff7f386108d\n\t0x7ff7f38bc3be\n\t0x7ff7f38bc6cc\n\t0x7ff7f390d2f7\n\t0x7ff7f3909e45\n\t0x7ff7f38acc28\n\t0x7ff7f38adb33\n\t0x7ff7f3d9e9f0\n\t0x7ff7f3d98ded\n\t0x7ff7f3db969a\n\t0x7ff7f3ad11e5\n\t0x7ff7f3ad99cc\n\t0x7ff7f3abebf4\n\t0x7ff7f3abeda6\n\t0x7ff7f3aa4e87\n\t0x7ff97051e8d7\n\t0x7ff9716ac40c\n",
-        "timestamp": "2026-02-13 16:02:50"
-    },
-    {
-        "status": "Error",
-        "order_id": "845192BF - W",
-        "error": "Message: \nStacktrace:\nSymbols not available. Dumping unresolved backtrace:\n\t0x7ff7f3ab5715\n\t0x7ff7f3ab5770\n\t0x7ff7f386108d\n\t0x7ff7f38bc3be\n\t0x7ff7f38bc6cc\n\t0x7ff7f390d2f7\n\t0x7ff7f3909e45\n\t0x7ff7f38acc28\n\t0x7ff7f38adb33\n\t0x7ff7f3d9e9f0\n\t0x7ff7f3d98ded\n\t0x7ff7f3db969a\n\t0x7ff7f3ad11e5\n\t0x7ff7f3ad99cc\n\t0x7ff7f3abebf4\n\t0x7ff7f3abeda6\n\t0x7ff7f3aa4e87\n\t0x7ff97051e8d7\n\t0x7ff9716ac40c\n",
-        "timestamp": "2026-02-13 16:03:44"
-    },
-    {
-        "status": "Error",
-        "order_id": "845193BF - W",
-        "error": "Message: \nStacktrace:\nSymbols not available. Dumping unresolved backtrace:\n\t0x7ff7f3ab5715\n\t0x7ff7f3ab5770\n\t0x7ff7f386108d\n\t0x7ff7f38bc3be\n\t0x7ff7f38bc6cc\n\t0x7ff7f390d2f7\n\t0x7ff7f3909e45\n\t0x7ff7f38acc28\n\t0x7ff7f38adb33\n\t0x7ff7f3d9e9f0\n\t0x7ff7f3d98ded\n\t0x7ff7f3db969a\n\t0x7ff7f3ad11e5\n\t0x7ff7f3ad99cc\n\t0x7ff7f3abebf4\n\t0x7ff7f3abeda6\n\t0x7ff7f3aa4e87\n\t0x7ff97051e8d7\n\t0x7ff9716ac40c\n",
-        "timestamp": "2026-02-13 16:04:33"
-    },
-    {
-        "status": "Error",
-        "order_id": "845196FF - W",
-        "error": "Pickup not found for: hussain lokhandwala madhya pradesh (Searched: hussain lokhandwala)",
-        "timestamp": "2026-02-13 16:04:42"
-    },
-    {
-        "status": "Error",
-        "order_id": "845197T - A\nFastrr Id : 698eec4cac23d90a9c56b232",
-        "error": "Pickup not found for: agribegri trade link pvt. ltd. gujarat (Searched: agribegri trade link pvt. ltd.)",
-        "timestamp": "2026-02-13 16:04:50"
-    },
-    {
-        "status": "Error",
-        "order_id": "845203ZI - M\nFastrr Id : 698eed12148ad30bb481ef87",
-        "error": "Pickup not found for: brijesh suresh somani maharashtra (Searched: brijesh suresh somani)",
-        "timestamp": "2026-02-13 16:05:01"
-    },
-    {
-        "status": "Error",
-        "order_id": "845208QK - W\nFastrr Id : 698eeec2cafed636cee66510",
-        "error": "Message: \nStacktrace:\nSymbols not available. Dumping unresolved backtrace:\n\t0x7ff7f3ab5715\n\t0x7ff7f3ab5770\n\t0x7ff7f386108d\n\t0x7ff7f38bc3be\n\t0x7ff7f38bc6cc\n\t0x7ff7f390d2f7\n\t0x7ff7f3909e45\n\t0x7ff7f38acc28\n\t0x7ff7f38adb33\n\t0x7ff7f3d9e9f0\n\t0x7ff7f3d98ded\n\t0x7ff7f3db969a\n\t0x7ff7f3ad11e5\n\t0x7ff7f3ad99cc\n\t0x7ff7f3abebf4\n\t0x7ff7f3abeda6\n\t0x7ff7f3aa4e87\n\t0x7ff97051e8d7\n\t0x7ff9716ac40c\n",
-        "timestamp": "2026-02-13 16:05:54"
-    },
-    {
-        "status": "Error",
-        "order_id": "845215XX - A\nFastrr Transaction Id : Culmzhyc1770975953207\nFastrr Id : 698ef2bc654d806928a4edbb\nFastrr Pg Transaction Id : CKT542M1BR1ETV",
-        "error": "Message: \nStacktrace:\nSymbols not available. Dumping unresolved backtrace:\n\t0x7ff7f3ab5715\n\t0x7ff7f3ab5770\n\t0x7ff7f386108d\n\t0x7ff7f38bc3be\n\t0x7ff7f38bc6cc\n\t0x7ff7f390d2f7\n\t0x7ff7f3909e45\n\t0x7ff7f38acc28\n\t0x7ff7f38adb33\n\t0x7ff7f3d9e9f0\n\t0x7ff7f3d98ded\n\t0x7ff7f3db969a\n\t0x7ff7f3ad11e5\n\t0x7ff7f3ad99cc\n\t0x7ff7f3abebf4\n\t0x7ff7f3abeda6\n\t0x7ff7f3aa4e87\n\t0x7ff97051e8d7\n\t0x7ff9716ac40c\n",
-        "timestamp": "2026-02-13 16:06:43"
-    },
-    {
-        "status": "Error",
-        "order_id": "845224RT - A\nFastrr Id : 698ef3d7ee277d5ccb4f99c7",
-        "error": "Pickup not found for: sagar padgilwar maharashtra (Searched: sagar padgilwar)",
-        "timestamp": "2026-02-13 16:06:52"
-    },
-    {
-        "status": "Processed",
-        "order_id": "845225BB",
-        "seller": "essential biosciences madhya pradesh",
-        "amount": 12651.0,
-        "customer": "Nimmala Srinu",
-        "timestamp": "2026-02-13 16:07:32"
-    },
-    {
-        "status": "Processed",
-        "order_id": "845229UM",
-        "seller": "rahul garg punjab",
-        "amount": 595.0,
-        "customer": "AshikAshraf AshikAshraf",
-        "timestamp": "2026-02-13 16:08:16"
-    },
-    {
-        "status": "Error",
-        "order_id": "845236FJ - A\nFastrr Id : 698ef8a6b091b3018170b554",
-        "error": "Message: \nStacktrace:\nSymbols not available. Dumping unresolved backtrace:\n\t0x7ff7f3ab5715\n\t0x7ff7f3ab5770\n\t0x7ff7f386108d\n\t0x7ff7f38bc3be\n\t0x7ff7f38bc6cc\n\t0x7ff7f390d2f7\n\t0x7ff7f3909e45\n\t0x7ff7f38acc28\n\t0x7ff7f38adb33\n\t0x7ff7f3d9e9f0\n\t0x7ff7f3d98ded\n\t0x7ff7f3db969a\n\t0x7ff7f3ad11e5\n\t0x7ff7f3ad99cc\n\t0x7ff7f3abebf4\n\t0x7ff7f3abeda6\n\t0x7ff7f3aa4e87\n\t0x7ff97051e8d7\n\t0x7ff9716ac40c\n",
-        "timestamp": "2026-02-13 16:09:10"
-    },
-    {
-        "status": "Processed",
-        "order_id": "845092XY",
-        "seller": "vaibhav singh chhabra of pep solution madhya pradesh",
-        "amount": 474.0,
-        "customer": "Shekhar Shekhar",
-        "timestamp": "2026-02-13 16:09:56"
-    },
-    {
-        "status": "Error",
-        "order_id": "845283IL - W",
-        "error": "Message: \nStacktrace:\nSymbols not available. Dumping unresolved backtrace:\n\t0x7ff7bcdf5715\n\t0x7ff7bcdf5770\n\t0x7ff7bcba108d\n\t0x7ff7bcbfc3be\n\t0x7ff7bcbfc6cc\n\t0x7ff7bcc4d2f7\n\t0x7ff7bcc49e45\n\t0x7ff7bcbecc28\n\t0x7ff7bcbedb33\n\t0x7ff7bd0de9f0\n\t0x7ff7bd0d8ded\n\t0x7ff7bd0f969a\n\t0x7ff7bce111e5\n\t0x7ff7bce199cc\n\t0x7ff7bcdfebf4\n\t0x7ff7bcdfeda6\n\t0x7ff7bcde4e87\n\t0x7ff97051e8d7\n\t0x7ff9716ac40c\n",
-        "timestamp": "2026-02-13 18:35:48"
-    },
-    {
-        "status": "Error",
-        "order_id": "848369WG - A\nFastrr Transaction Id : Cuyjzhjr1771314590307\nFastrr Id : 69941d7a8463f1434255706f\nFastrr Pg Transaction Id : 27335591821",
-        "error": "Message: \nStacktrace:\nSymbols not available. Dumping unresolved backtrace:\n\t0x7ff73aa75715\n\t0x7ff73aa75770\n\t0x7ff73a82108d\n\t0x7ff73a87c3be\n\t0x7ff73a87c6cc\n\t0x7ff73a8cd2f7\n\t0x7ff73a8c9e45\n\t0x7ff73a86cc28\n\t0x7ff73a86db33\n\t0x7ff73ad5e9f0\n\t0x7ff73ad58ded\n\t0x7ff73ad7969a\n\t0x7ff73aa911e5\n\t0x7ff73aa999cc\n\t0x7ff73aa7ebf4\n\t0x7ff73aa7eda6\n\t0x7ff73aa64e87\n\t0x7fff07f4e8d7\n\t0x7fff0874c40c\n",
-        "timestamp": "2026-02-17 17:43:40"
-    },
-    {
-        "status": "Processed",
-        "order_id": "848370B",
-        "seller": "rahul garg punjab",
-        "amount": 6608.0,
-        "customer": "Kunjalkumar",
-        "timestamp": "2026-02-17 17:44:53"
-    },
-    {
-        "status": "Processed",
-        "order_id": "848474XF",
-        "seller": "shanti devi agriculture store matour haryana",
-        "amount": 15331.0,
-        "customer": "Raga Sumanth",
-        "timestamp": "2026-02-17 17:48:08"
+        "order_id": "879568UB",
+        "reason": "Message: \nStacktrace:\n\tchromedriver!GetHandleVerifier [0x44cdf3+10b03]\n\tchromedriver!GetHandleVerifier [0x44cf24+10c34]\n\tchromedriver!(No symbol) [0x232120]\n\tchromedriver!(No symbol) [0x27abca]\n\tchromedriver!(No symbol) [0x27ae6b]\n\tchromedriver!(No symbol) [0x2bd0b2]\n\tchromedriver!(No symbol) [0x29db54]\n\tchromedriver!(No symbol) [0x2ba9a5]\n\tchromedriver!(No symbol) [0x29d8a6]\n\tchromedriver!(No symbol) [0x270229]\n\tchromedriver!(No symbol) [0x270fe4]\n\tchromedriver!GetHandleVerifier [0x6b48b9+2785c9]\n\tchromedriver!GetHandleVerifier [0x6afeb5+273bc5]\n\tchromedriver!GetHandleVerifier [0x6ce06b+291d7b]\n\tchromedriver!GetHandleVerifier [0x465cc8+299d8]\n\tchromedriver!GetHandleVerifier [0x46d9fd+3170d]\n\tchromedriver!GetHandleVerifier [0x4558c8+195d8]\n\tchromedriver!GetHandleVerifier [0x455a92+197a2]\n\tchromedriver!GetHandleVerifier [0x43ee9a+2baa]\n\tKERNEL32!BaseThreadInitThunk [0x747b5d49+19]\n\tntdll!RtlInitializeExceptionChain [0x7712d81b+6b]\n\tntdll!RtlGetAppContainerNamedObjectPath [0x7712d7a1+231]\n",
+        "error": "Message: \nStacktrace:\n\tchromedriver!GetHandleVerifier [0x44cdf3+10b03]\n\tchromedriver!GetHandleVerifier [0x44cf24+10c34]\n\tchromedriver!(No symbol) [0x232120]\n\tchromedriver!(No symbol) [0x27abca]\n\tchromedriver!(No symbol) [0x27ae6b]\n\tchromedriver!(No symbol) [0x2bd0b2]\n\tchromedriver!(No symbol) [0x29db54]\n\tchromedriver!(No symbol) [0x2ba9a5]\n\tchromedriver!(No symbol) [0x29d8a6]\n\tchromedriver!(No symbol) [0x270229]\n\tchromedriver!(No symbol) [0x270fe4]\n\tchromedriver!GetHandleVerifier [0x6b48b9+2785c9]\n\tchromedriver!GetHandleVerifier [0x6afeb5+273bc5]\n\tchromedriver!GetHandleVerifier [0x6ce06b+291d7b]\n\tchromedriver!GetHandleVerifier [0x465cc8+299d8]\n\tchromedriver!GetHandleVerifier [0x46d9fd+3170d]\n\tchromedriver!GetHandleVerifier [0x4558c8+195d8]\n\tchromedriver!GetHandleVerifier [0x455a92+197a2]\n\tchromedriver!GetHandleVerifier [0x43ee9a+2baa]\n\tKERNEL32!BaseThreadInitThunk [0x747b5d49+19]\n\tntdll!RtlInitializeExceptionChain [0x7712d81b+6b]\n\tntdll!RtlGetAppContainerNamedObjectPath [0x7712d7a1+231]\n",
+        "timestamp": "2026-04-02 10:46:59"
     },
     {
         "status": "Skipped",
         "order_id": "Confirm",
         "reason": "Weight or Amount exceeds allowed limit",
-        "timestamp": "2026-03-12 13:24:43"
+        "timestamp": "2026-04-02 10:47:01"
+    },
+    {
+        "status": "Error",
+        "order_id": "879581Q",
+        "reason": "Message: \n",
+        "error": "Message: \n",
+        "timestamp": "2026-04-02 10:57:39"
+    },
+    {
+        "status": "Error",
+        "order_id": "879581Q",
+        "reason": "Message: \n",
+        "error": "Message: \n",
+        "timestamp": "2026-04-02 11:11:16"
+    },
+    {
+        "status": "Error",
+        "order_id": "879612YH",
+        "reason": "Message: element not interactable\n  (Session info: chrome=146.0.7680.165); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementnotinteractableexception\nStacktrace:\n\tchromedriver!GetHandleVerifier [0xbdcdf3+10b03]\n\tchromedriver!GetHandleVerifier [0xbdcf24+10c34]\n\tchromedriver!(No symbol) [0x9c1f5e]\n\tchromedriver!(No symbol) [0xa06ccf]\n\tchromedriver!(No symbol) [0xa05a20]\n\tchromedriver!(No symbol) [0xa2db0c]\n\tchromedriver!(No symbol) [0xa016e4]\n\tchromedriver!(No symbol) [0xa2dcd4]\n\tchromedriver!(No symbol) [0xa4a9a5]\n\tchromedriver!(No symbol) [0xa2d8a6]\n\tchromedriver!(No symbol) [0xa00229]\n\tchromedriver!(No symbol) [0xa00fe4]\n\tchromedriver!GetHandleVerifier [0xe448b9+2785c9]\n\tchromedriver!GetHandleVerifier [0xe3feb5+273bc5]\n\tchromedriver!GetHandleVerifier [0xe5e06b+291d7b]\n\tchromedriver!GetHandleVerifier [0xbf5cc8+299d8]\n\tchromedriver!GetHandleVerifier [0xbfd9fd+3170d]\n\tchromedriver!GetHandleVerifier [0xbe58c8+195d8]\n\tchromedriver!GetHandleVerifier [0xbe5a92+197a2]\n\tchromedriver!GetHandleVerifier [0xbcee9a+2baa]\n\tKERNEL32!BaseThreadInitThunk [0x747b5d49+19]\n\tntdll!RtlInitializeExceptionChain [0x7712d81b+6b]\n\tntdll!RtlGetAppContainerNamedObjectPath [0x7712d7a1+231]\n",
+        "error": "Message: element not interactable\n  (Session info: chrome=146.0.7680.165); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementnotinteractableexception\nStacktrace:\n\tchromedriver!GetHandleVerifier [0xbdcdf3+10b03]\n\tchromedriver!GetHandleVerifier [0xbdcf24+10c34]\n\tchromedriver!(No symbol) [0x9c1f5e]\n\tchromedriver!(No symbol) [0xa06ccf]\n\tchromedriver!(No symbol) [0xa05a20]\n\tchromedriver!(No symbol) [0xa2db0c]\n\tchromedriver!(No symbol) [0xa016e4]\n\tchromedriver!(No symbol) [0xa2dcd4]\n\tchromedriver!(No symbol) [0xa4a9a5]\n\tchromedriver!(No symbol) [0xa2d8a6]\n\tchromedriver!(No symbol) [0xa00229]\n\tchromedriver!(No symbol) [0xa00fe4]\n\tchromedriver!GetHandleVerifier [0xe448b9+2785c9]\n\tchromedriver!GetHandleVerifier [0xe3feb5+273bc5]\n\tchromedriver!GetHandleVerifier [0xe5e06b+291d7b]\n\tchromedriver!GetHandleVerifier [0xbf5cc8+299d8]\n\tchromedriver!GetHandleVerifier [0xbfd9fd+3170d]\n\tchromedriver!GetHandleVerifier [0xbe58c8+195d8]\n\tchromedriver!GetHandleVerifier [0xbe5a92+197a2]\n\tchromedriver!GetHandleVerifier [0xbcee9a+2baa]\n\tKERNEL32!BaseThreadInitThunk [0x747b5d49+19]\n\tntdll!RtlInitializeExceptionChain [0x7712d81b+6b]\n\tntdll!RtlGetAppContainerNamedObjectPath [0x7712d7a1+231]\n",
+        "timestamp": "2026-04-02 11:16:07"
+    },
+    {
+        "status": "Error",
+        "order_id": "879622WM",
+        "reason": "Message: \nStacktrace:\n\tchromedriver!GetHandleVerifier [0xbdcdf3+10b03]\n\tchromedriver!GetHandleVerifier [0xbdcf24+10c34]\n\tchromedriver!(No symbol) [0x9c2120]\n\tchromedriver!(No symbol) [0xa0abca]\n\tchromedriver!(No symbol) [0xa0ae6b]\n\tchromedriver!(No symbol) [0xa4d0b2]\n\tchromedriver!(No symbol) [0xa2db54]\n\tchromedriver!(No symbol) [0xa4a9a5]\n\tchromedriver!(No symbol) [0xa2d8a6]\n\tchromedriver!(No symbol) [0xa00229]\n\tchromedriver!(No symbol) [0xa00fe4]\n\tchromedriver!GetHandleVerifier [0xe448b9+2785c9]\n\tchromedriver!GetHandleVerifier [0xe3feb5+273bc5]\n\tchromedriver!GetHandleVerifier [0xe5e06b+291d7b]\n\tchromedriver!GetHandleVerifier [0xbf5cc8+299d8]\n\tchromedriver!GetHandleVerifier [0xbfd9fd+3170d]\n\tchromedriver!GetHandleVerifier [0xbe58c8+195d8]\n\tchromedriver!GetHandleVerifier [0xbe5a92+197a2]\n\tchromedriver!GetHandleVerifier [0xbcee9a+2baa]\n\tKERNEL32!BaseThreadInitThunk [0x747b5d49+19]\n\tntdll!RtlInitializeExceptionChain [0x7712d81b+6b]\n\tntdll!RtlGetAppContainerNamedObjectPath [0x7712d7a1+231]\n",
+        "error": "Message: \nStacktrace:\n\tchromedriver!GetHandleVerifier [0xbdcdf3+10b03]\n\tchromedriver!GetHandleVerifier [0xbdcf24+10c34]\n\tchromedriver!(No symbol) [0x9c2120]\n\tchromedriver!(No symbol) [0xa0abca]\n\tchromedriver!(No symbol) [0xa0ae6b]\n\tchromedriver!(No symbol) [0xa4d0b2]\n\tchromedriver!(No symbol) [0xa2db54]\n\tchromedriver!(No symbol) [0xa4a9a5]\n\tchromedriver!(No symbol) [0xa2d8a6]\n\tchromedriver!(No symbol) [0xa00229]\n\tchromedriver!(No symbol) [0xa00fe4]\n\tchromedriver!GetHandleVerifier [0xe448b9+2785c9]\n\tchromedriver!GetHandleVerifier [0xe3feb5+273bc5]\n\tchromedriver!GetHandleVerifier [0xe5e06b+291d7b]\n\tchromedriver!GetHandleVerifier [0xbf5cc8+299d8]\n\tchromedriver!GetHandleVerifier [0xbfd9fd+3170d]\n\tchromedriver!GetHandleVerifier [0xbe58c8+195d8]\n\tchromedriver!GetHandleVerifier [0xbe5a92+197a2]\n\tchromedriver!GetHandleVerifier [0xbcee9a+2baa]\n\tKERNEL32!BaseThreadInitThunk [0x747b5d49+19]\n\tntdll!RtlInitializeExceptionChain [0x7712d81b+6b]\n\tntdll!RtlGetAppContainerNamedObjectPath [0x7712d7a1+231]\n",
+        "timestamp": "2026-04-02 11:32:39"
+    },
+    {
+        "status": "Error",
+        "order_id": "879624MI",
+        "reason": "Message: \nStacktrace:\n\tchromedriver!GetHandleVerifier [0xbdcdf3+10b03]\n\tchromedriver!GetHandleVerifier [0xbdcf24+10c34]\n\tchromedriver!(No symbol) [0x9c2120]\n\tchromedriver!(No symbol) [0xa0abca]\n\tchromedriver!(No symbol) [0xa0ae6b]\n\tchromedriver!(No symbol) [0xa4d0b2]\n\tchromedriver!(No symbol) [0xa2db54]\n\tchromedriver!(No symbol) [0xa4a9a5]\n\tchromedriver!(No symbol) [0xa2d8a6]\n\tchromedriver!(No symbol) [0xa00229]\n\tchromedriver!(No symbol) [0xa00fe4]\n\tchromedriver!GetHandleVerifier [0xe448b9+2785c9]\n\tchromedriver!GetHandleVerifier [0xe3feb5+273bc5]\n\tchromedriver!GetHandleVerifier [0xe5e06b+291d7b]\n\tchromedriver!GetHandleVerifier [0xbf5cc8+299d8]\n\tchromedriver!GetHandleVerifier [0xbfd9fd+3170d]\n\tchromedriver!GetHandleVerifier [0xbe58c8+195d8]\n\tchromedriver!GetHandleVerifier [0xbe5a92+197a2]\n\tchromedriver!GetHandleVerifier [0xbcee9a+2baa]\n\tKERNEL32!BaseThreadInitThunk [0x747b5d49+19]\n\tntdll!RtlInitializeExceptionChain [0x7712d81b+6b]\n\tntdll!RtlGetAppContainerNamedObjectPath [0x7712d7a1+231]\n",
+        "error": "Message: \nStacktrace:\n\tchromedriver!GetHandleVerifier [0xbdcdf3+10b03]\n\tchromedriver!GetHandleVerifier [0xbdcf24+10c34]\n\tchromedriver!(No symbol) [0x9c2120]\n\tchromedriver!(No symbol) [0xa0abca]\n\tchromedriver!(No symbol) [0xa0ae6b]\n\tchromedriver!(No symbol) [0xa4d0b2]\n\tchromedriver!(No symbol) [0xa2db54]\n\tchromedriver!(No symbol) [0xa4a9a5]\n\tchromedriver!(No symbol) [0xa2d8a6]\n\tchromedriver!(No symbol) [0xa00229]\n\tchromedriver!(No symbol) [0xa00fe4]\n\tchromedriver!GetHandleVerifier [0xe448b9+2785c9]\n\tchromedriver!GetHandleVerifier [0xe3feb5+273bc5]\n\tchromedriver!GetHandleVerifier [0xe5e06b+291d7b]\n\tchromedriver!GetHandleVerifier [0xbf5cc8+299d8]\n\tchromedriver!GetHandleVerifier [0xbfd9fd+3170d]\n\tchromedriver!GetHandleVerifier [0xbe58c8+195d8]\n\tchromedriver!GetHandleVerifier [0xbe5a92+197a2]\n\tchromedriver!GetHandleVerifier [0xbcee9a+2baa]\n\tKERNEL32!BaseThreadInitThunk [0x747b5d49+19]\n\tntdll!RtlInitializeExceptionChain [0x7712d81b+6b]\n\tntdll!RtlGetAppContainerNamedObjectPath [0x7712d7a1+231]\n",
+        "timestamp": "2026-04-02 12:00:47"
+    },
+    {
+        "status": "Error",
+        "order_id": "879622WM",
+        "reason": "Message: \nStacktrace:\n\tchromedriver!GetHandleVerifier [0xbdcdf3+10b03]\n\tchromedriver!GetHandleVerifier [0xbdcf24+10c34]\n\tchromedriver!(No symbol) [0x9c2120]\n\tchromedriver!(No symbol) [0xa0abca]\n\tchromedriver!(No symbol) [0xa0ae6b]\n\tchromedriver!(No symbol) [0xa4d0b2]\n\tchromedriver!(No symbol) [0xa2db54]\n\tchromedriver!(No symbol) [0xa4a9a5]\n\tchromedriver!(No symbol) [0xa2d8a6]\n\tchromedriver!(No symbol) [0xa00229]\n\tchromedriver!(No symbol) [0xa00fe4]\n\tchromedriver!GetHandleVerifier [0xe448b9+2785c9]\n\tchromedriver!GetHandleVerifier [0xe3feb5+273bc5]\n\tchromedriver!GetHandleVerifier [0xe5e06b+291d7b]\n\tchromedriver!GetHandleVerifier [0xbf5cc8+299d8]\n\tchromedriver!GetHandleVerifier [0xbfd9fd+3170d]\n\tchromedriver!GetHandleVerifier [0xbe58c8+195d8]\n\tchromedriver!GetHandleVerifier [0xbe5a92+197a2]\n\tchromedriver!GetHandleVerifier [0xbcee9a+2baa]\n\tKERNEL32!BaseThreadInitThunk [0x747b5d49+19]\n\tntdll!RtlInitializeExceptionChain [0x7712d81b+6b]\n\tntdll!RtlGetAppContainerNamedObjectPath [0x7712d7a1+231]\n",
+        "error": "Message: \nStacktrace:\n\tchromedriver!GetHandleVerifier [0xbdcdf3+10b03]\n\tchromedriver!GetHandleVerifier [0xbdcf24+10c34]\n\tchromedriver!(No symbol) [0x9c2120]\n\tchromedriver!(No symbol) [0xa0abca]\n\tchromedriver!(No symbol) [0xa0ae6b]\n\tchromedriver!(No symbol) [0xa4d0b2]\n\tchromedriver!(No symbol) [0xa2db54]\n\tchromedriver!(No symbol) [0xa4a9a5]\n\tchromedriver!(No symbol) [0xa2d8a6]\n\tchromedriver!(No symbol) [0xa00229]\n\tchromedriver!(No symbol) [0xa00fe4]\n\tchromedriver!GetHandleVerifier [0xe448b9+2785c9]\n\tchromedriver!GetHandleVerifier [0xe3feb5+273bc5]\n\tchromedriver!GetHandleVerifier [0xe5e06b+291d7b]\n\tchromedriver!GetHandleVerifier [0xbf5cc8+299d8]\n\tchromedriver!GetHandleVerifier [0xbfd9fd+3170d]\n\tchromedriver!GetHandleVerifier [0xbe58c8+195d8]\n\tchromedriver!GetHandleVerifier [0xbe5a92+197a2]\n\tchromedriver!GetHandleVerifier [0xbcee9a+2baa]\n\tKERNEL32!BaseThreadInitThunk [0x747b5d49+19]\n\tntdll!RtlInitializeExceptionChain [0x7712d81b+6b]\n\tntdll!RtlGetAppContainerNamedObjectPath [0x7712d7a1+231]\n",
+        "timestamp": "2026-04-02 12:01:56"
+    },
+    {
+        "status": "Error",
+        "order_id": "879624MI",
+        "reason": "Message: \n",
+        "error": "Message: \n",
+        "timestamp": "2026-04-02 12:08:33"
+    },
+    {
+        "status": "Error",
+        "order_id": "879622WM",
+        "reason": "Message: unknown error: unhandled inspector error: {\"code\":-32000,\"message\":\"Node with given id does not belong to the document\"}\n  (Session info: chrome=146.0.7680.165)\nStacktrace:\n\tchromedriver!GetHandleVerifier [0xbdcdf3+10b03]\n\tchromedriver!GetHandleVerifier [0xbdcf24+10c34]\n\tchromedriver!(No symbol) [0x9c2120]\n\tchromedriver!(No symbol) [0x9b19f2]\n\tchromedriver!(No symbol) [0x9b04c6]\n\tchromedriver!(No symbol) [0x9b0b46]\n\tchromedriver!(No symbol) [0x9d2173]\n\tchromedriver!(No symbol) [0x9d438c]\n\tchromedriver!(No symbol) [0x9d315c]\n\tchromedriver!(No symbol) [0x9c96b9]\n\tchromedriver!(No symbol) [0x9c979d]\n\tchromedriver!(No symbol) [0x9c7ad2]\n\tchromedriver!(No symbol) [0x9cb2bd]\n\tchromedriver!(No symbol) [0xa4b6f1]\n\tchromedriver!(No symbol) [0xa2db0c]\n\tchromedriver!(No symbol) [0xa4a9a5]\n\tchromedriver!(No symbol) [0xa2d8a6]\n\tchromedriver!(No symbol) [0xa00229]\n\tchromedriver!(No symbol) [0xa00fe4]\n\tchromedriver!GetHandleVerifier [0xe448b9+2785c9]\n\tchromedriver!GetHandleVerifier [0xe3feb5+273bc5]\n\tchromedriver!GetHandleVerifier [0xe5e06b+291d7b]\n\tchromedriver!GetHandleVerifier [0xbf5cc8+299d8]\n\tchromedriver!GetHandleVerifier [0xbfd9fd+3170d]\n\tchromedriver!GetHandleVerifier [0xbe58c8+195d8]\n\tchromedriver!GetHandleVerifier [0xbe5a92+197a2]\n\tchromedriver!GetHandleVerifier [0xbcee9a+2baa]\n\tKERNEL32!BaseThreadInitThunk [0x747b5d49+19]\n\tntdll!RtlInitializeExceptionChain [0x7712d81b+6b]\n\tntdll!RtlGetAppContainerNamedObjectPath [0x7712d7a1+231]\n",
+        "error": "Message: unknown error: unhandled inspector error: {\"code\":-32000,\"message\":\"Node with given id does not belong to the document\"}\n  (Session info: chrome=146.0.7680.165)\nStacktrace:\n\tchromedriver!GetHandleVerifier [0xbdcdf3+10b03]\n\tchromedriver!GetHandleVerifier [0xbdcf24+10c34]\n\tchromedriver!(No symbol) [0x9c2120]\n\tchromedriver!(No symbol) [0x9b19f2]\n\tchromedriver!(No symbol) [0x9b04c6]\n\tchromedriver!(No symbol) [0x9b0b46]\n\tchromedriver!(No symbol) [0x9d2173]\n\tchromedriver!(No symbol) [0x9d438c]\n\tchromedriver!(No symbol) [0x9d315c]\n\tchromedriver!(No symbol) [0x9c96b9]\n\tchromedriver!(No symbol) [0x9c979d]\n\tchromedriver!(No symbol) [0x9c7ad2]\n\tchromedriver!(No symbol) [0x9cb2bd]\n\tchromedriver!(No symbol) [0xa4b6f1]\n\tchromedriver!(No symbol) [0xa2db0c]\n\tchromedriver!(No symbol) [0xa4a9a5]\n\tchromedriver!(No symbol) [0xa2d8a6]\n\tchromedriver!(No symbol) [0xa00229]\n\tchromedriver!(No symbol) [0xa00fe4]\n\tchromedriver!GetHandleVerifier [0xe448b9+2785c9]\n\tchromedriver!GetHandleVerifier [0xe3feb5+273bc5]\n\tchromedriver!GetHandleVerifier [0xe5e06b+291d7b]\n\tchromedriver!GetHandleVerifier [0xbf5cc8+299d8]\n\tchromedriver!GetHandleVerifier [0xbfd9fd+3170d]\n\tchromedriver!GetHandleVerifier [0xbe58c8+195d8]\n\tchromedriver!GetHandleVerifier [0xbe5a92+197a2]\n\tchromedriver!GetHandleVerifier [0xbcee9a+2baa]\n\tKERNEL32!BaseThreadInitThunk [0x747b5d49+19]\n\tntdll!RtlInitializeExceptionChain [0x7712d81b+6b]\n\tntdll!RtlGetAppContainerNamedObjectPath [0x7712d7a1+231]\n",
+        "timestamp": "2026-04-02 12:09:15"
+    },
+    {
+        "status": "Error",
+        "order_id": "879624MI",
+        "reason": "Message: \nStacktrace:\n\tchromedriver!GetHandleVerifier [0xbdcdf3+10b03]\n\tchromedriver!GetHandleVerifier [0xbdcf24+10c34]\n\tchromedriver!(No symbol) [0x9c2120]\n\tchromedriver!(No symbol) [0xa0abca]\n\tchromedriver!(No symbol) [0xa0ae6b]\n\tchromedriver!(No symbol) [0xa4d0b2]\n\tchromedriver!(No symbol) [0xa2db54]\n\tchromedriver!(No symbol) [0xa4a9a5]\n\tchromedriver!(No symbol) [0xa2d8a6]\n\tchromedriver!(No symbol) [0xa00229]\n\tchromedriver!(No symbol) [0xa00fe4]\n\tchromedriver!GetHandleVerifier [0xe448b9+2785c9]\n\tchromedriver!GetHandleVerifier [0xe3feb5+273bc5]\n\tchromedriver!GetHandleVerifier [0xe5e06b+291d7b]\n\tchromedriver!GetHandleVerifier [0xbf5cc8+299d8]\n\tchromedriver!GetHandleVerifier [0xbfd9fd+3170d]\n\tchromedriver!GetHandleVerifier [0xbe58c8+195d8]\n\tchromedriver!GetHandleVerifier [0xbe5a92+197a2]\n\tchromedriver!GetHandleVerifier [0xbcee9a+2baa]\n\tKERNEL32!BaseThreadInitThunk [0x747b5d49+19]\n\tntdll!RtlInitializeExceptionChain [0x7712d81b+6b]\n\tntdll!RtlGetAppContainerNamedObjectPath [0x7712d7a1+231]\n",
+        "error": "Message: \nStacktrace:\n\tchromedriver!GetHandleVerifier [0xbdcdf3+10b03]\n\tchromedriver!GetHandleVerifier [0xbdcf24+10c34]\n\tchromedriver!(No symbol) [0x9c2120]\n\tchromedriver!(No symbol) [0xa0abca]\n\tchromedriver!(No symbol) [0xa0ae6b]\n\tchromedriver!(No symbol) [0xa4d0b2]\n\tchromedriver!(No symbol) [0xa2db54]\n\tchromedriver!(No symbol) [0xa4a9a5]\n\tchromedriver!(No symbol) [0xa2d8a6]\n\tchromedriver!(No symbol) [0xa00229]\n\tchromedriver!(No symbol) [0xa00fe4]\n\tchromedriver!GetHandleVerifier [0xe448b9+2785c9]\n\tchromedriver!GetHandleVerifier [0xe3feb5+273bc5]\n\tchromedriver!GetHandleVerifier [0xe5e06b+291d7b]\n\tchromedriver!GetHandleVerifier [0xbf5cc8+299d8]\n\tchromedriver!GetHandleVerifier [0xbfd9fd+3170d]\n\tchromedriver!GetHandleVerifier [0xbe58c8+195d8]\n\tchromedriver!GetHandleVerifier [0xbe5a92+197a2]\n\tchromedriver!GetHandleVerifier [0xbcee9a+2baa]\n\tKERNEL32!BaseThreadInitThunk [0x747b5d49+19]\n\tntdll!RtlInitializeExceptionChain [0x7712d81b+6b]\n\tntdll!RtlGetAppContainerNamedObjectPath [0x7712d7a1+231]\n",
+        "timestamp": "2026-04-02 12:14:43"
+    },
+    {
+        "status": "Error",
+        "order_id": "879624MI",
+        "reason": "Message: \nStacktrace:\n\tchromedriver!GetHandleVerifier [0xbdcdf3+10b03]\n\tchromedriver!GetHandleVerifier [0xbdcf24+10c34]\n\tchromedriver!(No symbol) [0x9c2120]\n\tchromedriver!(No symbol) [0xa0abca]\n\tchromedriver!(No symbol) [0xa0ae6b]\n\tchromedriver!(No symbol) [0xa4d0b2]\n\tchromedriver!(No symbol) [0xa2db54]\n\tchromedriver!(No symbol) [0xa4a9a5]\n\tchromedriver!(No symbol) [0xa2d8a6]\n\tchromedriver!(No symbol) [0xa00229]\n\tchromedriver!(No symbol) [0xa00fe4]\n\tchromedriver!GetHandleVerifier [0xe448b9+2785c9]\n\tchromedriver!GetHandleVerifier [0xe3feb5+273bc5]\n\tchromedriver!GetHandleVerifier [0xe5e06b+291d7b]\n\tchromedriver!GetHandleVerifier [0xbf5cc8+299d8]\n\tchromedriver!GetHandleVerifier [0xbfd9fd+3170d]\n\tchromedriver!GetHandleVerifier [0xbe58c8+195d8]\n\tchromedriver!GetHandleVerifier [0xbe5a92+197a2]\n\tchromedriver!GetHandleVerifier [0xbcee9a+2baa]\n\tKERNEL32!BaseThreadInitThunk [0x747b5d49+19]\n\tntdll!RtlInitializeExceptionChain [0x7712d81b+6b]\n\tntdll!RtlGetAppContainerNamedObjectPath [0x7712d7a1+231]\n",
+        "error": "Message: \nStacktrace:\n\tchromedriver!GetHandleVerifier [0xbdcdf3+10b03]\n\tchromedriver!GetHandleVerifier [0xbdcf24+10c34]\n\tchromedriver!(No symbol) [0x9c2120]\n\tchromedriver!(No symbol) [0xa0abca]\n\tchromedriver!(No symbol) [0xa0ae6b]\n\tchromedriver!(No symbol) [0xa4d0b2]\n\tchromedriver!(No symbol) [0xa2db54]\n\tchromedriver!(No symbol) [0xa4a9a5]\n\tchromedriver!(No symbol) [0xa2d8a6]\n\tchromedriver!(No symbol) [0xa00229]\n\tchromedriver!(No symbol) [0xa00fe4]\n\tchromedriver!GetHandleVerifier [0xe448b9+2785c9]\n\tchromedriver!GetHandleVerifier [0xe3feb5+273bc5]\n\tchromedriver!GetHandleVerifier [0xe5e06b+291d7b]\n\tchromedriver!GetHandleVerifier [0xbf5cc8+299d8]\n\tchromedriver!GetHandleVerifier [0xbfd9fd+3170d]\n\tchromedriver!GetHandleVerifier [0xbe58c8+195d8]\n\tchromedriver!GetHandleVerifier [0xbe5a92+197a2]\n\tchromedriver!GetHandleVerifier [0xbcee9a+2baa]\n\tKERNEL32!BaseThreadInitThunk [0x747b5d49+19]\n\tntdll!RtlInitializeExceptionChain [0x7712d81b+6b]\n\tntdll!RtlGetAppContainerNamedObjectPath [0x7712d7a1+231]\n",
+        "timestamp": "2026-04-02 12:24:39"
+    },
+    {
+        "status": "Error",
+        "order_id": "879664DE",
+        "reason": "name 'Keys' is not defined",
+        "error": "name 'Keys' is not defined",
+        "timestamp": "2026-04-02 13:07:50"
+    },
+    {
+        "status": "Error",
+        "order_id": "879664DE",
+        "reason": "Message: \nStacktrace:\n\tchromedriver!GetHandleVerifier [0xbdcdf3+10b03]\n\tchromedriver!GetHandleVerifier [0xbdcf24+10c34]\n\tchromedriver!(No symbol) [0x9c2120]\n\tchromedriver!(No symbol) [0xa0abca]\n\tchromedriver!(No symbol) [0xa0ae6b]\n\tchromedriver!(No symbol) [0xa4d0b2]\n\tchromedriver!(No symbol) [0xa2db54]\n\tchromedriver!(No symbol) [0xa4a9a5]\n\tchromedriver!(No symbol) [0xa2d8a6]\n\tchromedriver!(No symbol) [0xa00229]\n\tchromedriver!(No symbol) [0xa00fe4]\n\tchromedriver!GetHandleVerifier [0xe448b9+2785c9]\n\tchromedriver!GetHandleVerifier [0xe3feb5+273bc5]\n\tchromedriver!GetHandleVerifier [0xe5e06b+291d7b]\n\tchromedriver!GetHandleVerifier [0xbf5cc8+299d8]\n\tchromedriver!GetHandleVerifier [0xbfd9fd+3170d]\n\tchromedriver!GetHandleVerifier [0xbe58c8+195d8]\n\tchromedriver!GetHandleVerifier [0xbe5a92+197a2]\n\tchromedriver!GetHandleVerifier [0xbcee9a+2baa]\n\tKERNEL32!BaseThreadInitThunk [0x747b5d49+19]\n\tntdll!RtlInitializeExceptionChain [0x7712d81b+6b]\n\tntdll!RtlGetAppContainerNamedObjectPath [0x7712d7a1+231]\n",
+        "error": "Message: \nStacktrace:\n\tchromedriver!GetHandleVerifier [0xbdcdf3+10b03]\n\tchromedriver!GetHandleVerifier [0xbdcf24+10c34]\n\tchromedriver!(No symbol) [0x9c2120]\n\tchromedriver!(No symbol) [0xa0abca]\n\tchromedriver!(No symbol) [0xa0ae6b]\n\tchromedriver!(No symbol) [0xa4d0b2]\n\tchromedriver!(No symbol) [0xa2db54]\n\tchromedriver!(No symbol) [0xa4a9a5]\n\tchromedriver!(No symbol) [0xa2d8a6]\n\tchromedriver!(No symbol) [0xa00229]\n\tchromedriver!(No symbol) [0xa00fe4]\n\tchromedriver!GetHandleVerifier [0xe448b9+2785c9]\n\tchromedriver!GetHandleVerifier [0xe3feb5+273bc5]\n\tchromedriver!GetHandleVerifier [0xe5e06b+291d7b]\n\tchromedriver!GetHandleVerifier [0xbf5cc8+299d8]\n\tchromedriver!GetHandleVerifier [0xbfd9fd+3170d]\n\tchromedriver!GetHandleVerifier [0xbe58c8+195d8]\n\tchromedriver!GetHandleVerifier [0xbe5a92+197a2]\n\tchromedriver!GetHandleVerifier [0xbcee9a+2baa]\n\tKERNEL32!BaseThreadInitThunk [0x747b5d49+19]\n\tntdll!RtlInitializeExceptionChain [0x7712d81b+6b]\n\tntdll!RtlGetAppContainerNamedObjectPath [0x7712d7a1+231]\n",
+        "timestamp": "2026-04-02 13:19:16"
+    },
+    {
+        "status": "Error",
+        "order_id": "879657ZA",
+        "reason": "Message: \nStacktrace:\n\tchromedriver!GetHandleVerifier [0xbdcdf3+10b03]\n\tchromedriver!GetHandleVerifier [0xbdcf24+10c34]\n\tchromedriver!(No symbol) [0x9c2120]\n\tchromedriver!(No symbol) [0xa0abca]\n\tchromedriver!(No symbol) [0xa0ae6b]\n\tchromedriver!(No symbol) [0xa4d0b2]\n\tchromedriver!(No symbol) [0xa2db54]\n\tchromedriver!(No symbol) [0xa4a9a5]\n\tchromedriver!(No symbol) [0xa2d8a6]\n\tchromedriver!(No symbol) [0xa00229]\n\tchromedriver!(No symbol) [0xa00fe4]\n\tchromedriver!GetHandleVerifier [0xe448b9+2785c9]\n\tchromedriver!GetHandleVerifier [0xe3feb5+273bc5]\n\tchromedriver!GetHandleVerifier [0xe5e06b+291d7b]\n\tchromedriver!GetHandleVerifier [0xbf5cc8+299d8]\n\tchromedriver!GetHandleVerifier [0xbfd9fd+3170d]\n\tchromedriver!GetHandleVerifier [0xbe58c8+195d8]\n\tchromedriver!GetHandleVerifier [0xbe5a92+197a2]\n\tchromedriver!GetHandleVerifier [0xbcee9a+2baa]\n\tKERNEL32!BaseThreadInitThunk [0x747b5d49+19]\n\tntdll!RtlInitializeExceptionChain [0x7712d81b+6b]\n\tntdll!RtlGetAppContainerNamedObjectPath [0x7712d7a1+231]\n",
+        "error": "Message: \nStacktrace:\n\tchromedriver!GetHandleVerifier [0xbdcdf3+10b03]\n\tchromedriver!GetHandleVerifier [0xbdcf24+10c34]\n\tchromedriver!(No symbol) [0x9c2120]\n\tchromedriver!(No symbol) [0xa0abca]\n\tchromedriver!(No symbol) [0xa0ae6b]\n\tchromedriver!(No symbol) [0xa4d0b2]\n\tchromedriver!(No symbol) [0xa2db54]\n\tchromedriver!(No symbol) [0xa4a9a5]\n\tchromedriver!(No symbol) [0xa2d8a6]\n\tchromedriver!(No symbol) [0xa00229]\n\tchromedriver!(No symbol) [0xa00fe4]\n\tchromedriver!GetHandleVerifier [0xe448b9+2785c9]\n\tchromedriver!GetHandleVerifier [0xe3feb5+273bc5]\n\tchromedriver!GetHandleVerifier [0xe5e06b+291d7b]\n\tchromedriver!GetHandleVerifier [0xbf5cc8+299d8]\n\tchromedriver!GetHandleVerifier [0xbfd9fd+3170d]\n\tchromedriver!GetHandleVerifier [0xbe58c8+195d8]\n\tchromedriver!GetHandleVerifier [0xbe5a92+197a2]\n\tchromedriver!GetHandleVerifier [0xbcee9a+2baa]\n\tKERNEL32!BaseThreadInitThunk [0x747b5d49+19]\n\tntdll!RtlInitializeExceptionChain [0x7712d81b+6b]\n\tntdll!RtlGetAppContainerNamedObjectPath [0x7712d7a1+231]\n",
+        "timestamp": "2026-04-02 13:20:19"
     },
     {
         "status": "Skipped",
         "order_id": "Confirm",
         "reason": "Weight or Amount exceeds allowed limit",
-        "timestamp": "2026-03-12 13:24:45"
+        "timestamp": "2026-04-02 13:20:21"
     },
     {
-        "status": "Skipped",
-        "order_id": "Confirm",
-        "reason": "Weight or Amount exceeds allowed limit",
-        "timestamp": "2026-03-12 13:24:46"
+        "status": "Processed",
+        "order_id": "883149B",
+        "seller": "ISHAN MISTRY Of SK Inter",
+        "amount": 2649.0,
+        "customer": "Imtiyaz Ahmed Ajaz",
+        "timestamp": "2026-04-07 10:44:06"
     },
     {
-        "status": "Skipped",
-        "order_id": "Confirm",
-        "reason": "Weight or Amount exceeds allowed limit",
-        "timestamp": "2026-03-12 13:24:47"
+        "status": "Processed",
+        "order_id": "883103QV",
+        "seller": "Agribegri Trade Link Pvt. Ltd.",
+        "amount": 424.0,
+        "customer": "PRATHAP R",
+        "timestamp": "2026-04-07 10:45:19"
+    },
+    {
+        "status": "Processed",
+        "order_id": "883124LW",
+        "seller": "PIYUSH KATARIA",
+        "amount": 663.0,
+        "customer": "Upendra Vakalapudi",
+        "timestamp": "2026-04-07 10:49:54"
+    },
+    {
+        "status": "Processed",
+        "order_id": "883119DJ",
+        "seller": "DURGA BEEJ BHANDAR",
+        "amount": 1033.0,
+        "customer": "Dickey Ji",
+        "timestamp": "2026-04-07 10:51:15"
+    },
+    {
+        "status": "Processed",
+        "order_id": "883114RQ",
+        "seller": "DURGA BEEJ BHANDAR",
+        "amount": 846.0,
+        "customer": "Rajesh Mahajan",
+        "timestamp": "2026-04-07 10:52:23"
     },
     {
         "status": "Error",
         "reason": "Order not found in Delhivery",
-        "order_id": "864231EC",
+        "order_id": "883099JU",
         "error": "Order not found in Delhivery",
-        "timestamp": "2026-03-12 13:26:14"
+        "timestamp": "2026-04-07 10:54:09"
+    },
+    {
+        "status": "Processed",
+        "order_id": "883095NG",
+        "seller": "PIYUSH KATARIA",
+        "amount": 1256.0,
+        "customer": "MAYANK TYAGI",
+        "timestamp": "2026-04-07 10:55:24"
+    },
+    {
+        "status": "Processed",
+        "order_id": "883092FW",
+        "seller": "BHAVANI SEEDS CENTER",
+        "amount": 3333.0,
+        "customer": "Challakumaraswamy Swamy",
+        "timestamp": "2026-04-07 10:56:26"
+    },
+    {
+        "status": "Processed",
+        "order_id": "883148QY",
+        "seller": "Essential Biosciences",
+        "amount": 1715.0,
+        "customer": "K Sudhakar",
+        "timestamp": "2026-04-07 11:00:11"
+    },
+    {
+        "status": "Processed",
+        "order_id": "883129EV",
+        "seller": "Essential Biosciences",
+        "amount": 1715.98,
+        "customer": "K Sudhakar",
+        "timestamp": "2026-04-07 11:01:20"
+    },
+    {
+        "status": "Processed",
+        "order_id": "883127BJ",
+        "seller": "Kukkar Spary Centre",
+        "amount": 1505.0,
+        "customer": "Sushant Kumar Naik",
+        "timestamp": "2026-04-07 11:02:25"
+    },
+    {
+        "status": "Processed",
+        "order_id": "883125GR",
+        "seller": "Amit singla",
+        "amount": 407.0,
+        "customer": "Upendra Vakalapudi",
+        "timestamp": "2026-04-07 11:03:26"
+    },
+    {
+        "status": "Processed",
+        "order_id": "883115MM",
+        "seller": "PIYUSH KATARIA",
+        "amount": 234.0,
+        "customer": "Rajesh Mahajan",
+        "timestamp": "2026-04-07 11:04:27"
     },
     {
         "status": "Error",
-        "order_id": "864663HI",
+        "order_id": "883144YH",
+        "reason": "Message: \n",
+        "error": "Message: \n",
+        "timestamp": "2026-04-07 11:14:32"
+    },
+    {
+        "status": "Error",
+        "order_id": "883144YH",
+        "reason": "Message: \n",
+        "error": "Message: \n",
+        "timestamp": "2026-04-07 11:14:49"
+    },
+    {
+        "status": "Processed",
+        "order_id": "883140VV",
+        "seller": "Kukkar Spary Centre",
+        "amount": 198.0,
+        "customer": "Rishab Saini",
+        "timestamp": "2026-04-07 11:15:54"
+    },
+    {
+        "status": "Processed",
+        "order_id": "883140VV",
+        "seller": "Kukkar Spary Centre",
+        "amount": 198.0,
+        "customer": "Rishab Saini",
+        "timestamp": "2026-04-07 11:16:15"
+    },
+    {
+        "status": "Error",
+        "order_id": "883138YN",
+        "reason": "Message: \n",
+        "error": "Message: \n",
+        "timestamp": "2026-04-07 11:17:00"
+    },
+    {
+        "status": "Processed",
+        "order_id": "883138YN",
+        "seller": "Essential Biosciences",
+        "amount": 200.0,
+        "customer": "Rishab Saini",
+        "timestamp": "2026-04-07 11:17:36"
+    },
+    {
+        "status": "Processed",
+        "order_id": "883128QS",
+        "seller": "Essential Biosciences",
+        "amount": 1715.0,
+        "customer": "K Sudhakar",
+        "timestamp": "2026-04-07 11:18:09"
+    },
+    {
+        "status": "Processed",
+        "order_id": "883128QS",
+        "seller": "Essential Biosciences",
+        "amount": 1715.0,
+        "customer": "K Sudhakar",
+        "timestamp": "2026-04-07 11:18:37"
+    },
+    {
+        "status": "Processed",
+        "order_id": "883122KN",
+        "seller": "Rahul garg",
+        "amount": 1472.0,
+        "customer": "Vinoth",
+        "timestamp": "2026-04-07 11:19:18"
+    },
+    {
+        "status": "Error",
+        "order_id": "883122KN",
+        "reason": "Message: \n",
+        "error": "Message: \n",
+        "timestamp": "2026-04-07 11:19:43"
+    },
+    {
+        "status": "Processed",
+        "order_id": "883112FS",
+        "seller": "Katyayani Organics",
+        "amount": 1948.24,
+        "customer": "Karan Waykar",
+        "timestamp": "2026-04-07 11:20:21"
+    },
+    {
+        "status": "Processed",
+        "order_id": "883112FS",
+        "seller": "Katyayani Organics",
+        "amount": 1948.24,
+        "customer": "Karan Waykar",
+        "timestamp": "2026-04-07 11:20:48"
+    },
+    {
+        "status": "Processed",
+        "order_id": "883104MG",
+        "seller": "Keshav Goyal",
+        "amount": 1549.0,
+        "customer": "Murthy G A Murthy",
+        "timestamp": "2026-04-07 11:21:25"
+    },
+    {
+        "status": "Processed",
+        "order_id": "883104MG",
+        "seller": "Keshav Goyal",
+        "amount": 1549.0,
+        "customer": "Murthy G A Murthy",
+        "timestamp": "2026-04-07 11:21:55"
+    },
+    {
+        "status": "Error",
+        "order_id": "883101DT",
+        "reason": "Message: \n",
+        "error": "Message: \n",
+        "timestamp": "2026-04-07 11:22:34"
+    },
+    {
+        "status": "Processed",
+        "order_id": "883101DT",
+        "seller": "Rahul garg",
+        "amount": 479.0,
+        "customer": "Bilal.Ahmad.Tantray.Kanalwan Bilal.Ahmad.Tantray.Kanalwan",
+        "timestamp": "2026-04-07 11:23:12"
+    },
+    {
+        "status": "Error",
+        "reason": "Order not found in Delhivery",
+        "order_id": "883064IG",
+        "error": "Order not found in Delhivery",
+        "timestamp": "2026-04-07 11:23:52"
+    },
+    {
+        "status": "Error",
+        "reason": "Order not found in Delhivery",
+        "order_id": "883064IG",
+        "error": "Order not found in Delhivery",
+        "timestamp": "2026-04-07 11:24:30"
+    },
+    {
+        "status": "Processed",
+        "order_id": "883050QR",
+        "seller": "Noble Crop Science",
+        "amount": 505.0,
+        "customer": "PRATHAP R",
+        "timestamp": "2026-04-07 11:25:02"
+    },
+    {
+        "status": "Processed",
+        "order_id": "883050QR",
+        "seller": "Noble Crop Science",
+        "amount": 505.0,
+        "customer": "PRATHAP R",
+        "timestamp": "2026-04-07 11:25:40"
+    },
+    {
+        "status": "Processed",
+        "order_id": "883386WO",
+        "seller": "Siddharth Parikh",
+        "amount": 3358.0,
+        "customer": "Manju",
+        "timestamp": "2026-04-07 11:42:21"
+    },
+    {
+        "status": "Processed",
+        "order_id": "883386WO",
+        "seller": "Siddharth Parikh",
+        "amount": 3358.0,
+        "customer": "Manju",
+        "timestamp": "2026-04-07 11:42:23"
+    },
+    {
+        "status": "Processed",
+        "order_id": "883400SN",
+        "seller": "GABANI BROTHERS LIMITED",
+        "amount": 700.0,
+        "customer": "Anup Kumar",
+        "timestamp": "2026-04-07 11:51:32"
+    },
+    {
+        "status": "Processed",
+        "order_id": "883381OF",
+        "seller": "Sugan Chand Sunil Kumar",
+        "amount": 1036.0,
+        "customer": "Anukul Das",
+        "timestamp": "2026-04-07 11:52:47"
+    },
+    {
+        "status": "Processed",
+        "order_id": "883102KT",
+        "seller": "PIYUSH KATARIA",
+        "amount": 584.0,
+        "customer": "Rampratap Godara Rama Jaat",
+        "timestamp": "2026-04-07 11:53:58"
+    },
+    {
+        "status": "Processed",
+        "order_id": "883230XZ",
+        "seller": "Navin Panchal",
+        "amount": 830.0,
+        "customer": "Lingaraj Naik",
+        "timestamp": "2026-04-07 11:54:13"
+    },
+    {
+        "status": "Error",
+        "order_id": "883225RP",
+        "reason": "Message: \n",
+        "error": "Message: \n",
+        "timestamp": "2026-04-07 11:55:17"
+    },
+    {
+        "status": "Error",
+        "reason": "Order not found in Delhivery",
+        "order_id": "883099JU",
+        "error": "Order not found in Delhivery",
+        "timestamp": "2026-04-07 11:55:24"
+    },
+    {
+        "status": "Processed",
+        "order_id": "883220RL",
+        "seller": "Berrysun Agro Science Pvt. Ltd.",
+        "amount": 1130.0,
+        "customer": "HOTEL RAO",
+        "timestamp": "2026-04-07 11:56:24"
+    },
+    {
+        "status": "Error",
+        "reason": "Order not found in Delhivery",
+        "order_id": "883064IG",
+        "error": "Order not found in Delhivery",
+        "timestamp": "2026-04-07 11:56:41"
+    },
+    {
+        "status": "Error",
+        "order_id": "883219UN",
+        "reason": "Message: \n",
+        "error": "Message: \n",
+        "timestamp": "2026-04-07 11:57:28"
+    },
+    {
+        "status": "Error",
+        "reason": "Order not found in Delhivery",
+        "order_id": "883062FE",
+        "error": "Order not found in Delhivery",
+        "timestamp": "2026-04-07 11:57:56"
+    },
+    {
+        "status": "Processed",
+        "order_id": "883216CV",
+        "seller": "Jinendra Magdum",
+        "amount": 489.0,
+        "customer": "Arun Singh",
+        "timestamp": "2026-04-07 11:58:46"
+    },
+    {
+        "status": "Processed",
+        "order_id": "882965YO",
+        "seller": "Bharath R",
+        "amount": 2159.0,
+        "customer": "SAJNIT .",
+        "timestamp": "2026-04-07 11:59:01"
+    },
+    {
+        "status": "Processed",
+        "order_id": "883215XX",
+        "seller": "Agribegri Trade Link Pvt. Ltd.",
+        "amount": 580.0,
+        "customer": "Tridev Barmaiya",
+        "timestamp": "2026-04-07 11:59:58"
+    },
+    {
+        "status": "Processed",
+        "order_id": "882869YL",
+        "seller": "PIYUSH KATARIA",
+        "amount": 397.0,
+        "customer": "S Jesuraj",
+        "timestamp": "2026-04-07 12:00:24"
+    },
+    {
+        "status": "Processed",
+        "order_id": "883213PZ",
+        "seller": "Anil Packaging",
+        "amount": 332.0,
+        "customer": "Kaushal Kishor Pandey",
+        "timestamp": "2026-04-07 12:01:06"
+    },
+    {
+        "status": "Processed",
+        "order_id": "883237VR",
+        "seller": "GUPTA AGRO ENTERPRISES",
+        "amount": 270.0,
+        "customer": "Amesh",
+        "timestamp": "2026-04-07 12:01:46"
+    },
+    {
+        "status": "Skipped",
+        "order_id": "Confirm",
+        "reason": "Weight or Amount exceeds allowed limit",
+        "timestamp": "2026-04-07 12:01:48"
+    },
+    {
+        "status": "Processed",
+        "order_id": "883210VR",
+        "seller": "Utkarsh Agrochem Pvt. Ltd.",
+        "amount": 275.0,
+        "customer": "Anita Devi",
+        "timestamp": "2026-04-07 12:02:13"
+    },
+    {
+        "status": "Processed",
+        "order_id": "883225RP",
+        "seller": "RK chemicals",
+        "amount": 1379.0,
+        "customer": "SATYA NARAYAN SINGH",
+        "timestamp": "2026-04-07 12:02:51"
+    },
+    {
+        "status": "Processed",
+        "order_id": "883192RB",
+        "seller": "Utkarsh Agrochem Pvt. Ltd.",
+        "amount": 275.0,
+        "customer": "Zainab Shaikh",
+        "timestamp": "2026-04-07 12:03:21"
+    },
+    {
+        "status": "Error",
+        "order_id": "883219UN",
+        "reason": "Message: \n",
+        "error": "Message: \n",
+        "timestamp": "2026-04-07 12:03:55"
+    },
+    {
+        "status": "Error",
+        "order_id": "Confirm",
+        "reason": "Message: \nStacktrace:\n\tchromedriver!GetHandleVerifier [0x9fcdf3+10b03]\n\tchromedriver!GetHandleVerifier [0x9fcf24+10c34]\n\tchromedriver!(No symbol) [0x7e2120]\n\tchromedriver!(No symbol) [0x82abca]\n\tchromedriver!(No symbol) [0x82ae6b]\n\tchromedriver!(No symbol) [0x86d0b2]\n\tchromedriver!(No symbol) [0x84db54]\n\tchromedriver!(No symbol) [0x86a9a5]\n\tchromedriver!(No symbol) [0x84d8a6]\n\tchromedriver!(No symbol) [0x820229]\n\tchromedriver!(No symbol) [0x820fe4]\n\tchromedriver!GetHandleVerifier [0xc648b9+2785c9]\n\tchromedriver!GetHandleVerifier [0xc5feb5+273bc5]\n\tchromedriver!GetHandleVerifier [0xc7e06b+291d7b]\n\tchromedriver!GetHandleVerifier [0xa15cc8+299d8]\n\tchromedriver!GetHandleVerifier [0xa1d9fd+3170d]\n\tchromedriver!GetHandleVerifier [0xa058c8+195d8]\n\tchromedriver!GetHandleVerifier [0xa05a92+197a2]\n\tchromedriver!GetHandleVerifier [0x9eee9a+2baa]\n\tKERNEL32!BaseThreadInitThunk [0x747b5d49+19]\n\tntdll!RtlInitializeExceptionChain [0x7712d81b+6b]\n\tntdll!RtlGetAppContainerNamedObjectPath [0x7712d7a1+231]\n",
+        "error": "Message: \nStacktrace:\n\tchromedriver!GetHandleVerifier [0x9fcdf3+10b03]\n\tchromedriver!GetHandleVerifier [0x9fcf24+10c34]\n\tchromedriver!(No symbol) [0x7e2120]\n\tchromedriver!(No symbol) [0x82abca]\n\tchromedriver!(No symbol) [0x82ae6b]\n\tchromedriver!(No symbol) [0x86d0b2]\n\tchromedriver!(No symbol) [0x84db54]\n\tchromedriver!(No symbol) [0x86a9a5]\n\tchromedriver!(No symbol) [0x84d8a6]\n\tchromedriver!(No symbol) [0x820229]\n\tchromedriver!(No symbol) [0x820fe4]\n\tchromedriver!GetHandleVerifier [0xc648b9+2785c9]\n\tchromedriver!GetHandleVerifier [0xc5feb5+273bc5]\n\tchromedriver!GetHandleVerifier [0xc7e06b+291d7b]\n\tchromedriver!GetHandleVerifier [0xa15cc8+299d8]\n\tchromedriver!GetHandleVerifier [0xa1d9fd+3170d]\n\tchromedriver!GetHandleVerifier [0xa058c8+195d8]\n\tchromedriver!GetHandleVerifier [0xa05a92+197a2]\n\tchromedriver!GetHandleVerifier [0x9eee9a+2baa]\n\tKERNEL32!BaseThreadInitThunk [0x747b5d49+19]\n\tntdll!RtlInitializeExceptionChain [0x7712d81b+6b]\n\tntdll!RtlGetAppContainerNamedObjectPath [0x7712d7a1+231]\n",
+        "timestamp": "2026-04-07 12:04:23"
+    },
+    {
+        "status": "Error",
+        "order_id": "883190KY",
+        "reason": "Message: \n",
+        "error": "Message: \n",
+        "timestamp": "2026-04-07 12:04:28"
+    },
+    {
+        "status": "Processed",
+        "order_id": "883210VR",
+        "seller": "Utkarsh Agrochem Pvt. Ltd.",
+        "amount": 275.0,
+        "customer": "Anita Devi",
+        "timestamp": "2026-04-07 12:05:34"
+    },
+    {
+        "status": "Error",
+        "order_id": "883189XT",
+        "reason": "[Errno 2] No such file or directory: 'C:\\\\Users\\\\ghara\\\\Documents\\\\agribegri_UI\\\\Downloads\\\\883189XT.pdf'",
+        "error": "[Errno 2] No such file or directory: 'C:\\\\Users\\\\ghara\\\\Documents\\\\agribegri_UI\\\\Downloads\\\\883189XT.pdf'",
+        "timestamp": "2026-04-07 12:05:35"
+    },
+    {
+        "status": "Error",
+        "order_id": "883208MM",
+        "reason": " Label PDF not found for upload: C:\\Users\\ghara\\Documents\\agribegri_UI\\Downloads\\883208MM.pdf",
+        "error": " Label PDF not found for upload: C:\\Users\\ghara\\Documents\\agribegri_UI\\Downloads\\883208MM.pdf",
+        "timestamp": "2026-04-07 12:06:37"
+    },
+    {
+        "status": "Processed",
+        "order_id": "883188EI",
+        "seller": "Chirag Sojitra of BACF",
+        "amount": 467.0,
+        "customer": "Siripuram Srinivasarao",
+        "timestamp": "2026-04-07 12:06:41"
+    },
+    {
+        "status": "Error",
+        "order_id": "883185IB",
+        "reason": " Label PDF not found for upload: C:\\Users\\ghara\\Documents\\agribegri_UI\\Downloads\\883185IB.pdf",
+        "error": " Label PDF not found for upload: C:\\Users\\ghara\\Documents\\agribegri_UI\\Downloads\\883185IB.pdf",
+        "timestamp": "2026-04-07 12:07:41"
+    },
+    {
+        "status": "Processed",
+        "order_id": "883196PJ",
+        "seller": "ISHAN MISTRY Of SK Inter",
+        "amount": 509.0,
+        "customer": "Niranjan Kumar",
+        "timestamp": "2026-04-07 12:07:44"
+    },
+    {
+        "status": "Processed",
+        "order_id": "883182RW",
+        "seller": "RK chemicals",
+        "amount": 477.0,
+        "customer": "Nawaz",
+        "timestamp": "2026-04-07 12:08:45"
+    },
+    {
+        "status": "Processed",
+        "order_id": "883195VV",
+        "seller": "Jinendra Magdum",
+        "amount": 409.0,
+        "customer": "Dr.RajnikantZalavadia Zalavadia",
+        "timestamp": "2026-04-07 12:08:54"
+    },
+    {
+        "status": "Processed",
+        "order_id": "883181H",
+        "seller": "Vishakha adekar",
+        "amount": 399.0,
+        "customer": "Rekib",
+        "timestamp": "2026-04-07 12:09:51"
+    },
+    {
+        "status": "Processed",
+        "order_id": "883194IO",
+        "seller": "PIYUSH KATARIA",
+        "amount": 223.0,
+        "customer": "Kamal Sharma",
+        "timestamp": "2026-04-07 12:09:59"
+    },
+    {
+        "status": "Processed",
+        "order_id": "883192RB",
+        "seller": "Utkarsh Agrochem Pvt. Ltd.",
+        "amount": 275.0,
+        "customer": "Zainab Shaikh",
+        "timestamp": "2026-04-07 12:11:07"
+    },
+    {
+        "status": "Error",
+        "order_id": "Confirm",
+        "reason": "Pickup address not found for seller: rain biotech industries private limited gujarat (Target: rain biotech industries private limited gujarat)",
+        "error": "Pickup address not found for seller: rain biotech industries private limited gujarat (Target: rain biotech industries private limited gujarat)",
+        "timestamp": "2026-04-07 12:11:21"
+    },
+    {
+        "status": "Error",
+        "order_id": "883180H",
         "reason": "Label PDF not downloaded",
         "error": "Label PDF not downloaded",
-        "timestamp": "2026-03-12 15:03:20"
-    },
-    {
-        "status": "Error",
-        "order_id": "864649RZ",
-        "reason": "Message: \n",
-        "error": "Message: \n",
-        "timestamp": "2026-03-12 15:04:24"
+        "timestamp": "2026-04-07 12:11:49"
     },
     {
         "status": "Processed",
-        "order_id": "864663HI",
-        "seller": "PIYUSH KATARIA",
-        "amount": 5402.0,
-        "customer": "Bunny",
-        "timestamp": "2026-03-12 15:14:33"
-    },
-    {
-        "status": "Skipped",
-        "order_id": "Confirm",
-        "reason": "Weight or Amount exceeds allowed limit",
-        "timestamp": "2026-03-12 15:14:36"
-    },
-    {
-        "status": "Skipped",
-        "order_id": "Confirm",
-        "reason": "Weight or Amount exceeds allowed limit",
-        "timestamp": "2026-03-12 15:14:37"
-    },
-    {
-        "status": "Skipped",
-        "order_id": "Confirm",
-        "reason": "Weight or Amount exceeds allowed limit",
-        "timestamp": "2026-03-12 15:14:39"
-    },
-    {
-        "status": "Skipped",
-        "order_id": "Confirm",
-        "reason": "Weight or Amount exceeds allowed limit",
-        "timestamp": "2026-03-12 15:14:41"
-    },
-    {
-        "status": "Error",
-        "order_id": "864528AF",
-        "reason": "name 'generate_btn' is not defined",
-        "error": "name 'generate_btn' is not defined",
-        "timestamp": "2026-03-12 15:15:56"
-    },
-    {
-        "status": "Error",
-        "order_id": "864475EY",
-        "reason": "name 'generate_btn' is not defined",
-        "error": "name 'generate_btn' is not defined",
-        "timestamp": "2026-03-12 15:16:59"
+        "order_id": "883190KY",
+        "seller": "Utkarsh Agrochem Pvt. Ltd.",
+        "amount": 275.0,
+        "customer": "Dinesh",
+        "timestamp": "2026-04-07 12:12:43"
     },
     {
         "status": "Processed",
-        "order_id": "864691HA",
-        "seller": "Mitrasena",
-        "amount": 1449.0,
-        "customer": "Hemant",
-        "timestamp": "2026-03-12 15:28:48"
-    },
-    {
-        "status": "Skipped",
-        "order_id": "Confirm",
-        "reason": "Weight or Amount exceeds allowed limit",
-        "timestamp": "2026-03-12 15:28:50"
-    },
-    {
-        "status": "Skipped",
-        "order_id": "Confirm",
-        "reason": "Weight or Amount exceeds allowed limit",
-        "timestamp": "2026-03-12 15:28:51"
-    },
-    {
-        "status": "Skipped",
-        "order_id": "Confirm",
-        "reason": "Weight or Amount exceeds allowed limit",
-        "timestamp": "2026-03-12 15:28:53"
-    },
-    {
-        "status": "Skipped",
-        "order_id": "Confirm",
-        "reason": "Weight or Amount exceeds allowed limit",
-        "timestamp": "2026-03-12 15:28:56"
-    },
-    {
-        "status": "Processed",
-        "order_id": "864506UP",
-        "seller": "Sagar Biotech Pvt Ltd",
-        "amount": 1300.0,
-        "customer": "AYAN KOLEY",
-        "timestamp": "2026-03-12 15:30:12"
-    },
-    {
-        "status": "Processed",
-        "order_id": "864499WS",
-        "seller": "Vaibhav Singh Chhabra of PEP Solution",
-        "amount": 332.0,
-        "customer": "Suraj Gupta",
-        "timestamp": "2026-03-12 15:31:20"
-    },
-    {
-        "status": "Error",
-        "reason": "Order not found in Delhivery",
-        "order_id": "864381VF",
-        "error": "Order not found in Delhivery",
-        "timestamp": "2026-03-12 15:38:07"
-    },
-    {
-        "status": "Error",
-        "reason": "Order not found in Delhivery",
-        "order_id": "864125LJ",
-        "error": "Order not found in Delhivery",
-        "timestamp": "2026-03-12 15:39:40"
-    },
-    {
-        "status": "Error",
-        "order_id": "Unknown",
-        "reason": "Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception\nStacktrace:\nSymbols not available. Dumping unresolved backtrace:\n\t0x7ff7675b5715\n\t0x7ff7675b5770\n\t0x7ff767360e76\n\t0x7ff7673abca6\n\t0x7ff7673e5892\n\t0x7ff7673dfc86\n\t0x7ff7673debf1\n\t0x7ff7673299e5\n\t0x7ff76789e9f0\n\t0x7ff767898ded\n\t0x7ff7678b969a\n\t0x7ff7675d11e5\n\t0x7ff7675d99cc\n\t0x7ff7673287aa\n\t0x7ff767a01a68\n\t0x7ffda0d8e8d7\n\t0x7ffda180c48c\n",
-        "error": "Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception\nStacktrace:\nSymbols not available. Dumping unresolved backtrace:\n\t0x7ff7675b5715\n\t0x7ff7675b5770\n\t0x7ff767360e76\n\t0x7ff7673abca6\n\t0x7ff7673e5892\n\t0x7ff7673dfc86\n\t0x7ff7673debf1\n\t0x7ff7673299e5\n\t0x7ff76789e9f0\n\t0x7ff767898ded\n\t0x7ff7678b969a\n\t0x7ff7675d11e5\n\t0x7ff7675d99cc\n\t0x7ff7673287aa\n\t0x7ff767a01a68\n\t0x7ffda0d8e8d7\n\t0x7ffda180c48c\n",
-        "timestamp": "2026-03-12 15:39:41"
-    },
-    {
-        "status": "Error",
-        "order_id": "Unknown",
-        "reason": "Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception\nStacktrace:\nSymbols not available. Dumping unresolved backtrace:\n\t0x7ff7675b5715\n\t0x7ff7675b5770\n\t0x7ff767360e76\n\t0x7ff7673abca6\n\t0x7ff7673e5892\n\t0x7ff7673dfc86\n\t0x7ff7673debf1\n\t0x7ff7673299e5\n\t0x7ff76789e9f0\n\t0x7ff767898ded\n\t0x7ff7678b969a\n\t0x7ff7675d11e5\n\t0x7ff7675d99cc\n\t0x7ff7673287aa\n\t0x7ff767a01a68\n\t0x7ffda0d8e8d7\n\t0x7ffda180c48c\n",
-        "error": "Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception\nStacktrace:\nSymbols not available. Dumping unresolved backtrace:\n\t0x7ff7675b5715\n\t0x7ff7675b5770\n\t0x7ff767360e76\n\t0x7ff7673abca6\n\t0x7ff7673e5892\n\t0x7ff7673dfc86\n\t0x7ff7673debf1\n\t0x7ff7673299e5\n\t0x7ff76789e9f0\n\t0x7ff767898ded\n\t0x7ff7678b969a\n\t0x7ff7675d11e5\n\t0x7ff7675d99cc\n\t0x7ff7673287aa\n\t0x7ff767a01a68\n\t0x7ffda0d8e8d7\n\t0x7ffda180c48c\n",
-        "timestamp": "2026-03-12 15:39:41"
-    },
-    {
-        "status": "Error",
-        "order_id": "Unknown",
-        "reason": "Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception\nStacktrace:\nSymbols not available. Dumping unresolved backtrace:\n\t0x7ff7675b5715\n\t0x7ff7675b5770\n\t0x7ff767360e76\n\t0x7ff7673abca6\n\t0x7ff7673e5892\n\t0x7ff7673dfc86\n\t0x7ff7673debf1\n\t0x7ff7673299e5\n\t0x7ff76789e9f0\n\t0x7ff767898ded\n\t0x7ff7678b969a\n\t0x7ff7675d11e5\n\t0x7ff7675d99cc\n\t0x7ff7673287aa\n\t0x7ff767a01a68\n\t0x7ffda0d8e8d7\n\t0x7ffda180c48c\n",
-        "error": "Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception\nStacktrace:\nSymbols not available. Dumping unresolved backtrace:\n\t0x7ff7675b5715\n\t0x7ff7675b5770\n\t0x7ff767360e76\n\t0x7ff7673abca6\n\t0x7ff7673e5892\n\t0x7ff7673dfc86\n\t0x7ff7673debf1\n\t0x7ff7673299e5\n\t0x7ff76789e9f0\n\t0x7ff767898ded\n\t0x7ff7678b969a\n\t0x7ff7675d11e5\n\t0x7ff7675d99cc\n\t0x7ff7673287aa\n\t0x7ff767a01a68\n\t0x7ffda0d8e8d7\n\t0x7ffda180c48c\n",
-        "timestamp": "2026-03-12 15:39:41"
-    },
-    {
-        "status": "Error",
-        "order_id": "Unknown",
-        "reason": "Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception\nStacktrace:\nSymbols not available. Dumping unresolved backtrace:\n\t0x7ff7675b5715\n\t0x7ff7675b5770\n\t0x7ff767360e76\n\t0x7ff7673abca6\n\t0x7ff7673e5892\n\t0x7ff7673dfc86\n\t0x7ff7673debf1\n\t0x7ff7673299e5\n\t0x7ff76789e9f0\n\t0x7ff767898ded\n\t0x7ff7678b969a\n\t0x7ff7675d11e5\n\t0x7ff7675d99cc\n\t0x7ff7673287aa\n\t0x7ff767a01a68\n\t0x7ffda0d8e8d7\n\t0x7ffda180c48c\n",
-        "error": "Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception\nStacktrace:\nSymbols not available. Dumping unresolved backtrace:\n\t0x7ff7675b5715\n\t0x7ff7675b5770\n\t0x7ff767360e76\n\t0x7ff7673abca6\n\t0x7ff7673e5892\n\t0x7ff7673dfc86\n\t0x7ff7673debf1\n\t0x7ff7673299e5\n\t0x7ff76789e9f0\n\t0x7ff767898ded\n\t0x7ff7678b969a\n\t0x7ff7675d11e5\n\t0x7ff7675d99cc\n\t0x7ff7673287aa\n\t0x7ff767a01a68\n\t0x7ffda0d8e8d7\n\t0x7ffda180c48c\n",
-        "timestamp": "2026-03-12 15:39:41"
-    },
-    {
-        "status": "Error",
-        "order_id": "Unknown",
-        "reason": "Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception\nStacktrace:\nSymbols not available. Dumping unresolved backtrace:\n\t0x7ff7675b5715\n\t0x7ff7675b5770\n\t0x7ff767360e76\n\t0x7ff7673abca6\n\t0x7ff7673e5892\n\t0x7ff7673dfc86\n\t0x7ff7673debf1\n\t0x7ff7673299e5\n\t0x7ff76789e9f0\n\t0x7ff767898ded\n\t0x7ff7678b969a\n\t0x7ff7675d11e5\n\t0x7ff7675d99cc\n\t0x7ff7673287aa\n\t0x7ff767a01a68\n\t0x7ffda0d8e8d7\n\t0x7ffda180c48c\n",
-        "error": "Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception\nStacktrace:\nSymbols not available. Dumping unresolved backtrace:\n\t0x7ff7675b5715\n\t0x7ff7675b5770\n\t0x7ff767360e76\n\t0x7ff7673abca6\n\t0x7ff7673e5892\n\t0x7ff7673dfc86\n\t0x7ff7673debf1\n\t0x7ff7673299e5\n\t0x7ff76789e9f0\n\t0x7ff767898ded\n\t0x7ff7678b969a\n\t0x7ff7675d11e5\n\t0x7ff7675d99cc\n\t0x7ff7673287aa\n\t0x7ff767a01a68\n\t0x7ffda0d8e8d7\n\t0x7ffda180c48c\n",
-        "timestamp": "2026-03-12 15:39:41"
-    },
-    {
-        "status": "Error",
-        "order_id": "Unknown",
-        "reason": "Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception\nStacktrace:\nSymbols not available. Dumping unresolved backtrace:\n\t0x7ff7675b5715\n\t0x7ff7675b5770\n\t0x7ff767360e76\n\t0x7ff7673abca6\n\t0x7ff7673e5892\n\t0x7ff7673dfc86\n\t0x7ff7673debf1\n\t0x7ff7673299e5\n\t0x7ff76789e9f0\n\t0x7ff767898ded\n\t0x7ff7678b969a\n\t0x7ff7675d11e5\n\t0x7ff7675d99cc\n\t0x7ff7673287aa\n\t0x7ff767a01a68\n\t0x7ffda0d8e8d7\n\t0x7ffda180c48c\n",
-        "error": "Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception\nStacktrace:\nSymbols not available. Dumping unresolved backtrace:\n\t0x7ff7675b5715\n\t0x7ff7675b5770\n\t0x7ff767360e76\n\t0x7ff7673abca6\n\t0x7ff7673e5892\n\t0x7ff7673dfc86\n\t0x7ff7673debf1\n\t0x7ff7673299e5\n\t0x7ff76789e9f0\n\t0x7ff767898ded\n\t0x7ff7678b969a\n\t0x7ff7675d11e5\n\t0x7ff7675d99cc\n\t0x7ff7673287aa\n\t0x7ff767a01a68\n\t0x7ffda0d8e8d7\n\t0x7ffda180c48c\n",
-        "timestamp": "2026-03-12 15:39:41"
-    },
-    {
-        "status": "Error",
-        "order_id": "Unknown",
-        "reason": "Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception\nStacktrace:\nSymbols not available. Dumping unresolved backtrace:\n\t0x7ff7675b5715\n\t0x7ff7675b5770\n\t0x7ff767360e76\n\t0x7ff7673abca6\n\t0x7ff7673e5892\n\t0x7ff7673dfc86\n\t0x7ff7673debf1\n\t0x7ff7673299e5\n\t0x7ff76789e9f0\n\t0x7ff767898ded\n\t0x7ff7678b969a\n\t0x7ff7675d11e5\n\t0x7ff7675d99cc\n\t0x7ff7673287aa\n\t0x7ff767a01a68\n\t0x7ffda0d8e8d7\n\t0x7ffda180c48c\n",
-        "error": "Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception\nStacktrace:\nSymbols not available. Dumping unresolved backtrace:\n\t0x7ff7675b5715\n\t0x7ff7675b5770\n\t0x7ff767360e76\n\t0x7ff7673abca6\n\t0x7ff7673e5892\n\t0x7ff7673dfc86\n\t0x7ff7673debf1\n\t0x7ff7673299e5\n\t0x7ff76789e9f0\n\t0x7ff767898ded\n\t0x7ff7678b969a\n\t0x7ff7675d11e5\n\t0x7ff7675d99cc\n\t0x7ff7673287aa\n\t0x7ff767a01a68\n\t0x7ffda0d8e8d7\n\t0x7ffda180c48c\n",
-        "timestamp": "2026-03-12 15:39:41"
-    },
-    {
-        "status": "Error",
-        "order_id": "Unknown",
-        "reason": "Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception\nStacktrace:\nSymbols not available. Dumping unresolved backtrace:\n\t0x7ff7675b5715\n\t0x7ff7675b5770\n\t0x7ff767360e76\n\t0x7ff7673abca6\n\t0x7ff7673e5892\n\t0x7ff7673dfc86\n\t0x7ff7673debf1\n\t0x7ff7673299e5\n\t0x7ff76789e9f0\n\t0x7ff767898ded\n\t0x7ff7678b969a\n\t0x7ff7675d11e5\n\t0x7ff7675d99cc\n\t0x7ff7673287aa\n\t0x7ff767a01a68\n\t0x7ffda0d8e8d7\n\t0x7ffda180c48c\n",
-        "error": "Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception\nStacktrace:\nSymbols not available. Dumping unresolved backtrace:\n\t0x7ff7675b5715\n\t0x7ff7675b5770\n\t0x7ff767360e76\n\t0x7ff7673abca6\n\t0x7ff7673e5892\n\t0x7ff7673dfc86\n\t0x7ff7673debf1\n\t0x7ff7673299e5\n\t0x7ff76789e9f0\n\t0x7ff767898ded\n\t0x7ff7678b969a\n\t0x7ff7675d11e5\n\t0x7ff7675d99cc\n\t0x7ff7673287aa\n\t0x7ff767a01a68\n\t0x7ffda0d8e8d7\n\t0x7ffda180c48c\n",
-        "timestamp": "2026-03-12 15:39:41"
-    },
-    {
-        "status": "Error",
-        "order_id": "Unknown",
-        "reason": "Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception\nStacktrace:\nSymbols not available. Dumping unresolved backtrace:\n\t0x7ff7675b5715\n\t0x7ff7675b5770\n\t0x7ff767360e76\n\t0x7ff7673abca6\n\t0x7ff7673e5892\n\t0x7ff7673dfc86\n\t0x7ff7673debf1\n\t0x7ff7673299e5\n\t0x7ff76789e9f0\n\t0x7ff767898ded\n\t0x7ff7678b969a\n\t0x7ff7675d11e5\n\t0x7ff7675d99cc\n\t0x7ff7673287aa\n\t0x7ff767a01a68\n\t0x7ffda0d8e8d7\n\t0x7ffda180c48c\n",
-        "error": "Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception\nStacktrace:\nSymbols not available. Dumping unresolved backtrace:\n\t0x7ff7675b5715\n\t0x7ff7675b5770\n\t0x7ff767360e76\n\t0x7ff7673abca6\n\t0x7ff7673e5892\n\t0x7ff7673dfc86\n\t0x7ff7673debf1\n\t0x7ff7673299e5\n\t0x7ff76789e9f0\n\t0x7ff767898ded\n\t0x7ff7678b969a\n\t0x7ff7675d11e5\n\t0x7ff7675d99cc\n\t0x7ff7673287aa\n\t0x7ff767a01a68\n\t0x7ffda0d8e8d7\n\t0x7ffda180c48c\n",
-        "timestamp": "2026-03-12 15:39:41"
-    },
-    {
-        "status": "Error",
-        "order_id": "Unknown",
-        "reason": "Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception\nStacktrace:\nSymbols not available. Dumping unresolved backtrace:\n\t0x7ff7675b5715\n\t0x7ff7675b5770\n\t0x7ff767360e76\n\t0x7ff7673abca6\n\t0x7ff7673e5892\n\t0x7ff7673dfc86\n\t0x7ff7673debf1\n\t0x7ff7673299e5\n\t0x7ff76789e9f0\n\t0x7ff767898ded\n\t0x7ff7678b969a\n\t0x7ff7675d11e5\n\t0x7ff7675d99cc\n\t0x7ff7673287aa\n\t0x7ff767a01a68\n\t0x7ffda0d8e8d7\n\t0x7ffda180c48c\n",
-        "error": "Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception\nStacktrace:\nSymbols not available. Dumping unresolved backtrace:\n\t0x7ff7675b5715\n\t0x7ff7675b5770\n\t0x7ff767360e76\n\t0x7ff7673abca6\n\t0x7ff7673e5892\n\t0x7ff7673dfc86\n\t0x7ff7673debf1\n\t0x7ff7673299e5\n\t0x7ff76789e9f0\n\t0x7ff767898ded\n\t0x7ff7678b969a\n\t0x7ff7675d11e5\n\t0x7ff7675d99cc\n\t0x7ff7673287aa\n\t0x7ff767a01a68\n\t0x7ffda0d8e8d7\n\t0x7ffda180c48c\n",
-        "timestamp": "2026-03-12 15:39:42"
-    },
-    {
-        "status": "Error",
-        "order_id": "Unknown",
-        "reason": "Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception\nStacktrace:\nSymbols not available. Dumping unresolved backtrace:\n\t0x7ff7675b5715\n\t0x7ff7675b5770\n\t0x7ff767360e76\n\t0x7ff7673abca6\n\t0x7ff7673e5892\n\t0x7ff7673dfc86\n\t0x7ff7673debf1\n\t0x7ff7673299e5\n\t0x7ff76789e9f0\n\t0x7ff767898ded\n\t0x7ff7678b969a\n\t0x7ff7675d11e5\n\t0x7ff7675d99cc\n\t0x7ff7673287aa\n\t0x7ff767a01a68\n\t0x7ffda0d8e8d7\n\t0x7ffda180c48c\n",
-        "error": "Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception\nStacktrace:\nSymbols not available. Dumping unresolved backtrace:\n\t0x7ff7675b5715\n\t0x7ff7675b5770\n\t0x7ff767360e76\n\t0x7ff7673abca6\n\t0x7ff7673e5892\n\t0x7ff7673dfc86\n\t0x7ff7673debf1\n\t0x7ff7673299e5\n\t0x7ff76789e9f0\n\t0x7ff767898ded\n\t0x7ff7678b969a\n\t0x7ff7675d11e5\n\t0x7ff7675d99cc\n\t0x7ff7673287aa\n\t0x7ff767a01a68\n\t0x7ffda0d8e8d7\n\t0x7ffda180c48c\n",
-        "timestamp": "2026-03-12 15:39:42"
-    },
-    {
-        "status": "Error",
-        "order_id": "Unknown",
-        "reason": "Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception\nStacktrace:\nSymbols not available. Dumping unresolved backtrace:\n\t0x7ff7675b5715\n\t0x7ff7675b5770\n\t0x7ff767360e76\n\t0x7ff7673abca6\n\t0x7ff7673e5892\n\t0x7ff7673dfc86\n\t0x7ff7673debf1\n\t0x7ff7673299e5\n\t0x7ff76789e9f0\n\t0x7ff767898ded\n\t0x7ff7678b969a\n\t0x7ff7675d11e5\n\t0x7ff7675d99cc\n\t0x7ff7673287aa\n\t0x7ff767a01a68\n\t0x7ffda0d8e8d7\n\t0x7ffda180c48c\n",
-        "error": "Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception\nStacktrace:\nSymbols not available. Dumping unresolved backtrace:\n\t0x7ff7675b5715\n\t0x7ff7675b5770\n\t0x7ff767360e76\n\t0x7ff7673abca6\n\t0x7ff7673e5892\n\t0x7ff7673dfc86\n\t0x7ff7673debf1\n\t0x7ff7673299e5\n\t0x7ff76789e9f0\n\t0x7ff767898ded\n\t0x7ff7678b969a\n\t0x7ff7675d11e5\n\t0x7ff7675d99cc\n\t0x7ff7673287aa\n\t0x7ff767a01a68\n\t0x7ffda0d8e8d7\n\t0x7ffda180c48c\n",
-        "timestamp": "2026-03-12 15:39:42"
-    },
-    {
-        "status": "Error",
-        "order_id": "Unknown",
-        "reason": "Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception\nStacktrace:\nSymbols not available. Dumping unresolved backtrace:\n\t0x7ff7675b5715\n\t0x7ff7675b5770\n\t0x7ff767360e76\n\t0x7ff7673abca6\n\t0x7ff7673e5892\n\t0x7ff7673dfc86\n\t0x7ff7673debf1\n\t0x7ff7673299e5\n\t0x7ff76789e9f0\n\t0x7ff767898ded\n\t0x7ff7678b969a\n\t0x7ff7675d11e5\n\t0x7ff7675d99cc\n\t0x7ff7673287aa\n\t0x7ff767a01a68\n\t0x7ffda0d8e8d7\n\t0x7ffda180c48c\n",
-        "error": "Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception\nStacktrace:\nSymbols not available. Dumping unresolved backtrace:\n\t0x7ff7675b5715\n\t0x7ff7675b5770\n\t0x7ff767360e76\n\t0x7ff7673abca6\n\t0x7ff7673e5892\n\t0x7ff7673dfc86\n\t0x7ff7673debf1\n\t0x7ff7673299e5\n\t0x7ff76789e9f0\n\t0x7ff767898ded\n\t0x7ff7678b969a\n\t0x7ff7675d11e5\n\t0x7ff7675d99cc\n\t0x7ff7673287aa\n\t0x7ff767a01a68\n\t0x7ffda0d8e8d7\n\t0x7ffda180c48c\n",
-        "timestamp": "2026-03-12 15:39:42"
-    },
-    {
-        "status": "Error",
-        "order_id": "Unknown",
-        "reason": "Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception\nStacktrace:\nSymbols not available. Dumping unresolved backtrace:\n\t0x7ff7675b5715\n\t0x7ff7675b5770\n\t0x7ff767360e76\n\t0x7ff7673abca6\n\t0x7ff7673e5892\n\t0x7ff7673dfc86\n\t0x7ff7673debf1\n\t0x7ff7673299e5\n\t0x7ff76789e9f0\n\t0x7ff767898ded\n\t0x7ff7678b969a\n\t0x7ff7675d11e5\n\t0x7ff7675d99cc\n\t0x7ff7673287aa\n\t0x7ff767a01a68\n\t0x7ffda0d8e8d7\n\t0x7ffda180c48c\n",
-        "error": "Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception\nStacktrace:\nSymbols not available. Dumping unresolved backtrace:\n\t0x7ff7675b5715\n\t0x7ff7675b5770\n\t0x7ff767360e76\n\t0x7ff7673abca6\n\t0x7ff7673e5892\n\t0x7ff7673dfc86\n\t0x7ff7673debf1\n\t0x7ff7673299e5\n\t0x7ff76789e9f0\n\t0x7ff767898ded\n\t0x7ff7678b969a\n\t0x7ff7675d11e5\n\t0x7ff7675d99cc\n\t0x7ff7673287aa\n\t0x7ff767a01a68\n\t0x7ffda0d8e8d7\n\t0x7ffda180c48c\n",
-        "timestamp": "2026-03-12 15:39:42"
-    },
-    {
-        "status": "Error",
-        "order_id": "Unknown",
-        "reason": "Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception\nStacktrace:\nSymbols not available. Dumping unresolved backtrace:\n\t0x7ff7675b5715\n\t0x7ff7675b5770\n\t0x7ff767360e76\n\t0x7ff7673abca6\n\t0x7ff7673e5892\n\t0x7ff7673dfc86\n\t0x7ff7673debf1\n\t0x7ff7673299e5\n\t0x7ff76789e9f0\n\t0x7ff767898ded\n\t0x7ff7678b969a\n\t0x7ff7675d11e5\n\t0x7ff7675d99cc\n\t0x7ff7673287aa\n\t0x7ff767a01a68\n\t0x7ffda0d8e8d7\n\t0x7ffda180c48c\n",
-        "error": "Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception\nStacktrace:\nSymbols not available. Dumping unresolved backtrace:\n\t0x7ff7675b5715\n\t0x7ff7675b5770\n\t0x7ff767360e76\n\t0x7ff7673abca6\n\t0x7ff7673e5892\n\t0x7ff7673dfc86\n\t0x7ff7673debf1\n\t0x7ff7673299e5\n\t0x7ff76789e9f0\n\t0x7ff767898ded\n\t0x7ff7678b969a\n\t0x7ff7675d11e5\n\t0x7ff7675d99cc\n\t0x7ff7673287aa\n\t0x7ff767a01a68\n\t0x7ffda0d8e8d7\n\t0x7ffda180c48c\n",
-        "timestamp": "2026-03-12 15:39:42"
-    },
-    {
-        "status": "Error",
-        "order_id": "Unknown",
-        "reason": "Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception\nStacktrace:\nSymbols not available. Dumping unresolved backtrace:\n\t0x7ff7675b5715\n\t0x7ff7675b5770\n\t0x7ff767360e76\n\t0x7ff7673abca6\n\t0x7ff7673e5892\n\t0x7ff7673dfc86\n\t0x7ff7673debf1\n\t0x7ff7673299e5\n\t0x7ff76789e9f0\n\t0x7ff767898ded\n\t0x7ff7678b969a\n\t0x7ff7675d11e5\n\t0x7ff7675d99cc\n\t0x7ff7673287aa\n\t0x7ff767a01a68\n\t0x7ffda0d8e8d7\n\t0x7ffda180c48c\n",
-        "error": "Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception\nStacktrace:\nSymbols not available. Dumping unresolved backtrace:\n\t0x7ff7675b5715\n\t0x7ff7675b5770\n\t0x7ff767360e76\n\t0x7ff7673abca6\n\t0x7ff7673e5892\n\t0x7ff7673dfc86\n\t0x7ff7673debf1\n\t0x7ff7673299e5\n\t0x7ff76789e9f0\n\t0x7ff767898ded\n\t0x7ff7678b969a\n\t0x7ff7675d11e5\n\t0x7ff7675d99cc\n\t0x7ff7673287aa\n\t0x7ff767a01a68\n\t0x7ffda0d8e8d7\n\t0x7ffda180c48c\n",
-        "timestamp": "2026-03-12 15:39:42"
-    },
-    {
-        "status": "Error",
-        "order_id": "Unknown",
-        "reason": "Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception\nStacktrace:\nSymbols not available. Dumping unresolved backtrace:\n\t0x7ff7675b5715\n\t0x7ff7675b5770\n\t0x7ff767360e76\n\t0x7ff7673abca6\n\t0x7ff7673e5892\n\t0x7ff7673dfc86\n\t0x7ff7673debf1\n\t0x7ff7673299e5\n\t0x7ff76789e9f0\n\t0x7ff767898ded\n\t0x7ff7678b969a\n\t0x7ff7675d11e5\n\t0x7ff7675d99cc\n\t0x7ff7673287aa\n\t0x7ff767a01a68\n\t0x7ffda0d8e8d7\n\t0x7ffda180c48c\n",
-        "error": "Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception\nStacktrace:\nSymbols not available. Dumping unresolved backtrace:\n\t0x7ff7675b5715\n\t0x7ff7675b5770\n\t0x7ff767360e76\n\t0x7ff7673abca6\n\t0x7ff7673e5892\n\t0x7ff7673dfc86\n\t0x7ff7673debf1\n\t0x7ff7673299e5\n\t0x7ff76789e9f0\n\t0x7ff767898ded\n\t0x7ff7678b969a\n\t0x7ff7675d11e5\n\t0x7ff7675d99cc\n\t0x7ff7673287aa\n\t0x7ff767a01a68\n\t0x7ffda0d8e8d7\n\t0x7ffda180c48c\n",
-        "timestamp": "2026-03-12 15:39:42"
-    },
-    {
-        "status": "Error",
-        "order_id": "Unknown",
-        "reason": "Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception\nStacktrace:\nSymbols not available. Dumping unresolved backtrace:\n\t0x7ff7675b5715\n\t0x7ff7675b5770\n\t0x7ff767360e76\n\t0x7ff7673abca6\n\t0x7ff7673e5892\n\t0x7ff7673dfc86\n\t0x7ff7673debf1\n\t0x7ff7673299e5\n\t0x7ff76789e9f0\n\t0x7ff767898ded\n\t0x7ff7678b969a\n\t0x7ff7675d11e5\n\t0x7ff7675d99cc\n\t0x7ff7673287aa\n\t0x7ff767a01a68\n\t0x7ffda0d8e8d7\n\t0x7ffda180c48c\n",
-        "error": "Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception\nStacktrace:\nSymbols not available. Dumping unresolved backtrace:\n\t0x7ff7675b5715\n\t0x7ff7675b5770\n\t0x7ff767360e76\n\t0x7ff7673abca6\n\t0x7ff7673e5892\n\t0x7ff7673dfc86\n\t0x7ff7673debf1\n\t0x7ff7673299e5\n\t0x7ff76789e9f0\n\t0x7ff767898ded\n\t0x7ff7678b969a\n\t0x7ff7675d11e5\n\t0x7ff7675d99cc\n\t0x7ff7673287aa\n\t0x7ff767a01a68\n\t0x7ffda0d8e8d7\n\t0x7ffda180c48c\n",
-        "timestamp": "2026-03-12 15:39:42"
-    },
-    {
-        "status": "Error",
-        "order_id": "Unknown",
-        "reason": "Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception\nStacktrace:\nSymbols not available. Dumping unresolved backtrace:\n\t0x7ff7675b5715\n\t0x7ff7675b5770\n\t0x7ff767360e76\n\t0x7ff7673abca6\n\t0x7ff7673e5892\n\t0x7ff7673dfc86\n\t0x7ff7673debf1\n\t0x7ff7673299e5\n\t0x7ff76789e9f0\n\t0x7ff767898ded\n\t0x7ff7678b969a\n\t0x7ff7675d11e5\n\t0x7ff7675d99cc\n\t0x7ff7673287aa\n\t0x7ff767a01a68\n\t0x7ffda0d8e8d7\n\t0x7ffda180c48c\n",
-        "error": "Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception\nStacktrace:\nSymbols not available. Dumping unresolved backtrace:\n\t0x7ff7675b5715\n\t0x7ff7675b5770\n\t0x7ff767360e76\n\t0x7ff7673abca6\n\t0x7ff7673e5892\n\t0x7ff7673dfc86\n\t0x7ff7673debf1\n\t0x7ff7673299e5\n\t0x7ff76789e9f0\n\t0x7ff767898ded\n\t0x7ff7678b969a\n\t0x7ff7675d11e5\n\t0x7ff7675d99cc\n\t0x7ff7673287aa\n\t0x7ff767a01a68\n\t0x7ffda0d8e8d7\n\t0x7ffda180c48c\n",
-        "timestamp": "2026-03-12 15:39:42"
-    },
-    {
-        "status": "Error",
-        "order_id": "Unknown",
-        "reason": "Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception\nStacktrace:\nSymbols not available. Dumping unresolved backtrace:\n\t0x7ff7675b5715\n\t0x7ff7675b5770\n\t0x7ff767360e76\n\t0x7ff7673abca6\n\t0x7ff7673e5892\n\t0x7ff7673dfc86\n\t0x7ff7673debf1\n\t0x7ff7673299e5\n\t0x7ff76789e9f0\n\t0x7ff767898ded\n\t0x7ff7678b969a\n\t0x7ff7675d11e5\n\t0x7ff7675d99cc\n\t0x7ff7673287aa\n\t0x7ff767a01a68\n\t0x7ffda0d8e8d7\n\t0x7ffda180c48c\n",
-        "error": "Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception\nStacktrace:\nSymbols not available. Dumping unresolved backtrace:\n\t0x7ff7675b5715\n\t0x7ff7675b5770\n\t0x7ff767360e76\n\t0x7ff7673abca6\n\t0x7ff7673e5892\n\t0x7ff7673dfc86\n\t0x7ff7673debf1\n\t0x7ff7673299e5\n\t0x7ff76789e9f0\n\t0x7ff767898ded\n\t0x7ff7678b969a\n\t0x7ff7675d11e5\n\t0x7ff7675d99cc\n\t0x7ff7673287aa\n\t0x7ff767a01a68\n\t0x7ffda0d8e8d7\n\t0x7ffda180c48c\n",
-        "timestamp": "2026-03-12 15:39:43"
-    },
-    {
-        "status": "Error",
-        "order_id": "Unknown",
-        "reason": "Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception\nStacktrace:\nSymbols not available. Dumping unresolved backtrace:\n\t0x7ff7675b5715\n\t0x7ff7675b5770\n\t0x7ff767360e76\n\t0x7ff7673abca6\n\t0x7ff7673e5892\n\t0x7ff7673dfc86\n\t0x7ff7673debf1\n\t0x7ff7673299e5\n\t0x7ff76789e9f0\n\t0x7ff767898ded\n\t0x7ff7678b969a\n\t0x7ff7675d11e5\n\t0x7ff7675d99cc\n\t0x7ff7673287aa\n\t0x7ff767a01a68\n\t0x7ffda0d8e8d7\n\t0x7ffda180c48c\n",
-        "error": "Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception\nStacktrace:\nSymbols not available. Dumping unresolved backtrace:\n\t0x7ff7675b5715\n\t0x7ff7675b5770\n\t0x7ff767360e76\n\t0x7ff7673abca6\n\t0x7ff7673e5892\n\t0x7ff7673dfc86\n\t0x7ff7673debf1\n\t0x7ff7673299e5\n\t0x7ff76789e9f0\n\t0x7ff767898ded\n\t0x7ff7678b969a\n\t0x7ff7675d11e5\n\t0x7ff7675d99cc\n\t0x7ff7673287aa\n\t0x7ff767a01a68\n\t0x7ffda0d8e8d7\n\t0x7ffda180c48c\n",
-        "timestamp": "2026-03-12 15:39:43"
-    },
-    {
-        "status": "Error",
-        "order_id": "Unknown",
-        "reason": "Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception\nStacktrace:\nSymbols not available. Dumping unresolved backtrace:\n\t0x7ff7675b5715\n\t0x7ff7675b5770\n\t0x7ff767360e76\n\t0x7ff7673abca6\n\t0x7ff7673e5892\n\t0x7ff7673dfc86\n\t0x7ff7673debf1\n\t0x7ff7673299e5\n\t0x7ff76789e9f0\n\t0x7ff767898ded\n\t0x7ff7678b969a\n\t0x7ff7675d11e5\n\t0x7ff7675d99cc\n\t0x7ff7673287aa\n\t0x7ff767a01a68\n\t0x7ffda0d8e8d7\n\t0x7ffda180c48c\n",
-        "error": "Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception\nStacktrace:\nSymbols not available. Dumping unresolved backtrace:\n\t0x7ff7675b5715\n\t0x7ff7675b5770\n\t0x7ff767360e76\n\t0x7ff7673abca6\n\t0x7ff7673e5892\n\t0x7ff7673dfc86\n\t0x7ff7673debf1\n\t0x7ff7673299e5\n\t0x7ff76789e9f0\n\t0x7ff767898ded\n\t0x7ff7678b969a\n\t0x7ff7675d11e5\n\t0x7ff7675d99cc\n\t0x7ff7673287aa\n\t0x7ff767a01a68\n\t0x7ffda0d8e8d7\n\t0x7ffda180c48c\n",
-        "timestamp": "2026-03-12 15:39:43"
-    },
-    {
-        "status": "Error",
-        "order_id": "Unknown",
-        "reason": "Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception\nStacktrace:\nSymbols not available. Dumping unresolved backtrace:\n\t0x7ff7675b5715\n\t0x7ff7675b5770\n\t0x7ff767360e76\n\t0x7ff7673abca6\n\t0x7ff7673e5892\n\t0x7ff7673dfc86\n\t0x7ff7673debf1\n\t0x7ff7673299e5\n\t0x7ff76789e9f0\n\t0x7ff767898ded\n\t0x7ff7678b969a\n\t0x7ff7675d11e5\n\t0x7ff7675d99cc\n\t0x7ff7673287aa\n\t0x7ff767a01a68\n\t0x7ffda0d8e8d7\n\t0x7ffda180c48c\n",
-        "error": "Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception\nStacktrace:\nSymbols not available. Dumping unresolved backtrace:\n\t0x7ff7675b5715\n\t0x7ff7675b5770\n\t0x7ff767360e76\n\t0x7ff7673abca6\n\t0x7ff7673e5892\n\t0x7ff7673dfc86\n\t0x7ff7673debf1\n\t0x7ff7673299e5\n\t0x7ff76789e9f0\n\t0x7ff767898ded\n\t0x7ff7678b969a\n\t0x7ff7675d11e5\n\t0x7ff7675d99cc\n\t0x7ff7673287aa\n\t0x7ff767a01a68\n\t0x7ffda0d8e8d7\n\t0x7ffda180c48c\n",
-        "timestamp": "2026-03-12 15:39:43"
-    },
-    {
-        "status": "Error",
-        "order_id": "Unknown",
-        "reason": "Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception\nStacktrace:\nSymbols not available. Dumping unresolved backtrace:\n\t0x7ff7675b5715\n\t0x7ff7675b5770\n\t0x7ff767360e76\n\t0x7ff7673abca6\n\t0x7ff7673e5892\n\t0x7ff7673dfc86\n\t0x7ff7673debf1\n\t0x7ff7673299e5\n\t0x7ff76789e9f0\n\t0x7ff767898ded\n\t0x7ff7678b969a\n\t0x7ff7675d11e5\n\t0x7ff7675d99cc\n\t0x7ff7673287aa\n\t0x7ff767a01a68\n\t0x7ffda0d8e8d7\n\t0x7ffda180c48c\n",
-        "error": "Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception\nStacktrace:\nSymbols not available. Dumping unresolved backtrace:\n\t0x7ff7675b5715\n\t0x7ff7675b5770\n\t0x7ff767360e76\n\t0x7ff7673abca6\n\t0x7ff7673e5892\n\t0x7ff7673dfc86\n\t0x7ff7673debf1\n\t0x7ff7673299e5\n\t0x7ff76789e9f0\n\t0x7ff767898ded\n\t0x7ff7678b969a\n\t0x7ff7675d11e5\n\t0x7ff7675d99cc\n\t0x7ff7673287aa\n\t0x7ff767a01a68\n\t0x7ffda0d8e8d7\n\t0x7ffda180c48c\n",
-        "timestamp": "2026-03-12 15:39:44"
-    },
-    {
-        "status": "Error",
-        "order_id": "Unknown",
-        "reason": "Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception\nStacktrace:\nSymbols not available. Dumping unresolved backtrace:\n\t0x7ff7675b5715\n\t0x7ff7675b5770\n\t0x7ff767360e76\n\t0x7ff7673abca6\n\t0x7ff7673e5892\n\t0x7ff7673dfc86\n\t0x7ff7673debf1\n\t0x7ff7673299e5\n\t0x7ff76789e9f0\n\t0x7ff767898ded\n\t0x7ff7678b969a\n\t0x7ff7675d11e5\n\t0x7ff7675d99cc\n\t0x7ff7673287aa\n\t0x7ff767a01a68\n\t0x7ffda0d8e8d7\n\t0x7ffda180c48c\n",
-        "error": "Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception\nStacktrace:\nSymbols not available. Dumping unresolved backtrace:\n\t0x7ff7675b5715\n\t0x7ff7675b5770\n\t0x7ff767360e76\n\t0x7ff7673abca6\n\t0x7ff7673e5892\n\t0x7ff7673dfc86\n\t0x7ff7673debf1\n\t0x7ff7673299e5\n\t0x7ff76789e9f0\n\t0x7ff767898ded\n\t0x7ff7678b969a\n\t0x7ff7675d11e5\n\t0x7ff7675d99cc\n\t0x7ff7673287aa\n\t0x7ff767a01a68\n\t0x7ffda0d8e8d7\n\t0x7ffda180c48c\n",
-        "timestamp": "2026-03-12 15:39:44"
-    },
-    {
-        "status": "Error",
-        "order_id": "Unknown",
-        "reason": "Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception\nStacktrace:\nSymbols not available. Dumping unresolved backtrace:\n\t0x7ff7675b5715\n\t0x7ff7675b5770\n\t0x7ff767360e76\n\t0x7ff7673abca6\n\t0x7ff7673e5892\n\t0x7ff7673dfc86\n\t0x7ff7673debf1\n\t0x7ff7673299e5\n\t0x7ff76789e9f0\n\t0x7ff767898ded\n\t0x7ff7678b969a\n\t0x7ff7675d11e5\n\t0x7ff7675d99cc\n\t0x7ff7673287aa\n\t0x7ff767a01a68\n\t0x7ffda0d8e8d7\n\t0x7ffda180c48c\n",
-        "error": "Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception\nStacktrace:\nSymbols not available. Dumping unresolved backtrace:\n\t0x7ff7675b5715\n\t0x7ff7675b5770\n\t0x7ff767360e76\n\t0x7ff7673abca6\n\t0x7ff7673e5892\n\t0x7ff7673dfc86\n\t0x7ff7673debf1\n\t0x7ff7673299e5\n\t0x7ff76789e9f0\n\t0x7ff767898ded\n\t0x7ff7678b969a\n\t0x7ff7675d11e5\n\t0x7ff7675d99cc\n\t0x7ff7673287aa\n\t0x7ff767a01a68\n\t0x7ffda0d8e8d7\n\t0x7ffda180c48c\n",
-        "timestamp": "2026-03-12 15:39:44"
-    },
-    {
-        "status": "Error",
-        "order_id": "Unknown",
-        "reason": "Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception\nStacktrace:\nSymbols not available. Dumping unresolved backtrace:\n\t0x7ff7675b5715\n\t0x7ff7675b5770\n\t0x7ff767360e76\n\t0x7ff7673abca6\n\t0x7ff7673e5892\n\t0x7ff7673dfc86\n\t0x7ff7673debf1\n\t0x7ff7673299e5\n\t0x7ff76789e9f0\n\t0x7ff767898ded\n\t0x7ff7678b969a\n\t0x7ff7675d11e5\n\t0x7ff7675d99cc\n\t0x7ff7673287aa\n\t0x7ff767a01a68\n\t0x7ffda0d8e8d7\n\t0x7ffda180c48c\n",
-        "error": "Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception\nStacktrace:\nSymbols not available. Dumping unresolved backtrace:\n\t0x7ff7675b5715\n\t0x7ff7675b5770\n\t0x7ff767360e76\n\t0x7ff7673abca6\n\t0x7ff7673e5892\n\t0x7ff7673dfc86\n\t0x7ff7673debf1\n\t0x7ff7673299e5\n\t0x7ff76789e9f0\n\t0x7ff767898ded\n\t0x7ff7678b969a\n\t0x7ff7675d11e5\n\t0x7ff7675d99cc\n\t0x7ff7673287aa\n\t0x7ff767a01a68\n\t0x7ffda0d8e8d7\n\t0x7ffda180c48c\n",
-        "timestamp": "2026-03-12 15:39:45"
-    },
-    {
-        "status": "Error",
-        "order_id": "Unknown",
-        "reason": "Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception\nStacktrace:\nSymbols not available. Dumping unresolved backtrace:\n\t0x7ff7675b5715\n\t0x7ff7675b5770\n\t0x7ff767360e76\n\t0x7ff7673abca6\n\t0x7ff7673e5892\n\t0x7ff7673dfc86\n\t0x7ff7673debf1\n\t0x7ff7673299e5\n\t0x7ff76789e9f0\n\t0x7ff767898ded\n\t0x7ff7678b969a\n\t0x7ff7675d11e5\n\t0x7ff7675d99cc\n\t0x7ff7673287aa\n\t0x7ff767a01a68\n\t0x7ffda0d8e8d7\n\t0x7ffda180c48c\n",
-        "error": "Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception\nStacktrace:\nSymbols not available. Dumping unresolved backtrace:\n\t0x7ff7675b5715\n\t0x7ff7675b5770\n\t0x7ff767360e76\n\t0x7ff7673abca6\n\t0x7ff7673e5892\n\t0x7ff7673dfc86\n\t0x7ff7673debf1\n\t0x7ff7673299e5\n\t0x7ff76789e9f0\n\t0x7ff767898ded\n\t0x7ff7678b969a\n\t0x7ff7675d11e5\n\t0x7ff7675d99cc\n\t0x7ff7673287aa\n\t0x7ff767a01a68\n\t0x7ffda0d8e8d7\n\t0x7ffda180c48c\n",
-        "timestamp": "2026-03-12 15:39:45"
-    },
-    {
-        "status": "Error",
-        "order_id": "Unknown",
-        "reason": "Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception\nStacktrace:\nSymbols not available. Dumping unresolved backtrace:\n\t0x7ff7675b5715\n\t0x7ff7675b5770\n\t0x7ff767360e76\n\t0x7ff7673abca6\n\t0x7ff7673e5892\n\t0x7ff7673dfc86\n\t0x7ff7673debf1\n\t0x7ff7673299e5\n\t0x7ff76789e9f0\n\t0x7ff767898ded\n\t0x7ff7678b969a\n\t0x7ff7675d11e5\n\t0x7ff7675d99cc\n\t0x7ff7673287aa\n\t0x7ff767a01a68\n\t0x7ffda0d8e8d7\n\t0x7ffda180c48c\n",
-        "error": "Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception\nStacktrace:\nSymbols not available. Dumping unresolved backtrace:\n\t0x7ff7675b5715\n\t0x7ff7675b5770\n\t0x7ff767360e76\n\t0x7ff7673abca6\n\t0x7ff7673e5892\n\t0x7ff7673dfc86\n\t0x7ff7673debf1\n\t0x7ff7673299e5\n\t0x7ff76789e9f0\n\t0x7ff767898ded\n\t0x7ff7678b969a\n\t0x7ff7675d11e5\n\t0x7ff7675d99cc\n\t0x7ff7673287aa\n\t0x7ff767a01a68\n\t0x7ffda0d8e8d7\n\t0x7ffda180c48c\n",
-        "timestamp": "2026-03-12 15:39:45"
-    },
-    {
-        "status": "Error",
-        "order_id": "Unknown",
-        "reason": "Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception\nStacktrace:\nSymbols not available. Dumping unresolved backtrace:\n\t0x7ff7675b5715\n\t0x7ff7675b5770\n\t0x7ff767360e76\n\t0x7ff7673abca6\n\t0x7ff7673e5892\n\t0x7ff7673dfc86\n\t0x7ff7673debf1\n\t0x7ff7673299e5\n\t0x7ff76789e9f0\n\t0x7ff767898ded\n\t0x7ff7678b969a\n\t0x7ff7675d11e5\n\t0x7ff7675d99cc\n\t0x7ff7673287aa\n\t0x7ff767a01a68\n\t0x7ffda0d8e8d7\n\t0x7ffda180c48c\n",
-        "error": "Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception\nStacktrace:\nSymbols not available. Dumping unresolved backtrace:\n\t0x7ff7675b5715\n\t0x7ff7675b5770\n\t0x7ff767360e76\n\t0x7ff7673abca6\n\t0x7ff7673e5892\n\t0x7ff7673dfc86\n\t0x7ff7673debf1\n\t0x7ff7673299e5\n\t0x7ff76789e9f0\n\t0x7ff767898ded\n\t0x7ff7678b969a\n\t0x7ff7675d11e5\n\t0x7ff7675d99cc\n\t0x7ff7673287aa\n\t0x7ff767a01a68\n\t0x7ffda0d8e8d7\n\t0x7ffda180c48c\n",
-        "timestamp": "2026-03-12 15:39:45"
-    },
-    {
-        "status": "Error",
-        "order_id": "Unknown",
-        "reason": "Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception\nStacktrace:\nSymbols not available. Dumping unresolved backtrace:\n\t0x7ff7675b5715\n\t0x7ff7675b5770\n\t0x7ff767360e76\n\t0x7ff7673abca6\n\t0x7ff7673e5892\n\t0x7ff7673dfc86\n\t0x7ff7673debf1\n\t0x7ff7673299e5\n\t0x7ff76789e9f0\n\t0x7ff767898ded\n\t0x7ff7678b969a\n\t0x7ff7675d11e5\n\t0x7ff7675d99cc\n\t0x7ff7673287aa\n\t0x7ff767a01a68\n\t0x7ffda0d8e8d7\n\t0x7ffda180c48c\n",
-        "error": "Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception\nStacktrace:\nSymbols not available. Dumping unresolved backtrace:\n\t0x7ff7675b5715\n\t0x7ff7675b5770\n\t0x7ff767360e76\n\t0x7ff7673abca6\n\t0x7ff7673e5892\n\t0x7ff7673dfc86\n\t0x7ff7673debf1\n\t0x7ff7673299e5\n\t0x7ff76789e9f0\n\t0x7ff767898ded\n\t0x7ff7678b969a\n\t0x7ff7675d11e5\n\t0x7ff7675d99cc\n\t0x7ff7673287aa\n\t0x7ff767a01a68\n\t0x7ffda0d8e8d7\n\t0x7ffda180c48c\n",
-        "timestamp": "2026-03-12 15:39:45"
-    },
-    {
-        "status": "Error",
-        "order_id": "Unknown",
-        "reason": "Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception\nStacktrace:\nSymbols not available. Dumping unresolved backtrace:\n\t0x7ff7675b5715\n\t0x7ff7675b5770\n\t0x7ff767360e76\n\t0x7ff7673abca6\n\t0x7ff7673e5892\n\t0x7ff7673dfc86\n\t0x7ff7673debf1\n\t0x7ff7673299e5\n\t0x7ff76789e9f0\n\t0x7ff767898ded\n\t0x7ff7678b969a\n\t0x7ff7675d11e5\n\t0x7ff7675d99cc\n\t0x7ff7673287aa\n\t0x7ff767a01a68\n\t0x7ffda0d8e8d7\n\t0x7ffda180c48c\n",
-        "error": "Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception\nStacktrace:\nSymbols not available. Dumping unresolved backtrace:\n\t0x7ff7675b5715\n\t0x7ff7675b5770\n\t0x7ff767360e76\n\t0x7ff7673abca6\n\t0x7ff7673e5892\n\t0x7ff7673dfc86\n\t0x7ff7673debf1\n\t0x7ff7673299e5\n\t0x7ff76789e9f0\n\t0x7ff767898ded\n\t0x7ff7678b969a\n\t0x7ff7675d11e5\n\t0x7ff7675d99cc\n\t0x7ff7673287aa\n\t0x7ff767a01a68\n\t0x7ffda0d8e8d7\n\t0x7ffda180c48c\n",
-        "timestamp": "2026-03-12 15:39:45"
-    },
-    {
-        "status": "Error",
-        "order_id": "Unknown",
-        "reason": "Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception\nStacktrace:\nSymbols not available. Dumping unresolved backtrace:\n\t0x7ff7675b5715\n\t0x7ff7675b5770\n\t0x7ff767360e76\n\t0x7ff7673abca6\n\t0x7ff7673e5892\n\t0x7ff7673dfc86\n\t0x7ff7673debf1\n\t0x7ff7673299e5\n\t0x7ff76789e9f0\n\t0x7ff767898ded\n\t0x7ff7678b969a\n\t0x7ff7675d11e5\n\t0x7ff7675d99cc\n\t0x7ff7673287aa\n\t0x7ff767a01a68\n\t0x7ffda0d8e8d7\n\t0x7ffda180c48c\n",
-        "error": "Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception\nStacktrace:\nSymbols not available. Dumping unresolved backtrace:\n\t0x7ff7675b5715\n\t0x7ff7675b5770\n\t0x7ff767360e76\n\t0x7ff7673abca6\n\t0x7ff7673e5892\n\t0x7ff7673dfc86\n\t0x7ff7673debf1\n\t0x7ff7673299e5\n\t0x7ff76789e9f0\n\t0x7ff767898ded\n\t0x7ff7678b969a\n\t0x7ff7675d11e5\n\t0x7ff7675d99cc\n\t0x7ff7673287aa\n\t0x7ff767a01a68\n\t0x7ffda0d8e8d7\n\t0x7ffda180c48c\n",
-        "timestamp": "2026-03-12 15:39:45"
-    },
-    {
-        "status": "Error",
-        "order_id": "858738LH",
-        "reason": "Message: \nStacktrace:\nSymbols not available. Dumping unresolved backtrace:\n\t0x7ff7675b5715\n\t0x7ff7675b5770\n\t0x7ff76736108d\n\t0x7ff7673bc3be\n\t0x7ff7673bc6cc\n\t0x7ff76740d2f7\n\t0x7ff767409e45\n\t0x7ff7673acc28\n\t0x7ff7673adb33\n\t0x7ff76789e9f0\n\t0x7ff767898ded\n\t0x7ff7678b969a\n\t0x7ff7675d11e5\n\t0x7ff7675d99cc\n\t0x7ff7675bebf4\n\t0x7ff7675beda6\n\t0x7ff7675a4e87\n\t0x7ffda0d8e8d7\n\t0x7ffda180c48c\n",
-        "error": "Message: \nStacktrace:\nSymbols not available. Dumping unresolved backtrace:\n\t0x7ff7675b5715\n\t0x7ff7675b5770\n\t0x7ff76736108d\n\t0x7ff7673bc3be\n\t0x7ff7673bc6cc\n\t0x7ff76740d2f7\n\t0x7ff767409e45\n\t0x7ff7673acc28\n\t0x7ff7673adb33\n\t0x7ff76789e9f0\n\t0x7ff767898ded\n\t0x7ff7678b969a\n\t0x7ff7675d11e5\n\t0x7ff7675d99cc\n\t0x7ff7675bebf4\n\t0x7ff7675beda6\n\t0x7ff7675a4e87\n\t0x7ffda0d8e8d7\n\t0x7ffda180c48c\n",
-        "timestamp": "2026-03-12 15:43:29"
-    },
-    {
-        "status": "Skipped",
-        "order_id": "Packed",
-        "reason": "Weight or Amount exceeds allowed limit",
-        "timestamp": "2026-03-12 15:43:31"
-    },
-    {
-        "status": "Error",
-        "order_id": "Confirm",
-        "reason": "Message: \nStacktrace:\nSymbols not available. Dumping unresolved backtrace:\n\t0x7ff7675b5715\n\t0x7ff7675b5770\n\t0x7ff76736108d\n\t0x7ff7673bc3be\n\t0x7ff7673bc6cc\n\t0x7ff76740d2f7\n\t0x7ff767409e45\n\t0x7ff7673acc28\n\t0x7ff7673adb33\n\t0x7ff76789e9f0\n\t0x7ff767898ded\n\t0x7ff7678b969a\n\t0x7ff7675d11e5\n\t0x7ff7675d99cc\n\t0x7ff7675bebf4\n\t0x7ff7675beda6\n\t0x7ff7675a4e87\n\t0x7ffda0d8e8d7\n\t0x7ffda180c48c\n",
-        "error": "Message: \nStacktrace:\nSymbols not available. Dumping unresolved backtrace:\n\t0x7ff7675b5715\n\t0x7ff7675b5770\n\t0x7ff76736108d\n\t0x7ff7673bc3be\n\t0x7ff7673bc6cc\n\t0x7ff76740d2f7\n\t0x7ff767409e45\n\t0x7ff7673acc28\n\t0x7ff7673adb33\n\t0x7ff76789e9f0\n\t0x7ff767898ded\n\t0x7ff7678b969a\n\t0x7ff7675d11e5\n\t0x7ff7675d99cc\n\t0x7ff7675bebf4\n\t0x7ff7675beda6\n\t0x7ff7675a4e87\n\t0x7ffda0d8e8d7\n\t0x7ffda180c48c\n",
-        "timestamp": "2026-03-12 15:43:57"
-    },
-    {
-        "status": "Error",
-        "order_id": "Deleted",
-        "reason": "Message: \nStacktrace:\nSymbols not available. Dumping unresolved backtrace:\n\t0x7ff7675b5715\n\t0x7ff7675b5770\n\t0x7ff76736108d\n\t0x7ff7673bc3be\n\t0x7ff7673bc6cc\n\t0x7ff76740d2f7\n\t0x7ff767409e45\n\t0x7ff7673acc28\n\t0x7ff7673adb33\n\t0x7ff76789e9f0\n\t0x7ff767898ded\n\t0x7ff7678b969a\n\t0x7ff7675d11e5\n\t0x7ff7675d99cc\n\t0x7ff7675bebf4\n\t0x7ff7675beda6\n\t0x7ff7675a4e87\n\t0x7ffda0d8e8d7\n\t0x7ffda180c48c\n",
-        "error": "Message: \nStacktrace:\nSymbols not available. Dumping unresolved backtrace:\n\t0x7ff7675b5715\n\t0x7ff7675b5770\n\t0x7ff76736108d\n\t0x7ff7673bc3be\n\t0x7ff7673bc6cc\n\t0x7ff76740d2f7\n\t0x7ff767409e45\n\t0x7ff7673acc28\n\t0x7ff7673adb33\n\t0x7ff76789e9f0\n\t0x7ff767898ded\n\t0x7ff7678b969a\n\t0x7ff7675d11e5\n\t0x7ff7675d99cc\n\t0x7ff7675bebf4\n\t0x7ff7675beda6\n\t0x7ff7675a4e87\n\t0x7ffda0d8e8d7\n\t0x7ffda180c48c\n",
-        "timestamp": "2026-03-12 15:44:30"
-    },
-    {
-        "status": "Error",
-        "order_id": "Deleted",
-        "reason": "Message: \nStacktrace:\nSymbols not available. Dumping unresolved backtrace:\n\t0x7ff7675b5715\n\t0x7ff7675b5770\n\t0x7ff76736108d\n\t0x7ff7673bc3be\n\t0x7ff7673bc6cc\n\t0x7ff76740d2f7\n\t0x7ff767409e45\n\t0x7ff7673acc28\n\t0x7ff7673adb33\n\t0x7ff76789e9f0\n\t0x7ff767898ded\n\t0x7ff7678b969a\n\t0x7ff7675d11e5\n\t0x7ff7675d99cc\n\t0x7ff7675bebf4\n\t0x7ff7675beda6\n\t0x7ff7675a4e87\n\t0x7ffda0d8e8d7\n\t0x7ffda180c48c\n",
-        "error": "Message: \nStacktrace:\nSymbols not available. Dumping unresolved backtrace:\n\t0x7ff7675b5715\n\t0x7ff7675b5770\n\t0x7ff76736108d\n\t0x7ff7673bc3be\n\t0x7ff7673bc6cc\n\t0x7ff76740d2f7\n\t0x7ff767409e45\n\t0x7ff7673acc28\n\t0x7ff7673adb33\n\t0x7ff76789e9f0\n\t0x7ff767898ded\n\t0x7ff7678b969a\n\t0x7ff7675d11e5\n\t0x7ff7675d99cc\n\t0x7ff7675bebf4\n\t0x7ff7675beda6\n\t0x7ff7675a4e87\n\t0x7ffda0d8e8d7\n\t0x7ffda180c48c\n",
-        "timestamp": "2026-03-12 15:44:57"
-    },
-    {
-        "status": "Skipped",
-        "order_id": "10/03/2026 01:58:44 PM",
-        "reason": "Weight or Amount exceeds allowed limit",
-        "timestamp": "2026-03-12 15:44:58"
-    },
-    {
-        "status": "Error",
-        "order_id": "864212G",
-        "reason": "module 'email_helper' has no attribute 'send_email_multiple_attachments'",
-        "error": "module 'email_helper' has no attribute 'send_email_multiple_attachments'",
-        "timestamp": "2026-03-12 15:58:37"
-    },
-    {
-        "status": "Error",
-        "order_id": "864614Z",
-        "reason": "module 'email_helper' has no attribute 'send_email_multiple_attachments'",
-        "error": "module 'email_helper' has no attribute 'send_email_multiple_attachments'",
-        "timestamp": "2026-03-12 16:17:58"
-    },
-    {
-        "status": "Error",
-        "order_id": "864587CH",
-        "reason": "module 'email_helper' has no attribute 'send_email_multiple_attachments'",
-        "error": "module 'email_helper' has no attribute 'send_email_multiple_attachments'",
-        "timestamp": "2026-03-12 16:41:10"
-    },
-    {
-        "status": "Processed",
-        "order_id": "864613SH",
+        "order_id": "883178EU",
         "seller": "Agribegri Trade Link Pvt. Ltd.",
-        "amount": 956.0,
-        "customer": "Mahesh Mahesh",
-        "timestamp": "2026-03-12 17:02:37"
+        "amount": 1050.0,
+        "customer": "Sheeraz",
+        "timestamp": "2026-04-07 12:12:59"
     },
     {
         "status": "Processed",
-        "order_id": "864240YD",
-        "seller": "KISAN AGROTECH",
-        "amount": 752.0,
-        "customer": "Asesh Ranjan Mondal",
-        "timestamp": "2026-03-12 17:04:18"
+        "order_id": "883189XT",
+        "seller": "Noble Crop Science",
+        "amount": 414.0,
+        "customer": "Siripuram Srinivasarao",
+        "timestamp": "2026-04-07 12:14:16"
     },
     {
         "status": "Processed",
-        "order_id": "865260RN",
-        "seller": "Agribegri Trade Link Pvt. Ltd.",
-        "amount": 1090.0,
-        "customer": "Rayidi Heanumantharao",
-        "timestamp": "2026-03-13 11:36:34"
-    },
-    {
-        "status": "Skipped",
-        "order_id": "Confirm",
-        "reason": "Weight or Amount exceeds allowed limit",
-        "timestamp": "2026-03-13 11:36:36"
+        "order_id": "883172WV",
+        "seller": "Amit singla",
+        "amount": 1054.0,
+        "customer": "Jagdev",
+        "timestamp": "2026-04-07 12:14:20"
     },
     {
         "status": "Processed",
-        "order_id": "865165BI",
-        "seller": "Aziz Ahamed",
-        "amount": 923.0,
-        "customer": "Anandakumar",
-        "timestamp": "2026-03-13 11:37:50"
+        "order_id": "883188EI",
+        "seller": "Chirag Sojitra of BACF",
+        "amount": 467.0,
+        "customer": "Siripuram Srinivasarao",
+        "timestamp": "2026-04-07 12:15:19"
     },
     {
         "status": "Processed",
-        "order_id": "865164G",
-        "seller": "Pawan kumar",
-        "amount": 2194.0,
-        "customer": "Anandakumar",
-        "timestamp": "2026-03-13 11:39:17"
+        "order_id": "883538TQ",
+        "seller": "Anand Agro Care",
+        "amount": 1688.0,
+        "customer": "Champa Talwar",
+        "timestamp": "2026-04-07 15:32:12"
     },
     {
         "status": "Processed",
-        "order_id": "865163ZQ",
-        "seller": "KRUSHNA KRUSHI",
-        "amount": 2852.0,
-        "customer": "Anandakumar",
-        "timestamp": "2026-03-13 11:40:29"
-    },
-    {
-        "status": "Processed",
-        "order_id": "865153AC",
-        "seller": "Sandeep kumar Raghuwanshi",
-        "amount": 1936.0,
-        "customer": "Sakkir Hussain",
-        "timestamp": "2026-03-13 11:41:41"
-    },
-    {
-        "status": "Skipped",
-        "order_id": "Confirm",
-        "reason": "Weight or Amount exceeds allowed limit",
-        "timestamp": "2026-03-13 11:41:43"
-    },
-    {
-        "status": "Processed",
-        "order_id": "865048MZ",
+        "order_id": "883531KN",
         "seller": "Hifield-ag Chem India Pvt Ltd.",
-        "amount": 598.0,
-        "customer": "Sathish Sathish",
-        "timestamp": "2026-03-13 11:42:56"
+        "amount": 986.0,
+        "customer": "MAHESH",
+        "timestamp": "2026-04-07 15:33:18"
     },
     {
         "status": "Processed",
-        "order_id": "865045SL",
+        "order_id": "883528MY",
         "seller": "SRI SAI FORESTRY",
-        "amount": 372.0,
-        "customer": "Udhayakumar Palanisamy",
-        "timestamp": "2026-03-13 11:43:58"
+        "amount": 503.0,
+        "customer": "Gowtham Viswanath",
+        "timestamp": "2026-04-07 15:34:25"
     },
     {
         "status": "Processed",
-        "order_id": "865031FH",
-        "seller": "SRI SAI FORESTRY",
-        "amount": 437.0,
-        "customer": "Mazumder",
-        "timestamp": "2026-03-13 11:45:15"
-    },
-    {
-        "status": "Processed",
-        "order_id": "865029UA",
-        "seller": "RADHE AGRI CENTER",
-        "amount": 322.0,
-        "customer": "Virendra",
-        "timestamp": "2026-03-13 11:46:21"
+        "order_id": "883581LN",
+        "seller": "Rahul garg",
+        "amount": 1722.0,
+        "customer": "Patel Kamleshkumar",
+        "timestamp": "2026-04-07 15:37:58"
     },
     {
         "status": "Error",
-        "order_id": "865011JU",
-        "reason": "Message: \n",
-        "error": "Message: \n",
-        "timestamp": "2026-03-13 11:47:25"
+        "order_id": "Confirm",
+        "reason": "Message: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=146.0.7680.178)\nStacktrace:\n\tchromedriver!GetHandleVerifier [0x11acdf3+10b03]\n\tchromedriver!GetHandleVerifier [0x11acf24+10c34]\n\tchromedriver!(No symbol) [0xf92120]\n\tchromedriver!(No symbol) [0xf70c53]\n\tchromedriver!(No symbol) [0x100431b]\n\tchromedriver!(No symbol) [0x101a309]\n\tchromedriver!(No symbol) [0xffd8a6]\n\tchromedriver!(No symbol) [0xfd0229]\n\tchromedriver!(No symbol) [0xfd0fe4]\n\tchromedriver!GetHandleVerifier [0x14148b9+2785c9]\n\tchromedriver!GetHandleVerifier [0x140feb5+273bc5]\n\tchromedriver!GetHandleVerifier [0x142e06b+291d7b]\n\tchromedriver!GetHandleVerifier [0x11c5cc8+299d8]\n\tchromedriver!GetHandleVerifier [0x11cd9fd+3170d]\n\tchromedriver!GetHandleVerifier [0x11b58c8+195d8]\n\tchromedriver!GetHandleVerifier [0x11b5a92+197a2]\n\tchromedriver!GetHandleVerifier [0x119ee9a+2baa]\n\tKERNEL32!BaseThreadInitThunk [0x747b5d49+19]\n\tntdll!RtlInitializeExceptionChain [0x7712d81b+6b]\n\tntdll!RtlGetAppContainerNamedObjectPath [0x7712d7a1+231]\n",
+        "error": "Message: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=146.0.7680.178)\nStacktrace:\n\tchromedriver!GetHandleVerifier [0x11acdf3+10b03]\n\tchromedriver!GetHandleVerifier [0x11acf24+10c34]\n\tchromedriver!(No symbol) [0xf92120]\n\tchromedriver!(No symbol) [0xf70c53]\n\tchromedriver!(No symbol) [0x100431b]\n\tchromedriver!(No symbol) [0x101a309]\n\tchromedriver!(No symbol) [0xffd8a6]\n\tchromedriver!(No symbol) [0xfd0229]\n\tchromedriver!(No symbol) [0xfd0fe4]\n\tchromedriver!GetHandleVerifier [0x14148b9+2785c9]\n\tchromedriver!GetHandleVerifier [0x140feb5+273bc5]\n\tchromedriver!GetHandleVerifier [0x142e06b+291d7b]\n\tchromedriver!GetHandleVerifier [0x11c5cc8+299d8]\n\tchromedriver!GetHandleVerifier [0x11cd9fd+3170d]\n\tchromedriver!GetHandleVerifier [0x11b58c8+195d8]\n\tchromedriver!GetHandleVerifier [0x11b5a92+197a2]\n\tchromedriver!GetHandleVerifier [0x119ee9a+2baa]\n\tKERNEL32!BaseThreadInitThunk [0x747b5d49+19]\n\tntdll!RtlInitializeExceptionChain [0x7712d81b+6b]\n\tntdll!RtlGetAppContainerNamedObjectPath [0x7712d7a1+231]\n",
+        "timestamp": "2026-04-07 15:38:08"
     },
     {
-        "status": "Processed",
-        "order_id": "865007DB",
-        "seller": "SRI SAI FORESTRY",
-        "amount": 836.0,
-        "customer": "Vinay",
-        "timestamp": "2026-03-13 11:48:30"
+        "status": "Error",
+        "order_id": "Unknown",
+        "reason": "Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception\nStacktrace:\n\tchromedriver!GetHandleVerifier [0x11acdf3+10b03]\n\tchromedriver!GetHandleVerifier [0x11acf24+10c34]\n\tchromedriver!(No symbol) [0xf91f5e]\n\tchromedriver!(No symbol) [0xfcf4b7]\n\tchromedriver!(No symbol) [0xffd9c6]\n\tchromedriver!(No symbol) [0xff8e42]\n\tchromedriver!(No symbol) [0xff8462]\n\tchromedriver!(No symbol) [0xf6534e]\n\tchromedriver!(No symbol) [0xf658ee]\n\tchromedriver!(No symbol) [0xf65dcd]\n\tchromedriver!GetHandleVerifier [0x14148b9+2785c9]\n\tchromedriver!GetHandleVerifier [0x140feb5+273bc5]\n\tchromedriver!GetHandleVerifier [0x142e06b+291d7b]\n\tchromedriver!GetHandleVerifier [0x11c5cc8+299d8]\n\tchromedriver!GetHandleVerifier [0x11cd9fd+3170d]\n\tchromedriver!(No symbol) [0xf64ee9]\n\tchromedriver!(No symbol) [0xf64530]\n\tchromedriver!GetHandleVerifier [0x1562e9f+3c6baf]\n\tKERNEL32!BaseThreadInitThunk [0x747b5d49+19]\n\tntdll!RtlInitializeExceptionChain [0x7712d81b+6b]\n\tntdll!RtlGetAppContainerNamedObjectPath [0x7712d7a1+231]\n",
+        "error": "Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception\nStacktrace:\n\tchromedriver!GetHandleVerifier [0x11acdf3+10b03]\n\tchromedriver!GetHandleVerifier [0x11acf24+10c34]\n\tchromedriver!(No symbol) [0xf91f5e]\n\tchromedriver!(No symbol) [0xfcf4b7]\n\tchromedriver!(No symbol) [0xffd9c6]\n\tchromedriver!(No symbol) [0xff8e42]\n\tchromedriver!(No symbol) [0xff8462]\n\tchromedriver!(No symbol) [0xf6534e]\n\tchromedriver!(No symbol) [0xf658ee]\n\tchromedriver!(No symbol) [0xf65dcd]\n\tchromedriver!GetHandleVerifier [0x14148b9+2785c9]\n\tchromedriver!GetHandleVerifier [0x140feb5+273bc5]\n\tchromedriver!GetHandleVerifier [0x142e06b+291d7b]\n\tchromedriver!GetHandleVerifier [0x11c5cc8+299d8]\n\tchromedriver!GetHandleVerifier [0x11cd9fd+3170d]\n\tchromedriver!(No symbol) [0xf64ee9]\n\tchromedriver!(No symbol) [0xf64530]\n\tchromedriver!GetHandleVerifier [0x1562e9f+3c6baf]\n\tKERNEL32!BaseThreadInitThunk [0x747b5d49+19]\n\tntdll!RtlInitializeExceptionChain [0x7712d81b+6b]\n\tntdll!RtlGetAppContainerNamedObjectPath [0x7712d7a1+231]\n",
+        "timestamp": "2026-04-07 15:38:08"
     },
     {
-        "status": "Processed",
-        "order_id": "864993WE",
-        "seller": "Agribegri Trade Link Pvt. Ltd.",
-        "amount": 712.0,
-        "customer": "Raju Raju",
-        "timestamp": "2026-03-13 11:49:43"
+        "status": "Error",
+        "order_id": "Unknown",
+        "reason": "Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception\nStacktrace:\n\tchromedriver!GetHandleVerifier [0x11acdf3+10b03]\n\tchromedriver!GetHandleVerifier [0x11acf24+10c34]\n\tchromedriver!(No symbol) [0xf91f5e]\n\tchromedriver!(No symbol) [0xfcf4b7]\n\tchromedriver!(No symbol) [0xffd9c6]\n\tchromedriver!(No symbol) [0xff8e42]\n\tchromedriver!(No symbol) [0xff8462]\n\tchromedriver!(No symbol) [0xf6534e]\n\tchromedriver!(No symbol) [0xf658ee]\n\tchromedriver!(No symbol) [0xf65dcd]\n\tchromedriver!GetHandleVerifier [0x14148b9+2785c9]\n\tchromedriver!GetHandleVerifier [0x140feb5+273bc5]\n\tchromedriver!GetHandleVerifier [0x142e06b+291d7b]\n\tchromedriver!GetHandleVerifier [0x11c5cc8+299d8]\n\tchromedriver!GetHandleVerifier [0x11cd9fd+3170d]\n\tchromedriver!(No symbol) [0xf64ee9]\n\tchromedriver!(No symbol) [0xf64530]\n\tchromedriver!GetHandleVerifier [0x1562e9f+3c6baf]\n\tKERNEL32!BaseThreadInitThunk [0x747b5d49+19]\n\tntdll!RtlInitializeExceptionChain [0x7712d81b+6b]\n\tntdll!RtlGetAppContainerNamedObjectPath [0x7712d7a1+231]\n",
+        "error": "Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception\nStacktrace:\n\tchromedriver!GetHandleVerifier [0x11acdf3+10b03]\n\tchromedriver!GetHandleVerifier [0x11acf24+10c34]\n\tchromedriver!(No symbol) [0xf91f5e]\n\tchromedriver!(No symbol) [0xfcf4b7]\n\tchromedriver!(No symbol) [0xffd9c6]\n\tchromedriver!(No symbol) [0xff8e42]\n\tchromedriver!(No symbol) [0xff8462]\n\tchromedriver!(No symbol) [0xf6534e]\n\tchromedriver!(No symbol) [0xf658ee]\n\tchromedriver!(No symbol) [0xf65dcd]\n\tchromedriver!GetHandleVerifier [0x14148b9+2785c9]\n\tchromedriver!GetHandleVerifier [0x140feb5+273bc5]\n\tchromedriver!GetHandleVerifier [0x142e06b+291d7b]\n\tchromedriver!GetHandleVerifier [0x11c5cc8+299d8]\n\tchromedriver!GetHandleVerifier [0x11cd9fd+3170d]\n\tchromedriver!(No symbol) [0xf64ee9]\n\tchromedriver!(No symbol) [0xf64530]\n\tchromedriver!GetHandleVerifier [0x1562e9f+3c6baf]\n\tKERNEL32!BaseThreadInitThunk [0x747b5d49+19]\n\tntdll!RtlInitializeExceptionChain [0x7712d81b+6b]\n\tntdll!RtlGetAppContainerNamedObjectPath [0x7712d7a1+231]\n",
+        "timestamp": "2026-04-07 15:38:09"
+    },
+    {
+        "status": "Error",
+        "order_id": "Unknown",
+        "reason": "Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception\nStacktrace:\n\tchromedriver!GetHandleVerifier [0x11acdf3+10b03]\n\tchromedriver!GetHandleVerifier [0x11acf24+10c34]\n\tchromedriver!(No symbol) [0xf91f5e]\n\tchromedriver!(No symbol) [0xfcf4b7]\n\tchromedriver!(No symbol) [0xffd9c6]\n\tchromedriver!(No symbol) [0xff8e42]\n\tchromedriver!(No symbol) [0xff8462]\n\tchromedriver!(No symbol) [0xf6534e]\n\tchromedriver!(No symbol) [0xf658ee]\n\tchromedriver!(No symbol) [0xf65dcd]\n\tchromedriver!GetHandleVerifier [0x14148b9+2785c9]\n\tchromedriver!GetHandleVerifier [0x140feb5+273bc5]\n\tchromedriver!GetHandleVerifier [0x142e06b+291d7b]\n\tchromedriver!GetHandleVerifier [0x11c5cc8+299d8]\n\tchromedriver!GetHandleVerifier [0x11cd9fd+3170d]\n\tchromedriver!(No symbol) [0xf64ee9]\n\tchromedriver!(No symbol) [0xf64530]\n\tchromedriver!GetHandleVerifier [0x1562e9f+3c6baf]\n\tKERNEL32!BaseThreadInitThunk [0x747b5d49+19]\n\tntdll!RtlInitializeExceptionChain [0x7712d81b+6b]\n\tntdll!RtlGetAppContainerNamedObjectPath [0x7712d7a1+231]\n",
+        "error": "Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception\nStacktrace:\n\tchromedriver!GetHandleVerifier [0x11acdf3+10b03]\n\tchromedriver!GetHandleVerifier [0x11acf24+10c34]\n\tchromedriver!(No symbol) [0xf91f5e]\n\tchromedriver!(No symbol) [0xfcf4b7]\n\tchromedriver!(No symbol) [0xffd9c6]\n\tchromedriver!(No symbol) [0xff8e42]\n\tchromedriver!(No symbol) [0xff8462]\n\tchromedriver!(No symbol) [0xf6534e]\n\tchromedriver!(No symbol) [0xf658ee]\n\tchromedriver!(No symbol) [0xf65dcd]\n\tchromedriver!GetHandleVerifier [0x14148b9+2785c9]\n\tchromedriver!GetHandleVerifier [0x140feb5+273bc5]\n\tchromedriver!GetHandleVerifier [0x142e06b+291d7b]\n\tchromedriver!GetHandleVerifier [0x11c5cc8+299d8]\n\tchromedriver!GetHandleVerifier [0x11cd9fd+3170d]\n\tchromedriver!(No symbol) [0xf64ee9]\n\tchromedriver!(No symbol) [0xf64530]\n\tchromedriver!GetHandleVerifier [0x1562e9f+3c6baf]\n\tKERNEL32!BaseThreadInitThunk [0x747b5d49+19]\n\tntdll!RtlInitializeExceptionChain [0x7712d81b+6b]\n\tntdll!RtlGetAppContainerNamedObjectPath [0x7712d7a1+231]\n",
+        "timestamp": "2026-04-07 15:38:09"
+    },
+    {
+        "status": "Error",
+        "order_id": "Unknown",
+        "reason": "Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception\nStacktrace:\n\tchromedriver!GetHandleVerifier [0x11acdf3+10b03]\n\tchromedriver!GetHandleVerifier [0x11acf24+10c34]\n\tchromedriver!(No symbol) [0xf91f5e]\n\tchromedriver!(No symbol) [0xfcf4b7]\n\tchromedriver!(No symbol) [0xffd9c6]\n\tchromedriver!(No symbol) [0xff8e42]\n\tchromedriver!(No symbol) [0xff8462]\n\tchromedriver!(No symbol) [0xf6534e]\n\tchromedriver!(No symbol) [0xf658ee]\n\tchromedriver!(No symbol) [0xf65dcd]\n\tchromedriver!GetHandleVerifier [0x14148b9+2785c9]\n\tchromedriver!GetHandleVerifier [0x140feb5+273bc5]\n\tchromedriver!GetHandleVerifier [0x142e06b+291d7b]\n\tchromedriver!GetHandleVerifier [0x11c5cc8+299d8]\n\tchromedriver!GetHandleVerifier [0x11cd9fd+3170d]\n\tchromedriver!(No symbol) [0xf64ee9]\n\tchromedriver!(No symbol) [0xf64530]\n\tchromedriver!GetHandleVerifier [0x1562e9f+3c6baf]\n\tKERNEL32!BaseThreadInitThunk [0x747b5d49+19]\n\tntdll!RtlInitializeExceptionChain [0x7712d81b+6b]\n\tntdll!RtlGetAppContainerNamedObjectPath [0x7712d7a1+231]\n",
+        "error": "Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception\nStacktrace:\n\tchromedriver!GetHandleVerifier [0x11acdf3+10b03]\n\tchromedriver!GetHandleVerifier [0x11acf24+10c34]\n\tchromedriver!(No symbol) [0xf91f5e]\n\tchromedriver!(No symbol) [0xfcf4b7]\n\tchromedriver!(No symbol) [0xffd9c6]\n\tchromedriver!(No symbol) [0xff8e42]\n\tchromedriver!(No symbol) [0xff8462]\n\tchromedriver!(No symbol) [0xf6534e]\n\tchromedriver!(No symbol) [0xf658ee]\n\tchromedriver!(No symbol) [0xf65dcd]\n\tchromedriver!GetHandleVerifier [0x14148b9+2785c9]\n\tchromedriver!GetHandleVerifier [0x140feb5+273bc5]\n\tchromedriver!GetHandleVerifier [0x142e06b+291d7b]\n\tchromedriver!GetHandleVerifier [0x11c5cc8+299d8]\n\tchromedriver!GetHandleVerifier [0x11cd9fd+3170d]\n\tchromedriver!(No symbol) [0xf64ee9]\n\tchromedriver!(No symbol) [0xf64530]\n\tchromedriver!GetHandleVerifier [0x1562e9f+3c6baf]\n\tKERNEL32!BaseThreadInitThunk [0x747b5d49+19]\n\tntdll!RtlInitializeExceptionChain [0x7712d81b+6b]\n\tntdll!RtlGetAppContainerNamedObjectPath [0x7712d7a1+231]\n",
+        "timestamp": "2026-04-07 15:38:09"
+    },
+    {
+        "status": "Error",
+        "order_id": "Unknown",
+        "reason": "Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception\nStacktrace:\n\tchromedriver!GetHandleVerifier [0x11acdf3+10b03]\n\tchromedriver!GetHandleVerifier [0x11acf24+10c34]\n\tchromedriver!(No symbol) [0xf91f5e]\n\tchromedriver!(No symbol) [0xfcf4b7]\n\tchromedriver!(No symbol) [0xffd9c6]\n\tchromedriver!(No symbol) [0xff8e42]\n\tchromedriver!(No symbol) [0xff8462]\n\tchromedriver!(No symbol) [0xf6534e]\n\tchromedriver!(No symbol) [0xf658ee]\n\tchromedriver!(No symbol) [0xf65dcd]\n\tchromedriver!GetHandleVerifier [0x14148b9+2785c9]\n\tchromedriver!GetHandleVerifier [0x140feb5+273bc5]\n\tchromedriver!GetHandleVerifier [0x142e06b+291d7b]\n\tchromedriver!GetHandleVerifier [0x11c5cc8+299d8]\n\tchromedriver!GetHandleVerifier [0x11cd9fd+3170d]\n\tchromedriver!(No symbol) [0xf64ee9]\n\tchromedriver!(No symbol) [0xf64530]\n\tchromedriver!GetHandleVerifier [0x1562e9f+3c6baf]\n\tKERNEL32!BaseThreadInitThunk [0x747b5d49+19]\n\tntdll!RtlInitializeExceptionChain [0x7712d81b+6b]\n\tntdll!RtlGetAppContainerNamedObjectPath [0x7712d7a1+231]\n",
+        "error": "Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception\nStacktrace:\n\tchromedriver!GetHandleVerifier [0x11acdf3+10b03]\n\tchromedriver!GetHandleVerifier [0x11acf24+10c34]\n\tchromedriver!(No symbol) [0xf91f5e]\n\tchromedriver!(No symbol) [0xfcf4b7]\n\tchromedriver!(No symbol) [0xffd9c6]\n\tchromedriver!(No symbol) [0xff8e42]\n\tchromedriver!(No symbol) [0xff8462]\n\tchromedriver!(No symbol) [0xf6534e]\n\tchromedriver!(No symbol) [0xf658ee]\n\tchromedriver!(No symbol) [0xf65dcd]\n\tchromedriver!GetHandleVerifier [0x14148b9+2785c9]\n\tchromedriver!GetHandleVerifier [0x140feb5+273bc5]\n\tchromedriver!GetHandleVerifier [0x142e06b+291d7b]\n\tchromedriver!GetHandleVerifier [0x11c5cc8+299d8]\n\tchromedriver!GetHandleVerifier [0x11cd9fd+3170d]\n\tchromedriver!(No symbol) [0xf64ee9]\n\tchromedriver!(No symbol) [0xf64530]\n\tchromedriver!GetHandleVerifier [0x1562e9f+3c6baf]\n\tKERNEL32!BaseThreadInitThunk [0x747b5d49+19]\n\tntdll!RtlInitializeExceptionChain [0x7712d81b+6b]\n\tntdll!RtlGetAppContainerNamedObjectPath [0x7712d7a1+231]\n",
+        "timestamp": "2026-04-07 15:38:09"
+    },
+    {
+        "status": "Error",
+        "order_id": "Unknown",
+        "reason": "Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception\nStacktrace:\n\tchromedriver!GetHandleVerifier [0x11acdf3+10b03]\n\tchromedriver!GetHandleVerifier [0x11acf24+10c34]\n\tchromedriver!(No symbol) [0xf91f5e]\n\tchromedriver!(No symbol) [0xfcf4b7]\n\tchromedriver!(No symbol) [0xffd9c6]\n\tchromedriver!(No symbol) [0xff8e42]\n\tchromedriver!(No symbol) [0xff8462]\n\tchromedriver!(No symbol) [0xf6534e]\n\tchromedriver!(No symbol) [0xf658ee]\n\tchromedriver!(No symbol) [0xf65dcd]\n\tchromedriver!GetHandleVerifier [0x14148b9+2785c9]\n\tchromedriver!GetHandleVerifier [0x140feb5+273bc5]\n\tchromedriver!GetHandleVerifier [0x142e06b+291d7b]\n\tchromedriver!GetHandleVerifier [0x11c5cc8+299d8]\n\tchromedriver!GetHandleVerifier [0x11cd9fd+3170d]\n\tchromedriver!(No symbol) [0xf64ee9]\n\tchromedriver!(No symbol) [0xf64530]\n\tchromedriver!GetHandleVerifier [0x1562e9f+3c6baf]\n\tKERNEL32!BaseThreadInitThunk [0x747b5d49+19]\n\tntdll!RtlInitializeExceptionChain [0x7712d81b+6b]\n\tntdll!RtlGetAppContainerNamedObjectPath [0x7712d7a1+231]\n",
+        "error": "Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception\nStacktrace:\n\tchromedriver!GetHandleVerifier [0x11acdf3+10b03]\n\tchromedriver!GetHandleVerifier [0x11acf24+10c34]\n\tchromedriver!(No symbol) [0xf91f5e]\n\tchromedriver!(No symbol) [0xfcf4b7]\n\tchromedriver!(No symbol) [0xffd9c6]\n\tchromedriver!(No symbol) [0xff8e42]\n\tchromedriver!(No symbol) [0xff8462]\n\tchromedriver!(No symbol) [0xf6534e]\n\tchromedriver!(No symbol) [0xf658ee]\n\tchromedriver!(No symbol) [0xf65dcd]\n\tchromedriver!GetHandleVerifier [0x14148b9+2785c9]\n\tchromedriver!GetHandleVerifier [0x140feb5+273bc5]\n\tchromedriver!GetHandleVerifier [0x142e06b+291d7b]\n\tchromedriver!GetHandleVerifier [0x11c5cc8+299d8]\n\tchromedriver!GetHandleVerifier [0x11cd9fd+3170d]\n\tchromedriver!(No symbol) [0xf64ee9]\n\tchromedriver!(No symbol) [0xf64530]\n\tchromedriver!GetHandleVerifier [0x1562e9f+3c6baf]\n\tKERNEL32!BaseThreadInitThunk [0x747b5d49+19]\n\tntdll!RtlInitializeExceptionChain [0x7712d81b+6b]\n\tntdll!RtlGetAppContainerNamedObjectPath [0x7712d7a1+231]\n",
+        "timestamp": "2026-04-07 15:38:09"
     }
 ]

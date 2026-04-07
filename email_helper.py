@@ -72,6 +72,7 @@ def send_email_multiple_attachments(sender, password, receiver, subject, body, f
             filename=file_name
         )
 
-    with smtplib.SMTP_SSL("smtp.gmail.com", 465) as smtp:
+    with smtplib.SMTP("smtp.gmail.com", 587) as smtp:
+        smtp.starttls()
         smtp.login(sender, password)
         smtp.send_message(msg)
