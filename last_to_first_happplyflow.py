@@ -20,6 +20,9 @@ ORDERS_COUNT_FILE = "orders_count.txt"
 HISTORY_FILE = "processed_orders.json"
 COST_PER_ORDER = 0.75
 
+driver = None
+browser_start_time = None
+
 def get_balance():
     if not os.path.exists(BALANCE_FILE): return 0.0
     with open(BALANCE_FILE, "r") as f: return float(f.read().strip() or 0)
@@ -2013,6 +2016,11 @@ def main_workflow(username, password, otp, target_order_id=None):
         total_pages = math.ceil(total_orders / ORDERS_PER_PAGE)
         logger.info(f" Total Pages to process: {total_pages}")
 
+        if total_pages < 2:
+            print("only 50 order are exist")
+            logger.info("only 50 order are exist")
+            return
+
         restart_needed = False
 
         # ================== GO TO LAST PAGE ==================
@@ -2031,10 +2039,12 @@ def main_workflow(username, password, otp, target_order_id=None):
                 logger.info("Last button clicked. Waiting for page to load...")
                 time.sleep(5)
             except Exception as e:
-                logger.warning(f"Could not click Last button: {e}. Starting from current page.")
+                print("only 50 order are exist")
+                logger.info("only 50 order are exist")
+                return
 
         # ================== PAGE LOOP (REVERSE) ==================
-        for page in range(total_pages, 0, -1):
+        for page in range(total_pages, 1, -1):
             if restart_needed:
                 break
             logger.info(f"\\n --- STARTING PAGE {page} / {total_pages} (Reverse Order) ---")
@@ -2130,7 +2140,7 @@ def main_workflow(username, password, otp, target_order_id=None):
 
             # ================== PREVIOUS PAGE LOGIC ==================
             if not restart_needed:
-                if page > 1:
+                if page > 2:
                     logger.info(f" Page {page} done. Moving to Page {page - 1} (Previous)...")
                     
                     try:
