@@ -23,6 +23,7 @@ EVEN_SCRIPT_PATH = os.path.join(BASE_DIR, 'last_to_first_happplyflow.py')
 CLUBBING_SCRIPT_PATH = os.path.join(BASE_DIR, 'clubbing_final.py')
 CLUBBING_LOG = os.path.join(BASE_DIR, 'clubbing_automation.log')
 CLUBBING_PID = os.path.join(BASE_DIR, 'clubbing_script.pid')
+MULTI_BOT_SCRIPT_PATH = os.path.join(BASE_DIR, '5bot.py')
 PYTHON_EXE = os.path.join(BASE_DIR, 'venv', 'Scripts', 'python.exe')
 
 def get_paths(flow_type):
@@ -32,6 +33,13 @@ def get_paths(flow_type):
             'log': os.path.join(BASE_DIR, 'even_automation.log'),
             'pid': os.path.join(BASE_DIR, 'even_script.pid'),
             'title': 'Last to First Flow'
+        }
+    elif flow_type == 'multi_bot':
+        return {
+            'script': MULTI_BOT_SCRIPT_PATH,
+            'log': os.path.join(BASE_DIR, 'happy_flow.log'),
+            'pid': os.path.join(BASE_DIR, 'multi_bot.pid'),
+            'title': 'Multi-Bot Flow (5 Bots)'
         }
     else:
         return {
